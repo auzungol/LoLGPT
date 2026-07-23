@@ -1,19 +1,16 @@
-Garen, the Might of Demacia
+Garen, the The Might of Demacia
 
-A proud and disciplined soldier, Garen fights as part of the Demacian military's elite strike team, the Dauntless Vanguard. He is fiercely patriotic and unwavering in his belief that Demacia's ideals of justice must be defended, even against the sorcery and forbidden magic that threaten it.
+A proud and noble warrior, Garen fights as one of the Dauntless Vanguard. He is popular among his fellows, and respected well enough by his enemies—not least as a scion of the prestigious Crownguard family, entrusted with defending Demacia and its ideals. Clad in magic-resistant armor and bearing a mighty broadsword, Garen stands ready to confront mages and sorcerers on the field of battle, in a veritable whirlwind of righteous steel.
 
-Role: Fighter / Tank
-Range: Melee
-Region: Demacia
-Resource: None (uses cooldowns only)
-Difficulty: Low
+Role: Fighter, Tank
+Resource: None
 
-Passive - Perseverance: If Garen has not taken damage or been impacted by enemy abilities recently, he regenerates health equal to a percentage of his max health each second.
+Passive - Perseverance: If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second.
 
-Q - Decisive Strike: Garen breaks free of movement-slowing effects and gains increased movement speed for a few seconds. His next attack deals bonus damage and silences the target.
+Q - Decisive Strike: Garen gains a burst of Move Speed, breaking free of all slows affecting him. His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.
 
-W - Courage: Garen braces himself, gaining a shield that absorbs damage and reduces incoming damage for a few seconds. Passively grants bonus armor and magic resistance.
+W - Courage: Garen passively increases his Armor and Magic Resist by killing enemies. He may also activate this ability to give him a shield and tenacity for a brief moment followed by a lesser amount of damage reduction for a longer duration.
 
-E - Judgment: Garen spins his blade around him, dealing physical damage to all nearby enemies over time.
+E - Judgment: Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies.
 
-R - Demacian Justice: Garen calls upon the might of Demacia to deal massive true damage to a single target enemy champion, increased against low-health targets.
+R - Demacian Justice: Garen calls upon the might of Demacia to attempt to execute an enemy champion.

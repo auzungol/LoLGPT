@@ -1,0 +1,16 @@
+Amumu, the the Sad Mummy
+
+Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe a living cadaver, small in stature and wrapped in creeping bandages. Amumu has inspired myths, songs, and folklore told and retold for generations—such that it is impossible to separate truth from fiction.
+
+Role: Tank, Support
+Resource: Mana
+
+Passive - Cursed Touch: Amumu's basic attacks <font color='#9b0f5f'>Curse</font> his enemies, causing them to take bonus true damage from incoming magic damage.
+
+Q - Bandage Toss: Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.
+
+W - Despair: Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their <font color='#9b0f5f'>Curses</font> refreshed.
+
+E - Tantrum: Permanently reduces the physical damage Amumu would take. Amumu can unleash his rage, dealing damage to surrounding enemies. Each time Amumu is hit, the cooldown on Tantrum is reduced.
+
+R - Curse of the Sad Mummy: Amumu entangles surrounding enemy units in bandages, applying his <keywordMajor>Curse</keywordMajor>, damaging and stunning them.

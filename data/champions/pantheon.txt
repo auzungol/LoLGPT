@@ -1,0 +1,16 @@
+Pantheon, the the Unbreakable Spear
+
+Once an unwilling host to the Aspect of War, Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon reborn, his unbreakable will fueling the fallen Aspect's weapons on the field of battle.
+
+Role: Fighter, Assassin
+Resource: Mana
+
+Passive - Mortal Will: Every few spells or attacks, Pantheon's next spell is empowered.
+
+Q - Comet Spear: Pantheon either thrusts his spear or throws his spear in the chosen direction.
+
+W - Shield Vault: Pantheon dashes to a target, damaging and stunning them.
+
+E - Aegis Assault: Pantheon sets his shield, becoming invulnerable to damage from the front and striking repeatedly with his spear.
+
+R - Grand Starfall: Pantheon composes himself and then leaps into the air, landing at a chosen location as a comet.

@@ -1,0 +1,16 @@
+Taric, the the Shield of Valoran
+
+Taric is the Aspect of the Protector, wielding incredible power as Runeterra's guardian of life, love, and beauty. Shamed by a dereliction of duty and exiled from his homeland Demacia, Taric ascended Mount Targon to find redemption, only to discover a higher calling among the stars. Imbued with the might of ancient Targon, the Shield of Valoran now stands ever vigilant against the insidious corruption of the Void.
+
+Role: Support, Tank
+Resource: Mana
+
+Passive - Bravado: Spellcasts empower Taric's next 2 basic attacks to deal bonus magic damage, reduce his spell cooldowns, and attack in quick succession.
+
+Q - Starlight's Touch: Heals nearby allied champions based on charges stored. Bravado-empowered attacks grant a charge of Starlight's Touch.
+
+W - Bastion: Passively increase the Armor of Taric and any allied champion with Bastion.<br><br>Actively shields an ally and grants them Bastion for as long as they remain near Taric. Taric's spells also cast off the ally with Bastion.
+
+E - Dazzle: Taric readies a beam of starlight that, after a brief delay, deals magic damage and stuns enemies.
+
+R - Cosmic Radiance: Pulses cosmic energy onto nearby allied champions after a delay, making them invulnerable for a short duration.

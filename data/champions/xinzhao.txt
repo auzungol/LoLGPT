@@ -1,0 +1,16 @@
+Xin Zhao, the the Seneschal of Demacia
+
+Xin Zhao is a resolute warrior loyal to the ruling Lightshield dynasty. Once condemned to the fighting pits of Noxus, he survived countless gladiatorial bouts, but after being freed by Demacian forces, he swore his life and allegiance to these brave liberators. Armed with his favored three-talon spear, Xin Zhao now fights for his adopted kingdom, audaciously challenging any foe, no matter the odds.
+
+Role: Fighter, Tank
+Resource: Mana
+
+Passive - Determination: Every third attack deals bonus damage and heals Xin Zhao.
+
+Q - Three Talon Strike: Xin Zhao's next 3 standard attacks deal increased damage with the third attack knocking an opponent into the air.
+
+W - Wind Becomes Lightning: Xin Zhao slashes in front of himself with his spear, then thrusts it forward, slowing affected enemies and marking them as Challenged.
+
+E - Audacious Charge: Xin Zhao charges to an enemy, gaining increased Attack Speed and dealing damage to all enemies in the area, slowing them briefly. This Ability gains increased range against Challenged targets.
+
+R - Crescent Guard: Xin Zhao passively challenges an enemy he damaged recently. When activated, Xin Zhao deals damage to nearby enemies based on their current Health and knocks non-challenged targets back, becoming impervious to damage dealt by champions outside of the circle created.

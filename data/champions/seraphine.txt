@@ -1,0 +1,16 @@
+Seraphine, the the Starry-Eyed Songstress
+
+Born in Piltover to Zaunite parents, Seraphine can hear the souls of others—the world sings to her, and she sings back. Though these sounds overwhelmed her in her youth, she now draws on them for inspiration, turning the chaos into a symphony. She performs for the sister cities to remind their citizens that they're not alone, that they're stronger together, and that, in her eyes, their potential is limitless.
+
+Role: Support, Mage
+Resource: Mana
+
+Passive - Stage Presence: Every third basic spell will cast twice from Seraphine. Additionally, casting spells near allies grants her bonus magic damage and range on her next basic attack.
+
+Q - High Note: Seraphine deals damage in an area.
+
+W - Surround Sound: Seraphine Shields and Hastes nearby allies. If she is already Shielded she will Heal nearby allies as well.
+
+E - Beat Drop: Seraphine deals damage and impairs the movement of enemies in a line.
+
+R - Encore: Seraphine deals damage and charms enemies hit, refreshing the range with every allied or enemy champion hit.

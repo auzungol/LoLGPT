@@ -1,0 +1,16 @@
+Mel, the the Soul's Reflection
+
+Mel Medarda is the presumed heir of the Medarda family, once one of the most powerful in Noxus. In appearance she is a graceful aristocrat, but beneath the surface lies a skilled politician who makes it her business to know everything about everyone she meets. After an encounter with the mysterious Black Rose, Mel discovered the depths of her mother's deception and, for once, faced a situation potentially beyond her control. With newly awakened magical abilities, she sailed home in search of answers—and though many still seek to temper the light within her, Mel's soul remains forever defiant.
+
+Role: Mage, Support
+Resource: Mana
+
+Passive - Searing Brilliance: Whenever Mel uses an ability, she gains three bonus projectiles (up to nine maximum) on her next attack.<br><br>When Mel deals damage through an ability or attack, she applies Overwhelm, which can stack infinitely. If the enemy is hit by Mel with enough Overwhelm damage, the stacks are consumed to execute the target.
+
+Q - Radiant Volley: Mel fires a barrage of projectiles that explode around a target location, dealing damage repeatedly to enemies within the area.
+
+W - Rebuttal: Mel forms a barrier around herself that reflects enemy projectiles back at the attacker, prevents her from taking damage, and grants her movement speed.
+
+E - Solar Snare: Mel fires a radiant orb forward, rooting those at its center while the area around it slows enemies and deals damage over time.
+
+R - Golden Eclipse: Mel strikes all enemies marked with Overwhelm regardless of their distance from her, dealing additional damage for each stack of Overwhelm.<br><br>Ranks of Golden Eclipse increase Overwhelm's damage.

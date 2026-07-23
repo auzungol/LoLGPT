@@ -1,0 +1,16 @@
+Locke, the the Ashen Exorcist
+
+A nail-slinging exorcist versed in forbidden rites, Corvin Locke is the progeny of Demacian occultists. Born into lies and hypocrisy, he learned young that demons aren't the cause of humanity's darkness, but the consequence. Now, Locke tears through every soul, exposing its darkness, intent on making the world a more honest place… one exorcism at a time.
+
+Role: Assassin, Mage
+Resource: Mana
+
+Passive - Silver Stake: Locke's attacks deal additional magic damage On-Hit, increased based on enemy missing Health.
+
+Q - Ritual Nails: Locke readies a set of Soul Nails to throw, dealing damage to and marking enemies hit. Locke can consume the marks to deal bonus damage with his attacks.
+
+W - Soul Ignition: Locke ignites his soul, gaining Attack Speed and Move Speed, and dealing damage to himself. At the end of the duration, Locke will heal back a portion of the damage he takes during the effect.
+
+E - Ashen Pursuit: Locke teleports to a location before dashing to attack his next target, dealing damage to enemies passed through.
+
+R - Purgatory: Locke throws a binding artifact that deals damage and potentially executes enemies hit. Locke gains additional power for sealing away enemy champions.

@@ -1,0 +1,16 @@
+Miss Fortune, the the Bounty Hunter
+
+A Bilgewater captain famed for her looks but feared for her ruthlessness, Sarah Fortune paints a stark figure among the hardened criminals of the port city. As a child, she witnessed the reaver king Gangplank murder her family—an act she brutally avenged years later, blowing up his flagship while he was still aboard. Those who underestimate her will face a beguiling and unpredictable opponent… and, likely, a bullet or two in their guts.
+
+Role: Marksman, Mage
+Resource: Mana
+
+Passive - Love Tap: Miss Fortune deals bonus physical damage whenever she basic attacks a new target.
+
+Q - Double Up: Miss Fortune fires a bullet at an enemy, damaging them and a target behind them. Both strikes can also apply Love Tap.
+
+W - Strut: Miss Fortune passively gains Move Speed when not attacked. This ability can be activated to grant bonus Attack Speed for a short duration. While it's on cooldown, Love Taps reduce the remaining cooldown of Strut.
+
+E - Make It Rain: Miss Fortune reveals an area with a flurry of bullets, dealing waves of damage to opponents and slowing them.
+
+R - Bullet Time: Miss Fortune channels a barrage of bullets into a cone in front of her, dealing large amounts of damage to enemies. Each wave of Bullet Time can critically strike

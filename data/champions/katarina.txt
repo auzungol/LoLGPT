@@ -1,0 +1,16 @@
+Katarina, the the Sinister Blade
+
+Decisive in judgment and lethal in combat, Katarina is a Noxian assassin of the highest caliber. Eldest daughter to the legendary General Du Couteau, she made her talents known with swift kills against unsuspecting enemies. Her fiery ambition has driven her to pursue heavily-guarded targets, even at the risk of endangering her allies—but no matter the mission, Katarina will not hesitate to execute her duty amid a whirlwind of serrated daggers.
+
+Role: Assassin, Mage
+Resource: None
+
+Passive - Voracity: Whenever an enemy champion dies that Katarina has damaged recently, her remaining ability cooldowns are dramatically reduced.<br><br>If Katarina picks up a <font color='#FFF673'>Dagger</font>, she uses it to slash through all nearby enemies, dealing magic damage.
+
+Q - Bouncing Blade: Katarina throws a <font color='#FFF673'>Dagger</font> at the target that then bounces to nearby enemies before ricocheting onto the ground.
+
+W - Preparation: Katarina gains a burst of Move Speed, tossing a <font color='#FFF673'>Dagger</font> into the air directly above herself.
+
+E - Shunpo: Katarina blinks to the target, striking it if its an enemy, or striking the nearest enemy otherwise.
+
+R - Death Lotus: Katarina becomes a flurry of blades, dealing massive magic damage while she channels to the 3 nearest enemy champions.

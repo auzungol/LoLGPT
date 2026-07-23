@@ -1,0 +1,16 @@
+Singed, the the Mad Chemist
+
+Singed is a brilliant alchemist of dubious morality, whose experiments would turn the stomach of even the most cutthroat criminal. Selling his skills to the highest bidder, he cares little for how his noxious concoctions are used, with the ensuing chaos an experiment in itself. His most infamous work is “shimmer”, which enabled the chembarons to turn Zaun into their personal playground—but fueled by madness, Singed is always working on something new, with each endeavor more depraved than the last...
+
+Role: Tank, Mage
+Resource: Mana
+
+Passive - Noxious Slipstream: Singed drafts off nearby champions, gaining a burst of Move Speed when passing them.
+
+Q - Poison Trail: Leaves a trail of poison behind Singed, dealing damage to enemies caught in the path.
+
+W - Mega Adhesive: Throws a vial of mega adhesive on the ground, slowing and grounding enemies who walk on it.
+
+E - Fling: Damages target enemy unit and flings them into the air behind Singed. If the target Singed flings lands in his Mega Adhesive, they are also rooted.
+
+R - Insanity Potion: Singed drinks a potent brew of chemicals, granting him increased combat stats, and making his Poison Trail apply Grievous Wounds.

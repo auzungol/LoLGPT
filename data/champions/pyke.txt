@@ -1,0 +1,16 @@
+Pyke, the the Bloodharbor Ripper
+
+A renowned harpooner from the slaughter docks of Bilgewater, Pyke should have met his death in the belly of a gigantic jaull-fish… and yet, he returned. Now, stalking the dank alleys and backways of his former hometown, he uses his new supernatural gifts to bring a swift and gruesome end to those who make their fortune by exploiting others—and a city that prides itself on hunting monsters now finds a monster hunting them.
+
+Role: Support, Assassin
+Resource: Mana
+
+Passive - Gift of the Drowned Ones: When Pyke is hidden from enemies, he regenerates damage that he has recently taken from champions. Pyke also cannot gain extra Maximum Health from any source, and instead gains Bonus AD.
+
+Q - Bone Skewer: Pyke either stabs an enemy in front of him or pulls an enemy towards him.
+
+W - Ghostwater Dive: Pyke enters Camouflage and gains significant Move Speed that decays over time.
+
+E - Phantom Undertow: Pyke dashes and leaves behind a phantom that will return to him, stunning enemy champions along its path.
+
+R - Death From Below: Pyke blinks to and executes low health enemies, allowing him to cast this spell again and granting additional gold to an ally who assists.

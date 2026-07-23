@@ -1,0 +1,16 @@
+Fiora, the the Grand Duelist
+
+The most feared duelist in all Valoran, Fiora is as renowned for her brusque manner and cunning mind as she is for the speed of her bluesteel rapier. Born to House Laurent in the kingdom of Demacia, Fiora took control of the family from her father in the wake of a scandal that nearly destroyed them. House Laurent's reputation was sundered, but Fiora bends her every effort to restore her family's honor and return them to their rightful place among the great and good of Demacia.
+
+Role: Fighter, Assassin
+Resource: Mana
+
+Passive - Duelist's Dance: Fiora has revealed a <keywordMajor>Vital</keywordMajor> on this Champion. If she hits the <keywordMajor>Vital</keywordMajor>, she <healing>restores Health</healing> and gains <speed>Move Speed</speed>.
+
+Q - Lunge: Fiora lunges in a direction and stabs a nearby enemy, dealing physical damage and applying on-hit effects.
+
+W - Riposte: Fiora parries all incoming damage and disables for a short time, then stabs in a direction. This stab slows the first enemy champion hit, or stuns them if Fiora blocked an immobilizing effect with this ability.
+
+E - Bladework: Fiora has increased attack speed for the next two attacks. The first attack slows the target, and the second attack will critically strike.
+
+R - Grand Challenge: Fiora reveals all four Vitals on an enemy champion and gains Move Speed while near them. If Fiora hits all four Vitals or if the target dies after she has hit at least one, Fiora and her allies in the area are healed over the next few seconds.

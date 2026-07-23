@@ -1,0 +1,16 @@
+Warwick, the the Uncaged Wrath of Zaun
+
+Warwick is a monster who hunts the gray alleys of Zaun. Transformed by agonizing experiments, his body is fused with an intricate system of chambers and pumps, machinery filling his veins with alchemical rage. He bursts from the shadows to prey upon those criminals who terrorize the city's depths. Warwick is drawn to blood, driven mad by its scent… and none who spill it can escape him.
+
+Role: Fighter, Tank
+Resource: Mana
+
+Passive - Eternal Hunger: Warwick's basic attacks deal bonus magic damage. If Warwick is below 50% health, he heals the same amount. If Warwick is below 25% health, this healing triples.
+
+Q - Jaws of the Beast: Warwick lunges forward and bites his target, dealing damage based on their maximum health and healing for damage dealt.
+
+W - Blood Hunt: Warwick senses enemies below 50% health, gaining Move Speed toward and attack speed against them. When they fall below 25% health, he frenzies and these bonuses triple.
+
+E - Primal Howl: Warwick gains damage reduction for 2.5 seconds. At the end, or if re-activated, he howls, causing nearby enemies to flee for 1 second.
+
+R - Infinite Duress: Warwick leaps in a direction (scaling with his bonus Move Speed), suppressing the first champion he collides with for 1.5 seconds.

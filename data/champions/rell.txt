@@ -1,0 +1,16 @@
+Rell, the the Iron Maiden
+
+The product of brutal experimentation at the hands of the Black Rose, Rell is a defiant, living weapon determined to topple Noxus. Her childhood was one of misery and horror, enduring unspeakable procedures to perfect and weaponize her magical control over metal... until she staged a violent escape, killing many of her captors in the process. Now branded as a criminal, Rell attacks Noxian soldiers on sight as she searches for survivors of her old “academy,” defending the meek while delivering violent death to her former overseers.
+
+Role: Tank, Support
+Resource: Mana
+
+Passive - Break the Mold: Rell's Attacks and Abilities deal additional magic damage and steal Armor and Magic Resist on hit.
+
+Q - Shattering Strike: Rell deals magic damage to units in a line, breaking their shields and stunning them. 
+
+W - Ferromancy: Crash Down: Mounted: Rell Dismounts, crashing down in her armor, Knocking enemies up and gaining a large Shield. While dismounted, she gains Armor, Magic Resist, Attack Speed, and Attack Range, but is Slowed.<br><br>Dismounted: Rell forms her Mount, gaining a burst of speed and Knocking Up the next enemy she attacks.<br><br>
+
+E - Full Tilt: Passive: Rell gains out of combat Move Speed.<br><br>Active: Rell and an ally gain ramping Move Speed, doubled toward enemies and each other. Her next Attack explodes, dealing magic damage.<br>
+
+R - Magnet Storm: Rell explodes in a magnetic fury, violently Pulling nearby enemies toward herself. Then Rell constantly Drags nearby enemies toward herself for a short while, dealing magic damage over time.
