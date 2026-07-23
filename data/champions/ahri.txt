@@ -1,0 +1,11 @@
+Ahri, the Nine-Tailed Fox
+
+Ahri is a vastayan mage who can manipulate magic to charm her prey and steal their life essence. Once a fox-like vastaya with a hunger for magical energy, she consumed so much that she began to take a human's shape. Even now, she struggles with the balance between her animal instincts and her growing humanity.
+
+Role: Mage / Assassin
+Range: Ranged
+Region: Ionia
+Resource: Mana
+Difficulty: Moderate
+
+Passive - Essence Theft: Ahri's damaging spells generate Essence Fragments if they

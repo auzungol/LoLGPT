@@ -1,0 +1,17 @@
+Lux, the Lady of Luminosity
+
+Luxanna Crownguard hails from Demacia, an insular realm where magical abilities are viewed with fear and suspicion. Though publicly her family is regarded as pillars of the community, Lux secretly practices light magic, learning to bend it to her will rather than hide her gift.
+
+Role: Mage
+Range: Ranged
+Region: Demacia
+Resource: Mana
+Difficulty: Moderate
+
+Passive - Illumination: Lux's damaging spells charge enemies with a light energy for a few seconds. Her next attack against an illuminated target detonates it, dealing bonus magic damage.
+
+Q - Light Binding: Lux releases a sphere of light that binds and deals damage to up to two enemies in its path.
+
+W - Prismatic Barrier: Lux protects her allies with a shield of light, reducing incoming damage for a short time.
+
+E - Lucent Singularity: Lux

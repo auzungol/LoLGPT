@@ -1,0 +1,19 @@
+Garen, the Might of Demacia
+
+A proud and disciplined soldier, Garen fights as part of the Demacian military's elite strike team, the Dauntless Vanguard. He is fiercely patriotic and unwavering in his belief that Demacia's ideals of justice must be defended, even against the sorcery and forbidden magic that threaten it.
+
+Role: Fighter / Tank
+Range: Melee
+Region: Demacia
+Resource: None (uses cooldowns only)
+Difficulty: Low
+
+Passive - Perseverance: If Garen has not taken damage or been impacted by enemy abilities recently, he regenerates health equal to a percentage of his max health each second.
+
+Q - Decisive Strike: Garen breaks free of movement-slowing effects and gains increased movement speed for a few seconds. His next attack deals bonus damage and silences the target.
+
+W - Courage: Garen braces himself, gaining a shield that absorbs damage and reduces incoming damage for a few seconds. Passively grants bonus armor and magic resistance.
+
+E - Judgment: Garen spins his blade around him, dealing physical damage to all nearby enemies over time.
+
+R - Demacian Justice: Garen calls upon the might of Demacia to deal massive true damage to a single target enemy champion, increased against low-health targets.
