@@ -1,0 +1,4 @@
+foundry-local-sdk
+numpy
+sqlite-utils
+python-dotenv
