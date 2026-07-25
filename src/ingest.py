@@ -3,6 +3,7 @@ import re
 from config import CHAMPION_FOLDER
 from database import init_db, insert_chunk, clear_db
 from embedding import embed_text
+from lanes import get_lanes_for_champion
 
 
 def chunk_text(text: str, max_chars: int = 500) -> list[str]:
@@ -62,6 +63,7 @@ def run_ingestion(reset: bool = True):
         for champion_name, content in champions:
             region = extract_region(content)
             role = extract_role(content)
+            lane = ", ".join(get_lanes_for_champion(champion_name))
             print("E:", champion_name, "işleniyor", flush=True)
             chunks = chunk_text(content)
             print("F:", champion_name, "chunk sayisi =", len(chunks), flush=True)
@@ -79,6 +81,7 @@ def run_ingestion(reset: bool = True):
                     embedding=embedding,
                     region=region,
                     role=role,
+                    lane=lane,
                 )
             print("H:", champion_name, "DB'ye yazildi", flush=True)
 

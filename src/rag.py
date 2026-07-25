@@ -5,7 +5,8 @@ from database import get_chunks_by_role, get_chunks_by_region, get_champion_disp
 from retrieval import find_mentioned_champions, find_mentioned_regions, find_mentioned_roles,fuzzy_find_champions
 from database import get_distinct_champions
 from abilities import find_mentioned_ability_letter, extract_ability_line
-from database import get_champion_full_text
+from database import get_champion_full_text, get_chunks_by_lane
+from lanes import find_mentioned_lanes
 _manager = None
 _chat_model = None
 _chat_client = None
@@ -46,16 +47,17 @@ def _get_chat_client():
 LISTING_WORDS = ["champion", "champs", "character", "who", "which", "list", "name all"]
 
 
-def is_listing_query(query: str, mentioned_champions: list, mentioned_roles: list, mentioned_regions: list) -> bool:
+def is_listing_query(query: str, mentioned_champions: list, mentioned_roles: list,
+                      mentioned_regions: list, mentioned_lanes: list) -> bool:
     if mentioned_champions:
         return False
-    if not mentioned_roles and not mentioned_regions:
+    if not mentioned_roles and not mentioned_regions and not mentioned_lanes:
         return False
     query_lower = query.lower()
     return any(word in query_lower for word in LISTING_WORDS)
 
 
-def answer_listing_query(mentioned_roles: list, mentioned_regions: list) -> str:
+def answer_listing_query(mentioned_roles: list, mentioned_regions: list, mentioned_lanes: list) -> str:
     display_names = get_champion_display_names()
     matched_ids = set()
 
@@ -67,6 +69,10 @@ def answer_listing_query(mentioned_roles: list, mentioned_regions: list) -> str:
         for _id, champion, source_file, content, embedding in get_chunks_by_region(region):
             matched_ids.add(champion)
 
+    for lane in mentioned_lanes:
+        for _id, champion, source_file, content, embedding in get_chunks_by_lane(lane):
+            matched_ids.add(champion)
+
     names = sorted(display_names.get(champ, champ) for champ in matched_ids)
 
     label_parts = []
@@ -74,7 +80,9 @@ def answer_listing_query(mentioned_roles: list, mentioned_regions: list) -> str:
         label_parts.append(" / ".join(mentioned_roles))
     if mentioned_regions:
         label_parts.append(" / ".join(mentioned_regions))
-    label = " from ".join(label_parts) if len(label_parts) == 2 else label_parts[0]
+    if mentioned_lanes:
+        label_parts.append(" / ".join(mentioned_lanes))
+    label = " + ".join(label_parts)
 
     if not names:
         return f"{label} kriterine uyan şampiyon bulunamadı."
@@ -90,9 +98,11 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
         mentioned_champions = fuzzy_find_champions(user_question)
     mentioned_roles = find_mentioned_roles(user_question)
     mentioned_regions = find_mentioned_regions(user_question)
+    mentioned_lanes = find_mentioned_lanes(user_question)
 
-    if is_listing_query(user_question, mentioned_champions, mentioned_roles, mentioned_regions):
-        return answer_listing_query(mentioned_roles, mentioned_regions)
+    if is_listing_query(user_question, mentioned_champions, mentioned_roles, mentioned_regions, mentioned_lanes):
+        return answer_listing_query(mentioned_roles, mentioned_regions, mentioned_lanes)
+
     if len(mentioned_champions) == 1:
         letter = find_mentioned_ability_letter(user_question)
         if letter:

@@ -3,6 +3,7 @@ import json
 from config import DATABASE_PATH
 
 
+
 def get_connection():
     conn = sqlite3.connect(DATABASE_PATH)
     return conn
@@ -17,6 +18,7 @@ def init_db():
             champion TEXT NOT NULL,
             region TEXT NOT NULL DEFAULT 'Unknown',
             role TEXT NOT NULL DEFAULT 'Unknown',
+            lane TEXT NOT NULL DEFAULT 'Unknown',
             source_file TEXT NOT NULL,
             content TEXT NOT NULL,
             embedding TEXT NOT NULL
@@ -27,12 +29,12 @@ def init_db():
 
 
 def insert_chunk(champion: str, source_file: str, content: str, embedding: list[float],
-                  region: str = "Unknown", role: str = "Unknown"):
+                  region: str = "Unknown", role: str = "Unknown", lane: str = "Unknown"):
     conn = get_connection()
     cur = conn.cursor()
     cur.execute(
-        "INSERT INTO chunks (champion, region, role, source_file, content, embedding) VALUES (?, ?, ?, ?, ?, ?)",
-        (champion, region, role, source_file, content, json.dumps(embedding)),
+        "INSERT INTO chunks (champion, region, role, lane, source_file, content, embedding) VALUES (?, ?, ?, ?, ?, ?, ?)",
+        (champion, region, role, lane, source_file, content, json.dumps(embedding)),
     )
     conn.commit()
     conn.close()
@@ -113,3 +115,14 @@ def get_champion_display_names() -> dict:
 def get_champion_full_text(champion: str) -> str:
     rows = sorted(get_chunks_by_champion(champion), key=lambda r: r[0])
     return "\n".join(r[3] for r in rows)
+
+def get_chunks_by_lane(lane: str):
+    conn = get_connection()
+    cur = conn.cursor()
+    cur.execute(
+        "SELECT id, champion, source_file, content, embedding FROM chunks WHERE lane LIKE ?",
+        (f"%{lane}%",),
+    )
+    rows = cur.fetchall()
+    conn.close()
+    return [(row[0], row[1], row[2], row[3], json.loads(row[4])) for row in rows]
