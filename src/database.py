@@ -126,3 +126,13 @@ def get_chunks_by_lane(lane: str):
     rows = cur.fetchall()
     conn.close()
     return [(row[0], row[1], row[2], row[3], json.loads(row[4])) for row in rows]
+def get_champion_metadata(champion: str):
+    """Returns {'region':..., 'role':..., 'lane':...} for a champion, or None."""
+    conn = get_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT region, role, lane FROM chunks WHERE champion = ? LIMIT 1", (champion,))
+    row = cur.fetchone()
+    conn.close()
+    if row:
+        return {"region": row[0], "role": row[1], "lane": row[2]}
+    return None

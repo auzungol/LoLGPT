@@ -1,12 +1,19 @@
+import re
 from foundry_local_sdk import Configuration, FoundryLocalManager
 from config import CHAT_MODEL
-from retrieval import get_top_chunks
-from database import get_chunks_by_role, get_chunks_by_region, get_champion_display_names
-from retrieval import find_mentioned_champions, find_mentioned_regions, find_mentioned_roles,fuzzy_find_champions
-from database import get_distinct_champions
+from retrieval import get_top_chunks, find_mentioned_champions, find_mentioned_regions, find_mentioned_roles, fuzzy_find_champions
+from database import (
+    get_chunks_by_role,
+    get_chunks_by_region,
+    get_chunks_by_lane,
+    get_champion_display_names,
+    get_distinct_champions,
+    get_champion_full_text,
+    get_champion_metadata,
+)
 from abilities import find_mentioned_ability_letter, extract_ability_line
-from database import get_champion_full_text, get_chunks_by_lane
 from lanes import find_mentioned_lanes
+
 _manager = None
 _chat_model = None
 _chat_client = None
@@ -24,6 +31,14 @@ Important rules:
 2. If the question asks to list or name champions matching a category (e.g. a role, region, or
    trait), list EVERY champion from the context that matches — not just the first one you notice.
    Go through the context entry by entry before answering."""
+
+LISTING_WORDS = ["champion", "champs", "character", "who", "which", "list", "name all"]
+
+ATTRIBUTE_PATTERNS = {
+    "lane": r"\blane\b",
+    "region": r"\bregion\b|\bwhere.*from\b",
+    "role": r"\brole\b",
+}
 
 
 def _get_chat_client():
@@ -43,8 +58,6 @@ def _get_chat_client():
 
         _chat_client = _chat_model.get_chat_client()
     return _chat_client
-
-LISTING_WORDS = ["champion", "champs", "character", "who", "which", "list", "name all"]
 
 
 def is_listing_query(query: str, mentioned_champions: list, mentioned_roles: list,
@@ -91,6 +104,14 @@ def answer_listing_query(mentioned_roles: list, mentioned_regions: list, mention
     return f"{label} ({len(names)} champion):\n{champion_list}"
 
 
+def find_mentioned_attribute(query: str) -> str | None:
+    query_lower = query.lower()
+    for attr, pattern in ATTRIBUTE_PATTERNS.items():
+        if re.search(pattern, query_lower):
+            return attr
+    return None
+
+
 def answer_query(user_question: str, top_k: int = 8) -> str:
     all_champions = get_distinct_champions()
     mentioned_champions = find_mentioned_champions(user_question, all_champions)
@@ -100,9 +121,11 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
     mentioned_regions = find_mentioned_regions(user_question)
     mentioned_lanes = find_mentioned_lanes(user_question)
 
+    # 1) Listeleme sorgusu mu? (örn. "top laner champions", "mage champs")
     if is_listing_query(user_question, mentioned_champions, mentioned_roles, mentioned_regions, mentioned_lanes):
         return answer_listing_query(mentioned_roles, mentioned_regions, mentioned_lanes)
 
+    # 2) Tek şampiyon + belirli bir ability harfi mi soruluyor? (örn. "yasuo q")
     if len(mentioned_champions) == 1:
         letter = find_mentioned_ability_letter(user_question)
         if letter:
@@ -112,6 +135,18 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
                 display_names = get_champion_display_names()
                 name = display_names.get(mentioned_champions[0], mentioned_champions[0])
                 return f"[{name}] {line}"
+
+    # 3) Tek şampiyon + lane/region/role gibi yapısal bir öznitelik mi soruluyor? (örn. "veigar lane")
+    if len(mentioned_champions) == 1:
+        attribute = find_mentioned_attribute(user_question)
+        if attribute:
+            metadata = get_champion_metadata(mentioned_champions[0])
+            if metadata:
+                display_names = get_champion_display_names()
+                name = display_names.get(mentioned_champions[0], mentioned_champions[0])
+                return f"[{name}] {attribute.capitalize()}: {metadata[attribute]}"
+
+    # 4) Diğer her şey için: semantic retrieval + LLM
     top_chunks = get_top_chunks(user_question, top_k=top_k)
 
     context_parts = []
