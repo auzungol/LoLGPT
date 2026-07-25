@@ -2,7 +2,7 @@ from foundry_local_sdk import Configuration, FoundryLocalManager
 from config import CHAT_MODEL
 from retrieval import get_top_chunks
 from database import get_chunks_by_role, get_chunks_by_region, get_champion_display_names
-from retrieval import find_mentioned_champions, find_mentioned_regions, find_mentioned_roles
+from retrieval import find_mentioned_champions, find_mentioned_regions, find_mentioned_roles,fuzzy_find_champions
 from database import get_distinct_champions
 from abilities import find_mentioned_ability_letter, extract_ability_line
 from database import get_champion_full_text
@@ -86,6 +86,8 @@ def answer_listing_query(mentioned_roles: list, mentioned_regions: list) -> str:
 def answer_query(user_question: str, top_k: int = 8) -> str:
     all_champions = get_distinct_champions()
     mentioned_champions = find_mentioned_champions(user_question, all_champions)
+    if not mentioned_champions:
+        mentioned_champions = fuzzy_find_champions(user_question)
     mentioned_roles = find_mentioned_roles(user_question)
     mentioned_regions = find_mentioned_regions(user_question)
 

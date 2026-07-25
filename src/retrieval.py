@@ -1,6 +1,7 @@
 import math
 import re
-from database import get_all_chunks, get_distinct_champions, get_chunks_by_champion, get_chunks_by_region, get_chunks_by_role
+import difflib
+from database import get_all_chunks, get_distinct_champions, get_chunks_by_champion, get_chunks_by_region, get_chunks_by_role, get_champion_display_names
 from embedding import embed_text
 from regions import find_mentioned_regions
 from roles import find_mentioned_roles
@@ -26,10 +27,36 @@ def find_mentioned_champions(query: str, all_champions: list[str]) -> list[str]:
         elif champ_lower in query_no_spaces:
             mentioned.append(champ)
     return mentioned
+def _build_champion_tokens() -> dict:
+    """Maps champion_id -> set of searchable name tokens (id + name parts)."""
+    display_names = get_champion_display_names()
+    tokens_map = {}
+    for champ_id, display_name in display_names.items():
+        tokens = {champ_id.lower()}
+        for part in re.split(r"[\s'\.]+", display_name.lower()):
+            if len(part) >= 3:
+                tokens.add(part)
+        tokens_map[champ_id] = tokens
+    return tokens_map
 
+
+def fuzzy_find_champions(query: str) -> list[str]:
+    """Tolerates typos: matches query words against champion name tokens with ~75% similarity."""
+    tokens_map = _build_champion_tokens()
+    query_words = re.findall(r"[a-zA-Z']{3,}", query.lower())
+
+    matched = set()
+    for champ_id, tokens in tokens_map.items():
+        for word in query_words:
+            if difflib.get_close_matches(word, tokens, n=1, cutoff=0.75):
+                matched.add(champ_id)
+                break
+    return list(matched)
 def get_top_chunks(query: str, top_k: int = 8):
     all_champions = get_distinct_champions()
     mentioned_champions = find_mentioned_champions(query, all_champions)
+    if not mentioned_champions:
+        mentioned_champions = fuzzy_find_champions(query)
     mentioned_regions = find_mentioned_regions(query)
     mentioned_roles = find_mentioned_roles(query)
 
