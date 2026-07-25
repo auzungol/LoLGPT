@@ -3,6 +3,7 @@ Ezreal, the the Prodigal Explorer
 A dashing adventurer, unknowingly gifted in the magical arts, Ezreal raids long-lost catacombs, tangles with ancient curses, and overcomes seemingly impossible odds with ease. His courage and bravado knowing no bounds, he prefers to improvise his way out of any situation, relying partially on his wits, but mostly on his mystical Shuriman gauntlet, which he uses to unleash devastating arcane blasts. One thing is for sure—whenever Ezreal is around, trouble isn't too far behind. Or ahead. Probably everywhere.
 
 Role: Marksman, Mage
+Region: Shurima
 Resource: Mana
 
 Passive - Rising Spell Force: Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 5 times.

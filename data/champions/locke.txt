@@ -3,6 +3,7 @@ Locke, the the Ashen Exorcist
 A nail-slinging exorcist versed in forbidden rites, Corvin Locke is the progeny of Demacian occultists. Born into lies and hypocrisy, he learned young that demons aren't the cause of humanity's darkness, but the consequence. Now, Locke tears through every soul, exposing its darkness, intent on making the world a more honest place… one exorcism at a time.
 
 Role: Assassin, Mage
+Region: Demacia
 Resource: Mana
 
 Passive - Silver Stake: Locke's attacks deal additional magic damage On-Hit, increased based on enemy missing Health.

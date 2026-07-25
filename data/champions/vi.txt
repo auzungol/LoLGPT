@@ -3,6 +3,7 @@ Vi, the the Piltover Enforcer
 Raised on the mean streets of Zaun, Vi is a hotheaded, impulsive, and fearsome woman with very little respect for authority. She has always been a shrewd survivor, both from her youthful troublemaking topside and an unfairly long stint in Stillwater Hold. Now working with the Piltover Enforcers to keep the peace instead of breaking it, she wields mighty hextech gauntlets that can punch through walls—and criminals—with equal ease.
 
 Role: Fighter, Assassin
+Region: Zaun
 Resource: Mana
 
 Passive - Blast Shield: Vi charges a shield over time. The shield can be activated by hitting an enemy with an ability.

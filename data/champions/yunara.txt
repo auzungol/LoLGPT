@@ -3,6 +3,7 @@ Yunara, the the Unbroken Faith
 Unwavering in her devotion to Ionia, Yunara has spent centuries cloistered away in the spirit realm honing her skills with the Aion Er'na, a legendary Kinkou relic. Despite all she has sacrificed, Yunara's vow to rid the land of disharmony and strife remains unbroken, as does her faith. But the world that now awaits her—and the shadow of an ancient threat risen once more—will test every ounce of her resolve.
 
 Role: Marksman
+Region: Ionia
 Resource: Mana
 
 Passive - Vow of the First Lands: Yunara's Critical Strikes deal bonus magic damage.

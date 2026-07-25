@@ -3,6 +3,7 @@ Trundle, the the Troll King
 Trundle is a hulking and devious troll with a particularly vicious streak, and there is nothing he cannot bludgeon into submission—not even the Freljord itself. Fiercely territorial, he chases down anyone foolish enough to enter his domain. Then, his massive club of True Ice at the ready, he chills his enemies to the bone and impales them with jagged, frozen pillars, laughing as they bleed out onto the tundra.
 
 Role: Fighter, Tank
+Region: Freljord
 Resource: Mana
 
 Passive - King's Tribute: When an enemy unit dies near Trundle, he heals for a percent of its maximum Health.

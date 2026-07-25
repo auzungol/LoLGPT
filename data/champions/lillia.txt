@@ -3,6 +3,7 @@ Lillia, the the Bashful Bloom
 Intensely shy, the fae fawn Lillia skittishly wanders Ionia's forests. Hiding just out of sight of mortals—whose mysterious natures have long captivated, but intimidated, her—Lillia hopes to discover why their dreams no longer reach the ancient Dreaming Tree. She now travels Ionia with a magical branch in hand, in an effort to find people's unrealized dreams. Only then can Lillia herself bloom and help others untangle their fears to find the sparkle within. Eep!
 
 Role: Fighter, Mage
+Region: Ionia
 Resource: Mana
 
 Passive - Dream-Laden Bough: Hitting a champion or monster with a skill will deal additional max Health damage over time.

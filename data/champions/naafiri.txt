@@ -3,6 +3,7 @@ Naafiri, the the Hound of a Hundred Bites
 Across the sands of Shurima, a chorus of howls rings out. It is the call of the dune hounds, voracious predators who form packs and compete for the right to hunt in these barren lands. Among them, one pack stands above all, for they are driven not only by canine instincts, but by the ancient power of the Darkin.
 
 Role: Assassin, Fighter
+Region: Shurima
 Resource: Mana
 
 Passive - We Are More: Naafiri spawns packmates that attack the targets of her attacks and abilities.

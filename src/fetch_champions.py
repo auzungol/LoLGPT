@@ -1,4 +1,5 @@
 import os
+from regions import detect_region
 import time
 import requests
 from config import CHAMPION_FOLDER
@@ -32,6 +33,7 @@ def format_champion_txt(data: dict) -> str:
     lore = data["lore"]
     tags = ", ".join(data.get("tags", []))
     partype = data.get("partype", "None")
+    region = detect_region(lore)
 
     lines = [
         f"{name}, the {title}",
@@ -39,6 +41,7 @@ def format_champion_txt(data: dict) -> str:
         lore,
         "",
         f"Role: {tags}",
+        f"Region: {region}",
         f"Resource: {partype}",
         "",
         f"Passive - {data['passive']['name']}: {data['passive']['description']}",

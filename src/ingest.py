@@ -1,7 +1,8 @@
 import os
+import re
 from config import CHAMPION_FOLDER
 from database import init_db, insert_chunk, clear_db
-from embedding import embed_batch
+from embedding import embed_text
 
 
 def chunk_text(text: str, max_chars: int = 500) -> list[str]:
@@ -34,6 +35,11 @@ def load_champion_files() -> list[tuple[str, str]]:
     return files
 
 
+def extract_region(content: str) -> str:
+    match = re.search(r"^Region:\s*(.+)$", content, re.MULTILINE)
+    return match.group(1).strip() if match else "Unknown"
+
+
 def run_ingestion(reset: bool = True):
     print("A: run_ingestion başladı", flush=True)
     try:
@@ -49,13 +55,14 @@ def run_ingestion(reset: bool = True):
         print("D: dosyalar okundu, sayi =", len(champions), flush=True)
 
         for champion_name, content in champions:
+            region = extract_region(content)
             print("E:", champion_name, "işleniyor", flush=True)
             chunks = chunk_text(content)
             print("F:", champion_name, "chunk sayisi =", len(chunks), flush=True)
             if not chunks:
                 continue
 
-            embeddings = embed_batch(chunks)
+            embeddings = [embed_text(chunk) for chunk in chunks]
             print("G:", champion_name, "embed tamam", flush=True)
 
             for chunk, embedding in zip(chunks, embeddings):
@@ -64,6 +71,7 @@ def run_ingestion(reset: bool = True):
                     source_file=f"{champion_name}.txt",
                     content=chunk,
                     embedding=embedding,
+                    region=region,
                 )
             print("H:", champion_name, "DB'ye yazildi", flush=True)
 
@@ -72,5 +80,7 @@ def run_ingestion(reset: bool = True):
         import traceback
         print("HATA:", e, flush=True)
         traceback.print_exc()
+
+
 if __name__ == "__main__":
     run_ingestion()

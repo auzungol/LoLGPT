@@ -3,6 +3,7 @@ Xayah, the the Rebel
 Deadly and precise, Xayah is a vastayan revolutionary waging a personal war to save her people. She uses her speed, guile, and razor-sharp feather blades to cut down anyone who stands in her way. Xayah fights alongside her partner and lover, Rakan, to protect their dwindling tribe, and restore their race to her vision of its former glory.
 
 Role: Marksman
+Region: Unknown
 Resource: Mana
 
 Passive - Clean Cuts: After using an ability, Xayah's next basic attacks will hit all targets along their path and leave a <font color='#C200E1'>Feather</font>.

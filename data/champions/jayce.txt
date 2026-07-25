@@ -3,6 +3,7 @@ Jayce, the the Defender of Tomorrow
 Jayce Talis is a brilliant inventor who, along with his friend Viktor, made the first great discoveries in the field of hextech. Celebrated across Piltover, he tries to live up to his reputation as "the Man of Progress," but often struggles with the expectations placed upon him. Because of this, Jayce has begun to see the ways in which his invention has furthered the division between Piltover and Zaun—and armed with his hextech hammer, he stands ready to defend tomorrow.
 
 Role: Fighter, Marksman
+Region: Piltover
 Resource: Mana
 
 Passive - Hextech Capacitor: When Jayce swaps weapons he gains Move Speed for a short duration.

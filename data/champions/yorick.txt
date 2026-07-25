@@ -3,6 +3,7 @@ Yorick, the Shepherd of Souls
 The last survivor of a long-forgotten religious order, Yorick is both blessed and cursed with power over the dead. Trapped on the Shadow Isles, his only companions are the rotting corpses and shrieking wraiths that he gathers to him. Yorick's monstrous actions belie his noble purpose: to free his home from the curse of the Ruination.
 
 Role: Fighter, Tank
+Region: Shadow Isles
 Resource: Mana
 
 Passive - Shepherd of Souls: <font color='#FF9900'>The Cursed Horde:</font> Yorick can summon Mist Walkers to swarm and attack nearby enemies.

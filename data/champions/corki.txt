@@ -3,6 +3,7 @@ Corki, the the Daring Bombardier
 The yordle pilot Corki loves two things above all others: flying, and his glamorous mustache... though not necessarily in that order. After leaving Bandle City, he settled in Piltover and fell in love with the wondrous machines he found there. He dedicated himself to the development of flying contraptions, leading an aerial defense force of seasoned veterans known as the Screaming Yipsnakes. Calm under fire, Corki patrols the skies around his adopted home, and has never encountered a problem that a good missile barrage couldn't solve.
 
 Role: Marksman, Mage
+Region: Bandle City
 Resource: Mana
 
 Passive - Hextech Munitions: A percentage of Corki's basic attack damage is dealt as bonus <trueDamage>true damage</trueDamage>.

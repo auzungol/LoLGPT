@@ -3,6 +3,7 @@ Yone, the the Unforgotten
 In life, he was Yone—half-brother of Yasuo, and renowned student of his village's sword school. But upon his death at the hands of his brother, he found himself hunted by a malevolent entity of the spirit realm, and was forced to slay it with its own sword. Now, cursed to wear its demonic mask upon his face, Yone tirelessly hunts all such creatures in order to understand what he has become.
 
 Role: Fighter, Assassin
+Region: Unknown
 Resource: Flow
 
 Passive - Way of the Hunter: Yone deals magic damage with every second Attack. In addition, his critical strike chance is increased.

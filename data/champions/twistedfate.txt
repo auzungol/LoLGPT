@@ -3,6 +3,7 @@ Twisted Fate, the the Card Master
 Twisted Fate is an infamous cardsharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking smile and an insouciant swagger. In every possible way, Twisted Fate always has an ace up his sleeve.
 
 Role: Mage, Marksman
+Region: Unknown
 Resource: Mana
 
 Passive - Loaded Dice: Upon killing a unit, Twisted Fate rolls his 'lucky' dice receiving 1 to 6 bonus gold.

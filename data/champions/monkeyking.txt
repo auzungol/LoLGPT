@@ -3,6 +3,7 @@ Wukong, the the Monkey King
 Wukong is a vastayan trickster who uses his strength, agility, and intelligence to confuse his opponents and gain the upper hand. After finding a lifelong friend in the warrior known as Master Yi, Wukong became the last student of the ancient martial art known as Wuju. Armed with an enchanted staff, Wukong seeks to prevent Ionia from falling to ruin.
 
 Role: Fighter, Tank
+Region: Ionia
 Resource: Mana
 
 Passive - Stone Skin: Wukong gains stacking armor and max health regeneration while fighting champions and monsters.

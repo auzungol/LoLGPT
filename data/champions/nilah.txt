@@ -3,6 +3,7 @@ Nilah, the the Joy Unbound
 Nilah is an ascetic warrior from a distant land, seeking the world's deadliest, most titanic opponents so that she might challenge and destroy them. Having won her power through an encounter with the long-imprisoned demon of joy, she has no emotions other than unceasing jubilation—a small price to pay for the vast strength she now possesses. Channeling the demon's liquid form into a blade of unparalleled might, she stands defiant against ancient threats long forgotten.
 
 Role: Fighter, Assassin
+Region: Unknown
 Resource: Mana
 
 Passive - Joy Unending: Nilah gains increased experience from last-hitting minions along with the ability to enhance and share nearby healing and shielding from her allies.
