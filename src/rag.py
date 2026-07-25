@@ -1,7 +1,7 @@
 import re
 from foundry_local_sdk import Configuration, FoundryLocalManager
 from config import CHAT_MODEL
-from retrieval import get_top_chunks, find_mentioned_champions, find_mentioned_regions, find_mentioned_roles, fuzzy_find_champions
+from retrieval import get_top_chunks, find_mentioned_champions, fuzzy_find_champions
 from database import (
     get_chunks_by_role,
     get_chunks_by_region,
@@ -15,7 +15,19 @@ from abilities import find_mentioned_ability_letter, extract_ability_line
 from regions import find_mentioned_regions, fuzzy_find_regions
 from roles import find_mentioned_roles, fuzzy_find_roles
 from lanes import find_mentioned_lanes, fuzzy_find_lanes
+import difflib
 
+ATTRIBUTE_PATTERNS = {
+    "lane": r"\blane\b|\bkoridor\w*\b",
+    "region": r"\bregion\b|\bwhere.*from\b|\bbölge\w*\b|\bnereli\w*\b",
+    "role": r"\brole\b|\brol\w*\b",
+}
+
+ATTRIBUTE_KEYWORDS = {
+    "lane": ["lane", "koridor"],
+    "region": ["region", "bölge", "nereli"],
+    "role": ["role", "rol"],
+}
 _manager = None
 _chat_model = None
 _chat_client = None
@@ -32,15 +44,12 @@ Important rules:
    check the letter before answering — do not substitute a different ability of the same champion.
 2. If the question asks to list or name champions matching a category (e.g. a role, region, or
    trait), list EVERY champion from the context that matches — not just the first one you notice.
-   Go through the context entry by entry before answering."""
+   Go through the context entry by entry before answering.
+3. Respond in the same language the user asked the question in. If the question is in Turkish,
+   answer in Turkish (but keep champion names, ability names, and game terms like Q/W/E/R as-is,
+   since they don't have official Turkish translations)."""
 
-LISTING_WORDS = ["champion", "champs", "character", "who", "which", "list", "name all"]
 
-ATTRIBUTE_PATTERNS = {
-    "lane": r"\blane\b",
-    "region": r"\bregion\b|\bwhere.*from\b",
-    "role": r"\brole\b",
-}
 
 
 def _get_chat_client():
@@ -67,9 +76,9 @@ def is_listing_query(query: str, mentioned_champions: list, mentioned_roles: lis
     if mentioned_champions:
         return False
     # Champion adı geçmiyor ama role/region/lane kesin eşleşmesi varsa,
-    # bu zaten yeterince net bir listeleme sinyalidir — ayrıca listeleme
-    # kelimesi (champion/champs/list vb.) aramaya gerek yok.
+    # bu zaten yeterince net bir listeleme sinyalidir.
     return bool(mentioned_roles or mentioned_regions or mentioned_lanes)
+
 
 def answer_listing_query(mentioned_roles: list, mentioned_regions: list, mentioned_lanes: list) -> str:
     display_names = get_champion_display_names()
@@ -107,17 +116,25 @@ def answer_listing_query(mentioned_roles: list, mentioned_regions: list, mention
 
 def find_mentioned_attribute(query: str) -> str | None:
     query_lower = query.lower()
+
     for attr, pattern in ATTRIBUTE_PATTERNS.items():
         if re.search(pattern, query_lower):
             return attr
-    return None
 
+    query_words = re.findall(r"[a-zA-ZğüşıöçĞÜŞİÖÇ]{4,}", query_lower)
+    for attr, keywords in ATTRIBUTE_KEYWORDS.items():
+        for kw in keywords:
+            for word in query_words:
+                if difflib.get_close_matches(word, [kw], n=1, cutoff=0.8):
+                    return attr
+    return None
 
 def answer_query(user_question: str, top_k: int = 8) -> str:
     all_champions = get_distinct_champions()
     mentioned_champions = find_mentioned_champions(user_question, all_champions)
     if not mentioned_champions:
         mentioned_champions = fuzzy_find_champions(user_question)
+
     mentioned_roles = find_mentioned_roles(user_question)
     if not mentioned_roles:
         mentioned_roles = fuzzy_find_roles(user_question)
@@ -130,7 +147,7 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
     if not mentioned_lanes:
         mentioned_lanes = fuzzy_find_lanes(user_question)
 
-    # 1) Listeleme sorgusu mu? (örn. "top laner champions", "mage champs")
+    # 1) Listeleme sorgusu mu? (örn. "top laner champions", "mage champs", "orman şampiyonları")
     if is_listing_query(user_question, mentioned_champions, mentioned_roles, mentioned_regions, mentioned_lanes):
         return answer_listing_query(mentioned_roles, mentioned_regions, mentioned_lanes)
 

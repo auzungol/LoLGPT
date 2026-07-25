@@ -3,6 +3,7 @@
 # Bazı yeni şampiyonlar (henüz emin olamadıklarım) "Unknown" bırakıldı — ekleyebilirsin.
 import re
 import difflib
+
 LANES = {
     "aatrox": ["Top"],
     "ahri": ["Mid"],
@@ -181,6 +182,26 @@ LANES = {
 
 ALL_LANES = ["Top", "Jungle", "Mid", "ADC", "Support"]
 
+LANE_KEYWORDS = {
+    "Top": ["top", "toplaner", "top lane"],
+    "Jungle": ["jungle", "jungler", "jg"],
+    "Mid": ["mid", "midlane", "mid lane", "midlaner"],
+    "ADC": ["adc", "bot lane", "botlane", "marksman lane"],
+    "Support": ["support", "sup"],
+}
+
+LANE_TR_SYNONYMS = {
+    "Top": ["üst koridor", "ust koridor"],
+    "Jungle": ["orman", "ormancı", "ormanci"],
+    "Mid": ["orta koridor", "orta"],
+    "ADC": ["alt koridor"],
+    "Support": ["destek"],
+}
+
+
+def _all_lane_keywords(lane: str) -> list[str]:
+    return LANE_KEYWORDS.get(lane, []) + LANE_TR_SYNONYMS.get(lane, [])
+
 
 def get_lanes_for_champion(champion_id: str) -> list[str]:
     return LANES.get(champion_id.lower(), ["Unknown"])
@@ -189,31 +210,19 @@ def get_lanes_for_champion(champion_id: str) -> list[str]:
 def find_mentioned_lanes(query: str) -> list[str]:
     query_lower = query.lower()
     mentioned = []
-    lane_keywords = {
-        "Top": ["top", "toplaner", "top lane"],
-        "Jungle": ["jungle", "jungler", "jg"],
-        "Mid": ["mid", "midlane", "mid lane", "midlaner"],
-        "ADC": ["adc", "bot lane", "botlane", "marksman lane"],
-        "Support": ["support", "sup"],
-    }
-    for lane, keywords in lane_keywords.items():
-        if any(re.search(rf"\b{re.escape(kw)}\b", query_lower) for kw in keywords):
-            mentioned.append(lane)
+    for lane in LANE_KEYWORDS:
+        for kw in _all_lane_keywords(lane):
+            if re.search(rf"\b{re.escape(kw)}\b", query_lower):
+                mentioned.append(lane)
+                break
     return mentioned
 
 
 def fuzzy_find_lanes(query: str) -> list[str]:
-    query_words = re.findall(r"[a-zA-Z]{3,}", query.lower())
-    lane_keywords = {
-        "Top": ["top"],
-        "Jungle": ["jungle", "jungler", "jg"],
-        "Mid": ["mid", "midlane"],
-        "ADC": ["adc"],
-        "Support": ["support", "sup"],
-    }
+    query_words = re.findall(r"[a-zA-ZğüşıöçĞÜŞİÖÇ]{3,}", query.lower())
     matched = []
-    for lane, keywords in lane_keywords.items():
-        for kw in keywords:
+    for lane in LANE_KEYWORDS:
+        for kw in _all_lane_keywords(lane):
             for word in query_words:
                 if difflib.get_close_matches(word, [kw], n=1, cutoff=0.8):
                     if lane not in matched:
