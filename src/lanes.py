@@ -2,6 +2,7 @@
 # Anahtar olarak dosya adlarınla (küçük harf, champion_id) eşleşmeli.
 # Bazı yeni şampiyonlar (henüz emin olamadıklarım) "Unknown" bırakıldı — ekleyebilirsin.
 import re
+import difflib
 LANES = {
     "aatrox": ["Top"],
     "ahri": ["Mid"],
@@ -201,3 +202,20 @@ def find_mentioned_lanes(query: str) -> list[str]:
     return mentioned
 
 
+def fuzzy_find_lanes(query: str) -> list[str]:
+    query_words = re.findall(r"[a-zA-Z]{3,}", query.lower())
+    lane_keywords = {
+        "Top": ["top"],
+        "Jungle": ["jungle", "jungler", "jg"],
+        "Mid": ["mid", "midlane"],
+        "ADC": ["adc"],
+        "Support": ["support", "sup"],
+    }
+    matched = []
+    for lane, keywords in lane_keywords.items():
+        for kw in keywords:
+            for word in query_words:
+                if difflib.get_close_matches(word, [kw], n=1, cutoff=0.8):
+                    if lane not in matched:
+                        matched.append(lane)
+    return matched

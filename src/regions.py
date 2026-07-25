@@ -1,3 +1,5 @@
+import difflib
+import re
 REGION_KEYWORDS = {
     "Bandle City": ["bandle city", "yordle"],
     "Shadow Isles": ["shadow isles", "black mist", "ruined"],
@@ -57,3 +59,13 @@ CHAMPION_REGION_OVERRIDES = {
     "yone": "Ionia",
     "zyra": "Shurima",
 }
+def fuzzy_find_regions(query: str) -> list[str]:
+    query_words = re.findall(r"[a-zA-Z]{4,}", query.lower())
+    matched = []
+    for region, keywords in REGION_KEYWORDS.items():
+        for kw in keywords:
+            for word in query_words:
+                if difflib.get_close_matches(word, [kw], n=1, cutoff=0.8):
+                    if region not in matched:
+                        matched.append(region)
+    return matched

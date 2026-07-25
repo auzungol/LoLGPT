@@ -12,7 +12,9 @@ from database import (
     get_champion_metadata,
 )
 from abilities import find_mentioned_ability_letter, extract_ability_line
-from lanes import find_mentioned_lanes
+from regions import find_mentioned_regions, fuzzy_find_regions
+from roles import find_mentioned_roles, fuzzy_find_roles
+from lanes import find_mentioned_lanes, fuzzy_find_lanes
 
 _manager = None
 _chat_model = None
@@ -117,8 +119,16 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
     if not mentioned_champions:
         mentioned_champions = fuzzy_find_champions(user_question)
     mentioned_roles = find_mentioned_roles(user_question)
+    if not mentioned_roles:
+        mentioned_roles = fuzzy_find_roles(user_question)
+
     mentioned_regions = find_mentioned_regions(user_question)
+    if not mentioned_regions:
+        mentioned_regions = fuzzy_find_regions(user_question)
+
     mentioned_lanes = find_mentioned_lanes(user_question)
+    if not mentioned_lanes:
+        mentioned_lanes = fuzzy_find_lanes(user_question)
 
     # 1) Listeleme sorgusu mu? (örn. "top laner champions", "mage champs")
     if is_listing_query(user_question, mentioned_champions, mentioned_roles, mentioned_regions, mentioned_lanes):
