@@ -4,6 +4,8 @@ from retrieval import get_top_chunks
 from database import get_chunks_by_role, get_chunks_by_region, get_champion_display_names
 from retrieval import find_mentioned_champions, find_mentioned_regions, find_mentioned_roles
 from database import get_distinct_champions
+from abilities import find_mentioned_ability_letter, extract_ability_line
+from database import get_champion_full_text
 _manager = None
 _chat_model = None
 _chat_client = None
@@ -89,7 +91,15 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
 
     if is_listing_query(user_question, mentioned_champions, mentioned_roles, mentioned_regions):
         return answer_listing_query(mentioned_roles, mentioned_regions)
-
+    if len(mentioned_champions) == 1:
+        letter = find_mentioned_ability_letter(user_question)
+        if letter:
+            full_text = get_champion_full_text(mentioned_champions[0])
+            line = extract_ability_line(full_text, letter)
+            if line:
+                display_names = get_champion_display_names()
+                name = display_names.get(mentioned_champions[0], mentioned_champions[0])
+                return f"[{name}] {line}"
     top_chunks = get_top_chunks(user_question, top_k=top_k)
 
     context_parts = []

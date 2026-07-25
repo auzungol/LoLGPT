@@ -110,3 +110,6 @@ def get_champion_display_names() -> dict:
             name = first_line.split(",")[0].strip()
             names[champ] = name
     return names
+def get_champion_full_text(champion: str) -> str:
+    rows = sorted(get_chunks_by_champion(champion), key=lambda r: r[0])
+    return "\n".join(r[3] for r in rows)
