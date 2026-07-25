@@ -6,11 +6,11 @@ Role: Marksman, Assassin
 Region: Shurima
 Resource: Mana
 
-Passive - Dirty Fighting: Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion.<br><br>When Akshan Attacks, he fires an additional Attack for reduced damage. If he cancels the additional Attack, he instead gains Move Speed.
+Passive - Dirty Fighting: Every three hits from Akshan's Attacks and Abilities deals bonus damage and grants him a Shield if the target was a champion.  When Akshan Attacks, he fires an additional Attack for reduced damage. If he cancels the additional Attack, he instead gains Move Speed.
 
 Q - Avengerang: Akshan throws a boomerang that deals damage going out and coming back, extending its range each time it hits an enemy.
 
-W - Going Rogue: Akshan passively marks enemy champions as Scoundrels when they kill his ally champions. If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and clears all marks.<br><br>When activated, Akshan enters camouflage and gains Move Speed and Mana Regen while moving towards Scoundrels. Akshan loses the camouflage quickly while he is not in brush or near terrain.
+W - Going Rogue: Akshan passively marks enemy champions as Scoundrels when they kill his ally champions. If Akshan kills a Scoundrel, he resurrects the allies they killed, gains bonus gold, and clears all marks.  When activated, Akshan enters camouflage and gains Move Speed and Mana Regen while moving towards Scoundrels. Akshan loses the camouflage quickly while he is not in brush or near terrain.
 
 E - Heroic Swing: Akshan fires a grappling hook into terrain then swings around it, repeatedly firing at the nearest enemy while swinging. He can jump off early or gets knocked off when colliding with champions or terrain.
 

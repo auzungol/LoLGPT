@@ -10,7 +10,7 @@ Passive - Assassin's Mark: Dealing spell damage to a champion creates a ring of 
 
 Q - Five Point Strike: Akali throws out five kunai, dealing damage based on her bonus Attack Damage and Ability Power and slowing.
 
-W - Twilight Shroud: Akali drops a cover of smoke and briefly gains Move Speed. While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks. Attacking or using abilities will briefly reveal her.  
+W - Twilight Shroud: Akali drops a cover of smoke and briefly gains Move Speed. While inside the shroud, Akali becomes invisible and unable to be selected by enemy spells and attacks. Attacking or using abilities will briefly reveal her.
 
 E - Shuriken Flip: Flip backward and fire a shuriken forward, dealing magic damage. The first enemy or smoke cloud hit is marked. Re-cast to dash to the marked target, dealing additional damage.
 

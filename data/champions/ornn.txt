@@ -6,7 +6,7 @@ Role: Tank
 Region: Freljord
 Resource: Mana
 
-Passive - Living Forge: Ornn gains an additional bonus Armor and Magic Resist from all sources.<br><br>Ornn can spend gold to forge non-consumable items anywhere.<br><br>Additionally, he can create masterwork items for himself and for his allies.
+Passive - Living Forge: Ornn gains an additional bonus Armor and Magic Resist from all sources.  Ornn can spend gold to forge non-consumable items anywhere.  Additionally, he can create masterwork items for himself and for his allies.
 
 Q - Volcanic Rupture: Ornn slams the ground, sending out a fissure dealing damage and slowing enemies hit. After a small delay, a magma pillar forms at the end location.
 

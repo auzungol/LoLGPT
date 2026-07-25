@@ -10,7 +10,7 @@ Passive - Martial Poise: Enter a movement command while winding up Kalista's bas
 
 Q - Pierce: Throw a fast moving spear that passes through enemies it kills.
 
-W - Sentinel: Gain bonus damage when Kalista and her Oathsworn strike the same target. <br><br>Activate to send a soul to scout out the path, revealing the area in front of it.
+W - Sentinel: Gain bonus damage when Kalista and her Oathsworn strike the same target.   Activate to send a soul to scout out the path, revealing the area in front of it.
 
 E - Rend: Attacks impale their targets with spears. Activate to rip the spears out, slowing and dealing escalating damage.
 

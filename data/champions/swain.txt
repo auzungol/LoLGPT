@@ -6,7 +6,7 @@ Role: Mage, Support
 Region: Noxus
 Resource: Mana
 
-Passive - Ravenous Flock: Swain's ravens collect <i>Soul Fragments</i> that heal him and permanently increase his maximum health.
+Passive - Ravenous Flock: Swain's ravens collect Soul Fragments that heal him and permanently increase his maximum health.
 
 Q - Death's Hand: Swain unleashes several bolts of eldritch power that pierce through enemies. Enemies hit take more damage for each bolt they are struck by.
 

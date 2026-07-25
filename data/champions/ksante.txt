@@ -6,12 +6,12 @@ Role: Tank, Fighter
 Region: Shurima
 Resource: Mana
 
-Passive - Dauntless Instinct: K'Sante's Abilities mark targets to take more damage on his next Attack.<br><br>When All Out, K'Sante deals more damage with all Attacks and Abilities.
+Passive - Dauntless Instinct: K'Sante's Abilities mark targets to take more damage on his next Attack.  When All Out, K'Sante deals more damage with all Attacks and Abilities.
 
-Q - Ntofo Strikes: K'Sante strikes, damaging and slowing enemies in a short line.<br><br>On hit, grants a stack of Ntofo Strikes. At 2 stacks, K'Sante fires a shockwave that pulls enemies in.<br><br>When All Out, cooldown is reduced.
+Q - Ntofo Strikes: K'Sante strikes, damaging and slowing enemies in a short line.  On hit, grants a stack of Ntofo Strikes. At 2 stacks, K'Sante fires a shockwave that pulls enemies in.  When All Out, cooldown is reduced.
 
-W - Path Maker: K'Sante charges up, taking reduced damage, then dashes, knocking back and stunning enemies.<br><br>When All Out, deals increased damage and no longer knocks back or stuns.
+W - Path Maker: K'Sante charges up, taking reduced damage, then dashes, knocking back and stunning enemies.  When All Out, deals increased damage and no longer knocks back or stuns.
 
-E - Footwork: K'Sante dashes and gains a shield. If targeting an ally, K'Sante dashes to the ally with increased range and both gain a shield.<br><br>When All Out, cooldown is reduced and speed is increased.
+E - Footwork: K'Sante dashes and gains a shield. If targeting an ally, K'Sante dashes to the ally with increased range and both gain a shield.  When All Out, cooldown is reduced and speed is increased.
 
 R - All Out: K'Sante knocks an enemy back, launching them through any wall in their path. Then, K'Sante goes All Out and dashes after them, gaining increased damage, healing, and transformed abilities at the cost of reduced defenses.

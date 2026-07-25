@@ -6,7 +6,7 @@ Role: Marksman, Mage
 Region: Bandle City
 Resource: Mana
 
-Passive - Hextech Munitions: A percentage of Corki's basic attack damage is dealt as bonus <trueDamage>true damage</trueDamage>.
+Passive - Hextech Munitions: A percentage of Corki's basic attack damage is dealt as bonus true damage.
 
 Q - Phosphorus Bomb: Corki fires a flash bomb at a target location, dealing magic damage to enemies in the area. This attack additionally reveals units in the area for a duration.
 

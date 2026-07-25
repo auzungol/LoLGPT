@@ -6,7 +6,7 @@ Role: Mage, Support
 Region: Noxus
 Resource: Mana
 
-Passive - Pyromania: After casting 4 spells, Annie's next offensive spell will stun the target.<br><br>Annie begins the game and respawns with Pyromania available.
+Passive - Pyromania: After casting 4 spells, Annie's next offensive spell will stun the target.  Annie begins the game and respawns with Pyromania available.
 
 Q - Disintegrate: Annie hurls a Mana infused fireball, dealing damage and refunding the Mana cost if it destroys the target.
 

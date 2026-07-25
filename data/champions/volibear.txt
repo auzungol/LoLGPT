@@ -8,7 +8,7 @@ Resource: Mana
 
 Passive - The Relentless Storm: Volibear's Attacks and abilities grant Attack Speed, and eventually cause his Attacks to deal bonus magic damage to nearby enemies.
 
-Q - Thundering Smash: Volibear gains speed towards enemies, <status>Stunning</status> and damaging the first one he Attacks.
+Q - Thundering Smash: Volibear gains speed towards enemies, Stunning and damaging the first one he Attacks.
 
 W - Frenzied Maul: Volibear damages an enemy, applying on-hit effects and marking them.  Casting this ability again on the same target deals bonus damage and Heals Volibear.
 

@@ -6,12 +6,12 @@ Role: Assassin, Fighter
 Region: Ionia
 Resource: Ferocity
 
-Passive - Unseen Predator: While in Brush, Rengar leaps at his target with his basic attack.<br><br>Rengar generates Ferocity whenever he casts an ability. At Max Ferocity, his next ability is empowered.<br><br>Killing enemy champions awards trophies on Rengar's <font color='#BBFFFF'>Bonetooth Necklace</font>, granting bonus attack damage.
+Passive - Unseen Predator: While in Brush, Rengar leaps at his target with his basic attack.  Rengar generates Ferocity whenever he casts an ability. At Max Ferocity, his next ability is empowered.  Killing enemy champions awards trophies on Rengar's Bonetooth Necklace, granting bonus attack damage.
 
-Q - Savagery: Rengar's next Attack brutally stabs his target for bonus damage.<br><br>Ferocity effect: deals increased damage and grants Attack Speed.
+Q - Savagery: Rengar's next Attack brutally stabs his target for bonus damage.  Ferocity effect: deals increased damage and grants Attack Speed.
 
-W - Battle Roar: Rengar lets out a battle roar, damaging enemies and healing for some of the recent damage he has taken.<br><br>Ferocity effect: additionally breaks crowd control effects.
+W - Battle Roar: Rengar lets out a battle roar, damaging enemies and healing for some of the recent damage he has taken.  Ferocity effect: additionally breaks crowd control effects.
 
-E - Bola Strike: Rengar throws a bola, slowing the first target hit for a short duration.<br><br>Ferocity effect: roots the target.
+E - Bola Strike: Rengar throws a bola, slowing the first target hit for a short duration.  Ferocity effect: roots the target.
 
-R - Thrill of the Hunt: Rengar's predatory instincts take over, <font color='#cd90ee'>Camouflaging</font> him and revealing the nearest enemy champion in a large radius around him. During Thrill of the Hunt, Rengar gains Move Speed and he can leap to the tracked enemy without being in brush, reducing their armor.
+R - Thrill of the Hunt: Rengar's predatory instincts take over, Camouflaging him and revealing the nearest enemy champion in a large radius around him. During Thrill of the Hunt, Rengar gains Move Speed and he can leap to the tracked enemy without being in brush, reducing their armor.

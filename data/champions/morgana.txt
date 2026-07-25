@@ -8,7 +8,7 @@ Resource: Mana
 
 Passive - Soul Siphon: Morgana drains spirit from her enemies, healing as she deals damage to champions, large minions, and medium and larger jungler monsters.
 
-Q - Dark Binding: Morgana binds an enemy in place with dark magic, forcing them to feel the pain they've caused and dealing magic damage. 
+Q - Dark Binding: Morgana binds an enemy in place with dark magic, forcing them to feel the pain they've caused and dealing magic damage.
 
 W - Tormented Shadow: Morgana casts a cursed shadow on an area, damaging enemies who dare stand in her dark circle. They receive magic damage over time, which increases the lower health they are.
 

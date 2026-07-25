@@ -6,12 +6,12 @@ Role: Tank, Fighter
 Region: Zaun
 Resource: None
 
-Passive - Goes Where He Pleases: Dr. Mundo resists the first Immobilizing effect that hits him, instead losing Health and dropping a chemical cannister nearby. Dr. Mundo can pick it up by walking over it, restoring Health and reducing this Ability's Cooldown.<br><br>Dr. Mundo also has significantly increased Health regeneration.<br>
+Passive - Goes Where He Pleases: Dr. Mundo resists the first Immobilizing effect that hits him, instead losing Health and dropping a chemical cannister nearby. Dr. Mundo can pick it up by walking over it, restoring Health and reducing this Ability's Cooldown.  Dr. Mundo also has significantly increased Health regeneration.
 
 Q - Infected Bonesaw: Dr. Mundo throws an infected bonesaw, dealing damage to the first enemy hit based on their current health and slowing them.
 
 W - Heart Zapper: Dr. Mundo electrocutes himself, dealing persistent damage to nearby enemies and storing a portion of damage he takes. At the end of the duration or on Recast, Dr. Mundo deals a burst of damage to nearby enemies. If the burst hit an enemy, he heals a percentage of the stored damage.
 
-E - Blunt Force Trauma: Passive - Dr. Mundo gains bonus Attack Damage, increasing based on his max Health.<br><br>Active - Dr. Mundo slams his “medical” bag into an enemy, dealing additional damage based on his missing Health. If the enemy dies they are swatted away, dealing damage to enemies they pass through.
+E - Blunt Force Trauma: Passive - Dr. Mundo gains bonus Attack Damage, increasing based on his max Health.  Active - Dr. Mundo slams his “medical” bag into an enemy, dealing additional damage based on his missing Health. If the enemy dies they are swatted away, dealing damage to enemies they pass through.
 
 R - Maximum Dosage: Dr. Mundo pumps himself with chemicals, instantly healing a percent of his missing Health. He then gains Move Speed and regenerates a portion of his maximum Health over a long duration.

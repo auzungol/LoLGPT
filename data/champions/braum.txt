@@ -6,9 +6,9 @@ Role: Tank, Support
 Region: Freljord
 Resource: Mana
 
-Passive - Concussive Blows: Braum's basic attacks apply Concussive Blows. Once the first stack is applied, <font color='#FFF673'>ally</font> basic attacks also stack Concussive Blows. <br><br>Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.
+Passive - Concussive Blows: Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows.   Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.
 
-Q - Winter's Bite: Braum propels freezing ice from his shield, slowing and dealing magic damage.<br><br>Applies a stack of <font color='#FFF673'>Concussive Blows</font>.
+Q - Winter's Bite: Braum propels freezing ice from his shield, slowing and dealing magic damage.  Applies a stack of Concussive Blows.
 
 W - Stand Behind Me: Braum leaps to a target allied champion or minion. On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.
 

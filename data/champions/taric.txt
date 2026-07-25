@@ -10,7 +10,7 @@ Passive - Bravado: Spellcasts empower Taric's next 2 basic attacks to deal bonus
 
 Q - Starlight's Touch: Heals nearby allied champions based on charges stored. Bravado-empowered attacks grant a charge of Starlight's Touch.
 
-W - Bastion: Passively increase the Armor of Taric and any allied champion with Bastion.<br><br>Actively shields an ally and grants them Bastion for as long as they remain near Taric. Taric's spells also cast off the ally with Bastion.
+W - Bastion: Passively increase the Armor of Taric and any allied champion with Bastion.  Actively shields an ally and grants them Bastion for as long as they remain near Taric. Taric's spells also cast off the ally with Bastion.
 
 E - Dazzle: Taric readies a beam of starlight that, after a brief delay, deals magic damage and stuns enemies.
 

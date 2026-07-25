@@ -6,9 +6,9 @@ Role: Mage, Assassin
 Region: Demacia
 Resource: Mana
 
-Passive - Petricite Burst: After casting a spell, Sylas stores a charge of Petricite Burst. Sylas's basic attacks will expend a charge and whirl his energized chains around him dealing bonus magic damage to enemies hit. While Sylas has a charge of Petricite Burst, he gains attack speed. 
+Passive - Petricite Burst: After casting a spell, Sylas stores a charge of Petricite Burst. Sylas's basic attacks will expend a charge and whirl his energized chains around him dealing bonus magic damage to enemies hit. While Sylas has a charge of Petricite Burst, he gains attack speed.
 
-Q - Chain Lash: Sylas lashes his chains out, intersecting at his targeted location dealing damage to and slowing enemies. <br><br>After a delay, magical energy explodes from the intersection point dealing damage.
+Q - Chain Lash: Sylas lashes his chains out, intersecting at his targeted location dealing damage to and slowing enemies.   After a delay, magical energy explodes from the intersection point dealing damage.
 
 W - Kingslayer: Sylas lunges at an enemy with magical force dealing damage and healing himself against enemy champions.
 

@@ -6,7 +6,7 @@ Role: Fighter, Assassin
 Region: Unknown
 Resource: Mana
 
-Passive - Umbra Blades: Every few seconds, Nocturne's next attack strikes surrounding enemies for bonus physical damage and heals himself. <br><br>Nocturne's basic attacks reduce this cooldown.
+Passive - Umbra Blades: Every few seconds, Nocturne's next attack strikes surrounding enemies for bonus physical damage and heals himself.   Nocturne's basic attacks reduce this cooldown.
 
 Q - Duskbringer: Nocturne throws a shadow blade that deals damage, leaves a Dusk Trail, and causes champions to leave a Dusk Trail. While on the trail, Nocturne can move through units and has increased Move Speed and Attack Damage.
 

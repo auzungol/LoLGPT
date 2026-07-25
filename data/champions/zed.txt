@@ -8,9 +8,9 @@ Resource: Energy
 
 Passive - Contempt for the Weak: Zed's basic attacks against low health targets deals bonus Magic Damage. This effect can only occur once every few seconds against the same enemy champion.
 
-Q - Razor Shuriken: Zed and his shadows throw their shurikens.<br><br>Each shuriken deals damage to every enemy hit.
+Q - Razor Shuriken: Zed and his shadows throw their shurikens.  Each shuriken deals damage to every enemy hit.
 
-W - Living Shadow: <font color='#FF9900'>Passive:</font> Zed gains energy whenever he and his shadows strike an enemy with the same ability. Energy can only be gained once per cast ability.<br><br><font color='#FF9900'>Active:</font> Zed's shadow dashes forward, remaining in place for a few seconds. Reactivating Living Shadow will cause Zed to switch positions with this shadow.
+W - Living Shadow: Passive: Zed gains energy whenever he and his shadows strike an enemy with the same ability. Energy can only be gained once per cast ability.  Active: Zed's shadow dashes forward, remaining in place for a few seconds. Reactivating Living Shadow will cause Zed to switch positions with this shadow.
 
 E - Shadow Slash: Zed and his Shadows slash, dealing damage to nearby enemies. Enemies hit by a Shadow's slash are slowed.
 

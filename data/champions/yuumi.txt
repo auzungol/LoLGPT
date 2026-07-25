@@ -6,12 +6,12 @@ Role: Support, Mage
 Region: Bandle City
 Resource: Mana
 
-Passive - Feline Friendship: Periodically, when Yuumi strikes a champion with an attack or ability, she restores health to herself and the next ally she Attaches to.<br><br>While Attached, Yuumi generates a special bond with her allies. The ally with the strongest bond enhances Yuumi's abilities while she is Attached to them.
+Passive - Feline Friendship: Periodically, when Yuumi strikes a champion with an attack or ability, she restores health to herself and the next ally she Attaches to.  While Attached, Yuumi generates a special bond with her allies. The ally with the strongest bond enhances Yuumi's abilities while she is Attached to them.
 
-Q - Prowling Projectile: Yuumi fires a missile, dealing damage and slowing first target hit. It deals bonus damage and an enchanced slow if it takes at least 1.35 seconds to get to its target. While on her Best Friend, the slow is always enhanced and grants bonus On-Hit damage to her ally.<br><br>While Attached, the missile can be controlled with your cursor for a brief period.
+Q - Prowling Projectile: Yuumi fires a missile, dealing damage and slowing first target hit. It deals bonus damage and an enchanced slow if it takes at least 1.35 seconds to get to its target. While on her Best Friend, the slow is always enhanced and grants bonus On-Hit damage to her ally.  While Attached, the missile can be controlled with your cursor for a brief period.
 
 W - You and Me!: Yuumi dashes to a target ally, becoming untargetable from everything except turrets. While on her Best Friend, she gains Heal & Shield Power and grants her Ally On-Hit healing.
 
-E - Zoomies: Shields Yuumi and boosts Move Speed and Attack Speed. If she's attached, she passes it to her ally instead.<br>
+E - Zoomies: Shields Yuumi and boosts Move Speed and Attack Speed. If she's attached, she passes it to her ally instead.
 
 R - Final Chapter: Yuumi channels five waves that damage enemies and heal allies. Yuumi can move, attach, and cast Zoomies! while channeling. While on her Best Friend, this spell also follows her mouse.

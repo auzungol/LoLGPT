@@ -14,4 +14,4 @@ W - Hextech Micro-Rockets: Heimerdinger fires long-range rockets that converge o
 
 E - CH-2 Electron Storm Grenade: Heimerdinger lobs a grenade at a location, dealing damage to enemy units, as well as stunning anyone directly hit and slowing surrounding units.
 
-R - UPGRADE!!!: Heimerdinger invents an upgrade, causing his next spell to have increased effects. 
+R - UPGRADE!!!: Heimerdinger invents an upgrade, causing his next spell to have increased effects.

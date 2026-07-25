@@ -6,7 +6,7 @@ Role: Fighter, Assassin
 Region: Ionia
 Resource: Mana
 
-Passive - The Darkin Scythe: Kayn wields an ancient weapon and fights Rhaast, the darkin within it, for control. Either the <font color='#fe5c50'>Darkin</font> will triumph, or Kayn will master Rhaast and become the <font color='#8484fb'>Shadow Assassin</font>.<br><br><font color='#fe5c50'>Darkin:</font> Heal for a percentage of spell damage dealt to champions.<br><br><font color='#8484fb'>Shadow Assassin:</font> For the first few seconds in combat with enemy champions, deal bonus damage.
+Passive - The Darkin Scythe: Kayn wields an ancient weapon and fights Rhaast, the darkin within it, for control. Either the Darkin will triumph, or Kayn will master Rhaast and become the Shadow Assassin.  Darkin: Heal for a percentage of spell damage dealt to champions.  Shadow Assassin: For the first few seconds in combat with enemy champions, deal bonus damage.
 
 Q - Reaping Slash: Kayn dashes, then slashes. Both deal damage.
 

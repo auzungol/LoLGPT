@@ -6,9 +6,9 @@ Role: Marksman, Assassin
 Region: Zaun
 Resource: Mana
 
-Passive - Deadly Venom: Twitch's basic attacks infect the target %i:OnHit% <OnHit>On-Hit</OnHit>, dealing true damage each second.
+Passive - Deadly Venom: Twitch's basic attacks infect the target %i:OnHit% On-Hit, dealing true damage each second.
 
-Q - Ambush: Twitch becomes Camouflaged for a short duration and gains Move Speed. When leaving Camouflage, Twitch gains Attack Speed for a short duration.<br><br>When an enemy champion with Deadly Venom dies, Ambush's cooldown is reset.
+Q - Ambush: Twitch becomes Camouflaged for a short duration and gains Move Speed. When leaving Camouflage, Twitch gains Attack Speed for a short duration.  When an enemy champion with Deadly Venom dies, Ambush's cooldown is reset.
 
 W - Venom Cask: Twitch hurls a cask of venom that explodes in an area, slowing targets and applying deadly venom to the target.
 

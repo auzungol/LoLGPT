@@ -6,9 +6,9 @@ Role: Mage, Assassin
 Region: Ionia
 Resource: Mana
 
-Passive - Essence Theft: After killing 9 minions or monsters, Ahri heals.<br>After taking down an enemy champion, Ahri heals for a greater amount.
+Passive - Essence Theft: After killing 9 minions or monsters, Ahri heals. After taking down an enemy champion, Ahri heals for a greater amount.
 
-Q - Orb of Deception: Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back. 
+Q - Orb of Deception: Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back.
 
 W - Fox-Fire: Ahri gains a brief burst of Move Speed and releases three fox-fires, that lock onto and attack nearby enemies.
 

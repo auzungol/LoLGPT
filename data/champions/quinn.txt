@@ -6,11 +6,11 @@ Role: Marksman, Assassin
 Region: Demacia
 Resource: Mana
 
-Passive - Harrier: Valor, Quinn's Demacian eagle, periodically marks enemies with <keywordMajor>Harrier</keywordMajor>. Quinn's first basic attack against <keywordMajor>Harrier</keywordMajor> targets will deal bonus physical damage.
+Passive - Harrier: Valor, Quinn's Demacian eagle, periodically marks enemies with Harrier. Quinn's first basic attack against Harrier targets will deal bonus physical damage.
 
 Q - Blinding Assault: Quinn calls Valor to mark an enemy and hinder its vision before damaging all enemies in the immediate area.
 
-W - Heightened Senses: Passively grants Quinn Attack Speed and Move Speed after she attacks a <keywordMajor>Harrier</keywordMajor> target. Activate to have Valor reveal a large area nearby.
+W - Heightened Senses: Passively grants Quinn Attack Speed and Move Speed after she attacks a Harrier target. Activate to have Valor reveal a large area nearby.
 
 E - Vault: Quinn dashes to an enemy, dealing physical damage and slowing the target's Move Speed. Upon reaching the target, she leaps off the target, briefly interrupting it, and lands near her maximum Attack Range away from the target.
 

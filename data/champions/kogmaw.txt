@@ -10,7 +10,7 @@ Passive - Icathian Surprise: 4 seconds after dying, Kogmaw explodes, dealing tru
 
 Q - Caustic Spittle: Kog'Maw launches a corrosive projectile which deals magic damage and corrodes the target's armor and magic resist for a short time. Kog'Maw also gains additional attack speed.
 
-W - Bio-Arcane Barrage: Kog'Maw's attacks gain range and deal a percent of the target's maximum health as magic damage %i:OnHit% <OnHit>On-Hit</OnHit>.
+W - Bio-Arcane Barrage: Kog'Maw's attacks gain range and deal a percent of the target's maximum health as magic damage %i:OnHit% On-Hit.
 
 E - Void Ooze: Kog'Maw launches a peculiar ooze which damages all enemies it passes through and leaves a trail which slows enemies who stand on it.
 

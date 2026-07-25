@@ -6,7 +6,7 @@ Role: Assassin, Mage
 Region: Zaun
 Resource: Mana
 
-Passive - Z-Drive Resonance: Every third attack or damaging spell on the same target deals bonus magic damage, and grants Ekko a burst of speed if the target is a champion.<br><br>
+Passive - Z-Drive Resonance: Every third attack or damaging spell on the same target deals bonus magic damage, and grants Ekko a burst of speed if the target is a champion.
 
 Q - Timewinder: Ekko throws a temporal grenade that expands into a time-distortion field upon hitting an enemy champion, slowing and damaging anyone caught inside. After a delay, the grenade rewinds back to Ekko, dealing damage on its return.
 

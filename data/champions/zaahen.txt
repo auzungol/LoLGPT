@@ -8,7 +8,7 @@ Resource: Mana
 
 Passive - Cultivation of War: Zaahen's attacks and abilities against enemy champions  grant him stacks of Determination, gaining bonus Attack Damage per stack. When filled with Determination, Zaahen gains increased Attack Damage and can revive.
 
-Q - The Darkin Glaive: Zaahen slashes twice on his next attack, dealing bonus damage and healing himself. Zaahen can recast this ability to have his next attack deal bonus damage and knock up his target.<br>
+Q - The Darkin Glaive: Zaahen slashes twice on his next attack, dealing bonus damage and healing himself. Zaahen can recast this ability to have his next attack deal bonus damage and knock up his target.
 
 W - Dreaded Return: Zaahen stabs in a direction, damaging enemies hit, then pulls them toward him.
 

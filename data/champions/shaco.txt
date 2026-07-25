@@ -8,7 +8,7 @@ Resource: Mana
 
 Passive - Backstab: Shaco's basic attacks and Two-Shiv Poison deal additional damage when striking from behind.
 
-Q - Deceive: Shaco becomes Invisible and teleports to target location.<br><br>His first attack while Invisible is empowered, dealing bonus damage and critically striking if he attacks from behind.
+Q - Deceive: Shaco becomes Invisible and teleports to target location.  His first attack while Invisible is empowered, dealing bonus damage and critically striking if he attacks from behind.
 
 W - Jack In The Box: Shaco creates a hidden animated Jack-in-the-Box. When triggered, it will fear and attack nearby enemies.
 

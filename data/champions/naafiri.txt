@@ -8,9 +8,9 @@ Resource: Mana
 
 Passive - We Are More: Naafiri spawns packmates that attack the targets of her attacks and abilities.
 
-Q - Darkin Daggers: Naafiri hurls up to two daggers, each inflicting bleed, or each inflicting bonus damage if the target is already bleeding.<br><br>Packmates leap to attack the first champion or monster hit by this skill.<br>
+Q - Darkin Daggers: Naafiri hurls up to two daggers, each inflicting bleed, or each inflicting bonus damage if the target is already bleeding.  Packmates leap to attack the first champion or monster hit by this skill.
 
-W - The Call of the Pack: Naafiri becomes Untargetable and empowers her pack, spawning additional packmates and gaining increased Move Speed and Attack Damage.<br>
+W - The Call of the Pack: Naafiri becomes Untargetable and empowers her pack, spawning additional packmates and gaining increased Move Speed and Attack Damage.
 
 E - Eviscerate: Naafiri dashes and damages enemies in an area around her, recalling her packmates and fully healing them.
 

@@ -12,6 +12,6 @@ Q - Wilding Claw: Udyr gains attack speed and his next two attacks deal bonus ph
 
 W - Iron Mantle: Udyr gains a shield and his next two attacks heal him. Recast: Gain an even bigger shield and heal based on max health over the next couple seconds.
 
-E - Blazing Stampede: Udyr gains movement speed and his first attack against each target will Stun them. Recast: Gain even more movement speed and immunity to immobilizing effects for a couple seconds. 
+E - Blazing Stampede: Udyr gains movement speed and his first attack against each target will Stun them. Recast: Gain even more movement speed and immunity to immobilizing effects for a couple seconds.
 
 R - Wingborne Storm: Udyr surrounds himself in a glacial storm, damaging and slowing nearby enemies. Recast: Empower and unleash the storm, causing it to track enemies and deal additional damage.

@@ -6,11 +6,11 @@ Role: Assassin, Mage
 Region: Noxus
 Resource: None
 
-Passive - Voracity: Whenever an enemy champion dies that Katarina has damaged recently, her remaining ability cooldowns are dramatically reduced.<br><br>If Katarina picks up a <font color='#FFF673'>Dagger</font>, she uses it to slash through all nearby enemies, dealing magic damage.
+Passive - Voracity: Whenever an enemy champion dies that Katarina has damaged recently, her remaining ability cooldowns are dramatically reduced.  If Katarina picks up a Dagger, she uses it to slash through all nearby enemies, dealing magic damage.
 
-Q - Bouncing Blade: Katarina throws a <font color='#FFF673'>Dagger</font> at the target that then bounces to nearby enemies before ricocheting onto the ground.
+Q - Bouncing Blade: Katarina throws a Dagger at the target that then bounces to nearby enemies before ricocheting onto the ground.
 
-W - Preparation: Katarina gains a burst of Move Speed, tossing a <font color='#FFF673'>Dagger</font> into the air directly above herself.
+W - Preparation: Katarina gains a burst of Move Speed, tossing a Dagger into the air directly above herself.
 
 E - Shunpo: Katarina blinks to the target, striking it if its an enemy, or striking the nearest enemy otherwise.
 

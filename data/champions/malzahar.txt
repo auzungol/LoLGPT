@@ -12,6 +12,6 @@ Q - Call of the Void: Malzahar opens up two portals to the Void. After a short d
 
 W - Void Swarm: Malzahar summons Voidlings to attack nearby enemies.
 
-E - Malefic Visions: Malzahar infects his target's mind with cruel visions of their demise, dealing damage over time. Using Malzahar's other spells on the target will refresh the visions.<br><br>If the target dies while afflicted by the visions, they pass on to a nearby enemy unit and Malzahar gains Mana. Malzahar's Voidlings are attracted to affected units.
+E - Malefic Visions: Malzahar infects his target's mind with cruel visions of their demise, dealing damage over time. Using Malzahar's other spells on the target will refresh the visions.  If the target dies while afflicted by the visions, they pass on to a nearby enemy unit and Malzahar gains Mana. Malzahar's Voidlings are attracted to affected units.
 
 R - Nether Grasp: Malzahar channels the essence of the Void to suppress an enemy champion over a zone of damaging negative energy.

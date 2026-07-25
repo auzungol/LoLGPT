@@ -8,9 +8,9 @@ Resource: Flow
 
 Passive - Way of the Hunter: Yone deals magic damage with every second Attack. In addition, his critical strike chance is increased.
 
-Q - Mortal Steel: Thrusts forward, damaging all enemies in a line.<br><br>On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Mortal Steel dashes Yone forward with a gust of wind knocking enemies <status>Airborne</status>.
+Q - Mortal Steel: Thrusts forward, damaging all enemies in a line.  On hit, grants a stack of Gathering Storm for a few seconds. At 2 stacks, Mortal Steel dashes Yone forward with a gust of wind knocking enemies Airborne.
 
-W - Spirit Cleave: Cleaves forward, damaging all enemies in a cone. Grants a shield to Yone, the value is increased by the number of champions hit by the swipe.<br><br>Spirit Cleave's cooldown and cast time scale with attack speed.
+W - Spirit Cleave: Cleaves forward, damaging all enemies in a cone. Grants a shield to Yone, the value is increased by the number of champions hit by the swipe.  Spirit Cleave's cooldown and cast time scale with attack speed.
 
 E - Soul Unbound: Yone's spirit leaves his body behind, gaining Move Speed. When this ability ends, Yone's spirit is forced back to his body and he repeats a portion of the damage he dealt as a spirit.
 

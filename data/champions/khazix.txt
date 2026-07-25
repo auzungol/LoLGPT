@@ -6,12 +6,12 @@ Role: Assassin
 Region: Void
 Resource: Mana
 
-Passive - Unseen Threat: Nearby enemies that are <font color='#FFF673'>Isolated</font> from their allies are marked. Kha'Zix's abilities have interactions with <font color='#FFF673'>Isolated</font> targets.<br><br>When Kha'Zix is not visible to the enemy team, he gains Unseen Threat, causing his next basic attack against an enemy champion to deal bonus magic damage and slow them for a few seconds.
+Passive - Unseen Threat: Nearby enemies that are Isolated from their allies are marked. Kha'Zix's abilities have interactions with Isolated targets.  When Kha'Zix is not visible to the enemy team, he gains Unseen Threat, causing his next basic attack against an enemy champion to deal bonus magic damage and slow them for a few seconds.
 
-Q - Taste Their Fear: Deals physical damage to the target. Damage increased on <font color='#FFF673'>Isolated</font> targets. If he chooses to <font color='#00DD33'>Evolve Reaper Claws</font>, this refunds a percent of it's cooldown against <font color='#FFF673'>Isolated</font> targets. Kha'Zix also gains increased range on his basic attacks and Taste Their Fear.
+Q - Taste Their Fear: Deals physical damage to the target. Damage increased on Isolated targets. If he chooses to Evolve Reaper Claws, this refunds a percent of it's cooldown against Isolated targets. Kha'Zix also gains increased range on his basic attacks and Taste Their Fear.
 
-W - Void Spike: Kha'Zix fires exploding spikes that deal physical damage to enemies hit. Kha'Zix is healed if he is also within the explosion radius. If he chooses to <font color='#00DD33'>Evolve Spike Racks</font>, Void Spike now fires three spikes in a cone, slow enemies hit, and reveals enemy champions hit for 2 seconds. <font color='#FFF673'>Isolated</font> targets are slowed for extra.
+W - Void Spike: Kha'Zix fires exploding spikes that deal physical damage to enemies hit. Kha'Zix is healed if he is also within the explosion radius. If he chooses to Evolve Spike Racks, Void Spike now fires three spikes in a cone, slow enemies hit, and reveals enemy champions hit for 2 seconds. Isolated targets are slowed for extra.
 
-E - Leap: Kha'Zix leaps to an area, dealing physical damage upon landing. If he chooses to <font color='#00DD33'>Evolve Wings</font>, Leap's range increases by 200 and the cooldown resets on champion kill or assist.
+E - Leap: Kha'Zix leaps to an area, dealing physical damage upon landing. If he chooses to Evolve Wings, Leap's range increases by 200 and the cooldown resets on champion kill or assist.
 
-R - Void Assault: Each rank allows Kha'Zix to evolve one of his abilities, giving it a unique additional effect. When activated, Kha'Zix becomes <font color='#91d7ee'>Invisible</font>, triggering Unseen Threat and increasing Move Speed. If he chooses to <font color='#00DD33'>Evolve Adaptive Cloaking</font>, Void Assault gains increased <font color='#91d7ee'>Invisibility</font> duration, and an additional use.
+R - Void Assault: Each rank allows Kha'Zix to evolve one of his abilities, giving it a unique additional effect. When activated, Kha'Zix becomes Invisible, triggering Unseen Threat and increasing Move Speed. If he chooses to Evolve Adaptive Cloaking, Void Assault gains increased Invisibility duration, and an additional use.

@@ -10,7 +10,7 @@ Passive - Short Fuse: Periodically, Ziggs' next basic attack deals bonus magic d
 
 Q - Bouncing Bomb: Ziggs throws a bouncing bomb that deals magic damage.
 
-W - Satchel Charge: Ziggs flings an explosive charge that detonates after a delay, or when this ability is activated again. The explosion deals magic damage to enemies, knocking them away. Ziggs is also knocked away, but takes no damage. <br><br>Ziggs can use the Satchel to hexplode vulnerable enemy turrets.
+W - Satchel Charge: Ziggs flings an explosive charge that detonates after a delay, or when this ability is activated again. The explosion deals magic damage to enemies, knocking them away. Ziggs is also knocked away, but takes no damage.   Ziggs can use the Satchel to hexplode vulnerable enemy turrets.
 
 E - Hexplosive Minefield: Ziggs scatters proximity mines that detonate on enemy contact, dealing magic damage and slowing. Successive mine detonations on the same target deal reduced damage.
 

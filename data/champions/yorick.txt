@@ -6,12 +6,12 @@ Role: Fighter, Tank
 Region: Shadow Isles
 Resource: Mana
 
-Passive - Shepherd of Souls: <font color='#FF9900'>The Cursed Horde:</font> Yorick can summon Mist Walkers to swarm and attack nearby enemies.
+Passive - Shepherd of Souls: The Cursed Horde: Yorick can summon Mist Walkers to swarm and attack nearby enemies.
 
 Q - Last Rites: Yorick deals bonus damage on his next attack and heals himself. If the target is a champion or large monster or if the target dies, a grave will be dug.
 
 W - Dark Procession: Yorick summons a destructible wall at target location that will block enemy movement.
 
-E - Mourning Mist: Yorick throws a globule of Black Mist that reduces armor, damages, slows and marks enemies. Summoned units gain move speed when moving towards marked targets. 
+E - Mourning Mist: Yorick throws a globule of Black Mist that reduces armor, damages, slows and marks enemies. Summoned units gain move speed when moving towards marked targets.
 
 R - Eulogy of the Isles: Yorick summons the Maiden of the Mist that causes Yorick's attacks against the Maiden's target to deal bonus damage. The Maiden will also automatically raise Walkers from dead enemies.

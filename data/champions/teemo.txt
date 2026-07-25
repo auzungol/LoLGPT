@@ -12,6 +12,6 @@ Q - Blinding Dart: Obscures an enemy's vision with a powerful venom, dealing dam
 
 W - Move Quick: Teemo scampers around, passively increasing his Move Speed until he is struck by an enemy champion or turret. Teemo can sprint to gain bonus Move Speed that isn't stopped by being struck for a short time.
 
-E - Toxic Shot: Each of Teemo's attacks will poison the target %i:OnHit% <OnHit>On-Hit</OnHit>, dealing damage on impact and each second after for 4 seconds.
+E - Toxic Shot: Each of Teemo's attacks will poison the target %i:OnHit% On-Hit, dealing damage on impact and each second after for 4 seconds.
 
 R - Noxious Trap: Teemo throws an explosive poisonous trap using one of the mushrooms stored in his pack. If an enemy steps on the trap, it will release a poisonous cloud, slowing enemies and damaging them over time. If Teemo throws a mushroom onto another mushroom it will bounce, gaining additional range.

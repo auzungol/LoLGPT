@@ -6,12 +6,12 @@ Role: Fighter, Tank
 Region: Bilgewater
 Resource: Mana
 
-Passive - Prophet of an Elder God: Illaoi and the <font color='#669900'>Vessels</font> she creates spawn Tentacles on nearby impassible terrain. Tentacles swing at spirits, <font color='#669900'>Vessels</font>, and victims of Illaoi's Harsh lesson. Tentacles deal physical damage to enemies hit, and will heal Illaoi if they damage a champion.
+Passive - Prophet of an Elder God: Illaoi and the Vessels she creates spawn Tentacles on nearby impassible terrain. Tentacles swing at spirits, Vessels, and victims of Illaoi's Harsh lesson. Tentacles deal physical damage to enemies hit, and will heal Illaoi if they damage a champion.
 
 Q - Tentacle Smash: Increases the damage dealt by Tentacles. When activated, Illaoi smashes down a Tentacle that deals physical damage.
 
 W - Harsh Lesson: Illaoi leaps to her target, dealing physical damage and causing nearby Tentacles to also swing at the target.
 
-E - Test of Spirit: Illaoi rips the spirit from a foe's body, forcing it to stand before her. Spirits echo a percentage of the damage they take to the original target. If killed, or if the target gets too far from the spirit, the target will become a <font color='#669900'>Vessel</font> and begin spawning Tentacles.
+E - Test of Spirit: Illaoi rips the spirit from a foe's body, forcing it to stand before her. Spirits echo a percentage of the damage they take to the original target. If killed, or if the target gets too far from the spirit, the target will become a Vessel and begin spawning Tentacles.
 
 R - Leap of Faith: Illaoi smashes her idol into the ground, dealing physical damage to nearby enemies. A Tentacle spawns for each enemy champion hit.

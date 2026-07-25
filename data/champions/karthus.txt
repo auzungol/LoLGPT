@@ -8,7 +8,7 @@ Resource: Mana
 
 Passive - Death Defied: Upon dying, Karthus enters a spirit form that allows him to continue casting spells.
 
-Q - Lay Waste: Karthus unleashes a delayed blast at a location, dealing damage to nearby enemies. Deals increased damage to isolated enemies. 
+Q - Lay Waste: Karthus unleashes a delayed blast at a location, dealing damage to nearby enemies. Deals increased damage to isolated enemies.
 
 W - Wall of Pain: Karthus creates a passable screen of leeching energy. Any enemy units that walk through the screen have their Move Speed and Magic Resist reduced for a period.
 

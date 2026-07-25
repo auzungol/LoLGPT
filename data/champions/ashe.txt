@@ -6,7 +6,7 @@ Role: Marksman, Support
 Region: Freljord
 Resource: Mana
 
-Passive - Frost Shot: Ashe's attacks slow their target, causing her to deal increased damage to these targets.<br><br>Ashe's critical strikes deal no bonus damage but apply an empowered slow to the target.
+Passive - Frost Shot: Ashe's attacks slow their target, causing her to deal increased damage to these targets.  Ashe's critical strikes deal no bonus damage but apply an empowered slow to the target.
 
 Q - Ranger's Focus: Ashe builds up Focus by attacking. At maximum Focus, Ashe can cast Ranger's Focus to consume all stacks of Focus, temporarily increasing her Attack Speed and transforming her basic attack into a powerful flurry attack for the duration.
 

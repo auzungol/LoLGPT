@@ -6,7 +6,7 @@ Role: Fighter, Assassin
 Region: Demacia
 Resource: Mana
 
-Passive - Duelist's Dance: Fiora has revealed a <keywordMajor>Vital</keywordMajor> on this Champion. If she hits the <keywordMajor>Vital</keywordMajor>, she <healing>restores Health</healing> and gains <speed>Move Speed</speed>.
+Passive - Duelist's Dance: Fiora has revealed a Vital on this Champion. If she hits the Vital, she restores Health and gains Move Speed.
 
 Q - Lunge: Fiora lunges in a direction and stabs a nearby enemy, dealing physical damage and applying on-hit effects.
 

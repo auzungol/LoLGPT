@@ -8,10 +8,10 @@ Resource: Rage
 
 Passive - Fury of the Xer'Sai: Rek'Sai generates Fury by Attacking and hitting with basic Abilities. She consumes this Fury while Burrowed to restore health.
 
-Q - Queen's Wrath / Prey Seeker: Rek'Sai's next 3 basic attacks deal bonus Physical Damage to nearby enemies.<br><br>While Burrowed, Rek'Sai launches a burst of void-charged earth that damages and reveals enemies hit.
+Q - Queen's Wrath / Prey Seeker: Rek'Sai's next 3 basic attacks deal bonus Physical Damage to nearby enemies.  While Burrowed, Rek'Sai launches a burst of void-charged earth that damages and reveals enemies hit.
 
-W - Burrow / Un-burrow: Rek'Sai burrows into the ground, gaining new abilities and increased Move Speed. Her vision range is reduced and she cannot use basic attacks.<br><br>While Burrowed, Rek'Sai may cast Unburrow to knock up and damage nearby enemies.
+W - Burrow / Un-burrow: Rek'Sai burrows into the ground, gaining new abilities and increased Move Speed. Her vision range is reduced and she cannot use basic attacks.  While Burrowed, Rek'Sai may cast Unburrow to knock up and damage nearby enemies.
 
-E - Furious Bite / Tunnel: Rek'Sai bites her target, dealing physical damage, or bonus true damage if she has max Fury.<br><br>While Burrowed, Rek'Sai creates a re-usable, long lasting tunnel. Enemies can destroy it by standing on top of either entrance.
+E - Furious Bite / Tunnel: Rek'Sai bites her target, dealing physical damage, or bonus true damage if she has max Fury.  While Burrowed, Rek'Sai creates a re-usable, long lasting tunnel. Enemies can destroy it by standing on top of either entrance.
 
 R - Void Rush: Rek'Sai passively marks targets by damaging them. She can activate this ability to become briefly untargetable and lunge at a marked target for heavy damage based on their maximum health.

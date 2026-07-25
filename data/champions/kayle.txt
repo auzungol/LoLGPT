@@ -12,6 +12,6 @@ Q - Radiant Blast: Kayle conjures a portal, summoning a celestial sword that pie
 
 W - Celestial Blessing: Blessed by the divine, Kayle heals and grants Move Speed to herself and the nearest ally.
 
-E - Starfire Spellblade: Passive: Kayle's celestial sword, Virtue, deals bonus magic damage to enemies she attacks.<br><br>Active: Kayle's next attack smites her target with celestial fire, dealing bonus damage proportionate to their missing health.
+E - Starfire Spellblade: Passive: Kayle's celestial sword, Virtue, deals bonus magic damage to enemies she attacks.  Active: Kayle's next attack smites her target with celestial fire, dealing bonus damage proportionate to their missing health.
 
 R - Divine Judgment: Kayle makes an ally invulnerable and calls upon former Aspects of Justice to purify the area around her target with a holy rain of swords.

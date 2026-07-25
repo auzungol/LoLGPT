@@ -1,8 +1,9 @@
 import os
-from regions import detect_region, CHAMPION_REGION_OVERRIDES
+import re
 import time
 import requests
 from config import CHAMPION_FOLDER
+from regions import detect_region, CHAMPION_REGION_OVERRIDES
 
 DDRAGON_BASE = "https://ddragon.leagueoflegends.com"
 
@@ -27,10 +28,16 @@ def get_champion_detail(version: str, champion_id: str) -> dict:
     return resp.json()["data"][champion_id]
 
 
+def clean_html(text: str) -> str:
+    text = re.sub(r"<br\s*/?>", " ", text)
+    text = re.sub(r"<[^>]+>", "", text)
+    return text.strip()
+
+
 def format_champion_txt(data: dict, champion_id: str) -> str:
     name = data["name"]
     title = data["title"]
-    lore = data["lore"]
+    lore = clean_html(data["lore"])
     tags = ", ".join(data.get("tags", []))
     partype = data.get("partype", "None")
 
@@ -45,13 +52,13 @@ def format_champion_txt(data: dict, champion_id: str) -> str:
         f"Region: {region}",
         f"Resource: {partype}",
         "",
-        f"Passive - {data['passive']['name']}: {data['passive']['description']}",
+        f"Passive - {data['passive']['name']}: {clean_html(data['passive']['description'])}",
         "",
     ]
 
     ability_letters = ["Q", "W", "E", "R"]
     for letter, spell in zip(ability_letters, data["spells"]):
-        lines.append(f"{letter} - {spell['name']}: {spell['description']}")
+        lines.append(f"{letter} - {spell['name']}: {clean_html(spell['description'])}")
         lines.append("")
 
     return "\n".join(lines)
@@ -75,7 +82,7 @@ def fetch_all_champions():
             f.write(text)
 
         print(f"  [{i}/{len(champion_ids)}] {champ_id} kaydedildi.")
-        time.sleep(0.05)  # sunucuya nazik davranmak için küçük bekleme
+        time.sleep(0.05)
 
     print("Tüm şampiyonlar indirildi.")
 

@@ -6,7 +6,7 @@ Role: Support, Mage
 Region: Zaun
 Resource: Mana
 
-Passive - Tailwind: Janna's allies gain Move Speed moving towards her.<br><br>Janna deals a portion of bonus Move Speed as bonus magic damage on hit and with Zephyr.
+Passive - Tailwind: Janna's allies gain Move Speed moving towards her.  Janna deals a portion of bonus Move Speed as bonus magic damage on hit and with Zephyr.
 
 Q - Howling Gale: By creating a localized change in pressure and temperature, Janna is able to create a small storm that grows in size with time. She can activate the spell again to release the storm. On release this storm will fly towards the direction it was cast in, dealing damage and knocking away any enemies in its path.
 

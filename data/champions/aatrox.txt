@@ -6,7 +6,7 @@ Role: Fighter
 Region: Shurima
 Resource: Blood Well
 
-Passive - Deathbringer Stance: Periodically, Aatrox's next basic attack deals bonus <magicDamage>magic damage</magicDamage> and heals him, based on the target's max health. 
+Passive - Deathbringer Stance: Periodically, Aatrox's next basic attack deals bonus magic damage and heals him, based on the target's max health.
 
 Q - The Darkin Blade: Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.
 

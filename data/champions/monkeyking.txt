@@ -10,8 +10,8 @@ Passive - Stone Skin: Wukong gains stacking armor and max health regeneration wh
 
 Q - Crushing Blow: Wukong's next attack gains attack range, deals bonus damage, and reduces the target's armor for a few seconds.
 
-W - Warrior Trickster: Wukong becomes <font color='#91d7ee'>Invisible</font> and dashes in a direction, leaving behind a clone that will attack nearby enemies.
+W - Warrior Trickster: Wukong becomes Invisible and dashes in a direction, leaving behind a clone that will attack nearby enemies.
 
 E - Nimbus Strike: Wukong dashes to a targeted enemy and sends out images to attack enemies near his target, dealing damage to each enemy struck.
 
-R - Cyclone: Wukong's extends his staff and spins it around repeatedly, gaining Move Speed.<br><br>Enemies struck take damage and are knocked up.
+R - Cyclone: Wukong's extends his staff and spins it around repeatedly, gaining Move Speed.  Enemies struck take damage and are knocked up.
