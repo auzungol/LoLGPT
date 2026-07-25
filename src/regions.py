@@ -39,3 +39,21 @@ def find_mentioned_regions(query: str) -> list[str]:
         if any(kw in query_lower for kw in keywords):
             mentioned.append(region)
     return mentioned
+
+CHAMPION_REGION_OVERRIDES = {
+    "akshan": "Shurima",
+    "aphelios": "Targon",
+    "briar": "Noxus",
+    "gwen": "Shadow Isles",
+    "illaoi": "Bilgewater",
+    "lissandra": "Freljord",
+    "malphite": "Shurima",
+    "mordekaiser": "Noxus",
+    "nilah": "Ixtal",
+    "qiyana": "Ixtal",
+    "tahmkench": "Bilgewater",
+    "twistedfate": "Bilgewater",
+    "viktor": "Zaun",
+    "yone": "Ionia",
+    "zyra": "Shurima",
+}

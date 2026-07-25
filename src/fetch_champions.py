@@ -1,5 +1,5 @@
 import os
-from regions import detect_region
+from regions import detect_region, CHAMPION_REGION_OVERRIDES
 import time
 import requests
 from config import CHAMPION_FOLDER
@@ -27,13 +27,14 @@ def get_champion_detail(version: str, champion_id: str) -> dict:
     return resp.json()["data"][champion_id]
 
 
-def format_champion_txt(data: dict) -> str:
+def format_champion_txt(data: dict, champion_id: str) -> str:
     name = data["name"]
     title = data["title"]
     lore = data["lore"]
     tags = ", ".join(data.get("tags", []))
     partype = data.get("partype", "None")
-    region = detect_region(lore)
+
+    region = CHAMPION_REGION_OVERRIDES.get(champion_id.lower()) or detect_region(lore)
 
     lines = [
         f"{name}, the {title}",
@@ -67,7 +68,7 @@ def fetch_all_champions():
 
     for i, champ_id in enumerate(champion_ids, 1):
         detail = get_champion_detail(version, champ_id)
-        text = format_champion_txt(detail)
+        text = format_champion_txt(detail, champ_id)
 
         filepath = os.path.join(CHAMPION_FOLDER, f"{champ_id.lower()}.txt")
         with open(filepath, "w", encoding="utf-8") as f:

@@ -17,12 +17,15 @@ def cosine_similarity(a: list[float], b: list[float]) -> float:
 
 def find_mentioned_champions(query: str, all_champions: list[str]) -> list[str]:
     query_lower = query.lower()
+    query_no_spaces = re.sub(r"\s+", "", query_lower)
     mentioned = []
     for champ in all_champions:
-        if re.search(rf"\b{re.escape(champ.lower())}\b", query_lower):
+        champ_lower = champ.lower()
+        if re.search(rf"\b{re.escape(champ_lower)}\b", query_lower):
+            mentioned.append(champ)
+        elif champ_lower in query_no_spaces:
             mentioned.append(champ)
     return mentioned
-
 
 def get_top_chunks(query: str, top_k: int = 8):
     all_champions = get_distinct_champions()
