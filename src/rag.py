@@ -1,7 +1,9 @@
 from foundry_local_sdk import Configuration, FoundryLocalManager
 from config import CHAT_MODEL
 from retrieval import get_top_chunks
-
+from database import get_chunks_by_role, get_chunks_by_region, get_champion_display_names
+from retrieval import find_mentioned_champions, find_mentioned_regions, find_mentioned_roles
+from database import get_distinct_champions
 _manager = None
 _chat_model = None
 _chat_client = None
@@ -39,8 +41,55 @@ def _get_chat_client():
         _chat_client = _chat_model.get_chat_client()
     return _chat_client
 
+LISTING_WORDS = ["champion", "champs", "character", "who", "which", "list", "name all"]
+
+
+def is_listing_query(query: str, mentioned_champions: list, mentioned_roles: list, mentioned_regions: list) -> bool:
+    if mentioned_champions:
+        return False
+    if not mentioned_roles and not mentioned_regions:
+        return False
+    query_lower = query.lower()
+    return any(word in query_lower for word in LISTING_WORDS)
+
+
+def answer_listing_query(mentioned_roles: list, mentioned_regions: list) -> str:
+    display_names = get_champion_display_names()
+    matched_ids = set()
+
+    for role in mentioned_roles:
+        for _id, champion, source_file, content, embedding in get_chunks_by_role(role):
+            matched_ids.add(champion)
+
+    for region in mentioned_regions:
+        for _id, champion, source_file, content, embedding in get_chunks_by_region(region):
+            matched_ids.add(champion)
+
+    names = sorted(display_names.get(champ, champ) for champ in matched_ids)
+
+    label_parts = []
+    if mentioned_roles:
+        label_parts.append(" / ".join(mentioned_roles))
+    if mentioned_regions:
+        label_parts.append(" / ".join(mentioned_regions))
+    label = " from ".join(label_parts) if len(label_parts) == 2 else label_parts[0]
+
+    if not names:
+        return f"{label} kriterine uyan şampiyon bulunamadı."
+
+    champion_list = "\n".join(f"- {name}" for name in names)
+    return f"{label} ({len(names)} champion):\n{champion_list}"
+
 
 def answer_query(user_question: str, top_k: int = 8) -> str:
+    all_champions = get_distinct_champions()
+    mentioned_champions = find_mentioned_champions(user_question, all_champions)
+    mentioned_roles = find_mentioned_roles(user_question)
+    mentioned_regions = find_mentioned_regions(user_question)
+
+    if is_listing_query(user_question, mentioned_champions, mentioned_roles, mentioned_regions):
+        return answer_listing_query(mentioned_roles, mentioned_regions)
+
     top_chunks = get_top_chunks(user_question, top_k=top_k)
 
     context_parts = []

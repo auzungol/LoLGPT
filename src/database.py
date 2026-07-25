@@ -95,3 +95,18 @@ def clear_db():
     cur.execute("DELETE FROM chunks")
     conn.commit()
     conn.close()
+def get_champion_display_names() -> dict:
+    """Maps champion id -> display name, taken from the first chunk of each champion."""
+    conn = get_connection()
+    cur = conn.cursor()
+    cur.execute("SELECT champion, content FROM chunks ORDER BY id ASC")
+    rows = cur.fetchall()
+    conn.close()
+
+    names = {}
+    for champ, content in rows:
+        if champ not in names:
+            first_line = content.split("\n")[0]
+            name = first_line.split(",")[0].strip()
+            names[champ] = name
+    return names
