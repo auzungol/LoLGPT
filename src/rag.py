@@ -64,11 +64,10 @@ def is_listing_query(query: str, mentioned_champions: list, mentioned_roles: lis
                       mentioned_regions: list, mentioned_lanes: list) -> bool:
     if mentioned_champions:
         return False
-    if not mentioned_roles and not mentioned_regions and not mentioned_lanes:
-        return False
-    query_lower = query.lower()
-    return any(word in query_lower for word in LISTING_WORDS)
-
+    # Champion adı geçmiyor ama role/region/lane kesin eşleşmesi varsa,
+    # bu zaten yeterince net bir listeleme sinyalidir — ayrıca listeleme
+    # kelimesi (champion/champs/list vb.) aramaya gerek yok.
+    return bool(mentioned_roles or mentioned_regions or mentioned_lanes)
 
 def answer_listing_query(mentioned_roles: list, mentioned_regions: list, mentioned_lanes: list) -> str:
     display_names = get_champion_display_names()

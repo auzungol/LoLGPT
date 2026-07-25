@@ -5,6 +5,14 @@ from database import get_all_chunks, get_distinct_champions, get_chunks_by_champ
 from embedding import embed_text
 from regions import find_mentioned_regions
 from roles import find_mentioned_roles
+from roles import ROLES
+from lanes import ALL_LANES
+from regions import REGION_KEYWORDS
+_STOPWORDS = {w.lower() for w in ROLES} | {w.lower() for w in ALL_LANES} | set(REGION_KEYWORDS.keys()) | {
+    "which", "champions", "champ", "champs", "character", "who", "list", "name", "all",
+    "lane", "region", "role", "ability", "abilities", "passive", "ulti", "ultimate",
+    "from", "does", "have", "what", "the", "and",
+}
 
 
 def cosine_similarity(a: list[float], b: list[float]) -> float:
@@ -40,15 +48,18 @@ def _build_champion_tokens() -> dict:
     return tokens_map
 
 
+
 def fuzzy_find_champions(query: str) -> list[str]:
-    """Tolerates typos: matches query words against champion name tokens with ~75% similarity."""
+    """Tolerates typos: matches query words against champion name tokens with ~85% similarity,
+    ignoring common/generic words that could false-positive against a champion id."""
     tokens_map = _build_champion_tokens()
     query_words = re.findall(r"[a-zA-Z']{3,}", query.lower())
+    query_words = [w for w in query_words if w not in _STOPWORDS]
 
     matched = set()
     for champ_id, tokens in tokens_map.items():
         for word in query_words:
-            if difflib.get_close_matches(word, tokens, n=1, cutoff=0.75):
+            if difflib.get_close_matches(word, tokens, n=1, cutoff=0.87):
                 matched.add(champ_id)
                 break
     return list(matched)
