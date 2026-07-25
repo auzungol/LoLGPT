@@ -50,16 +50,20 @@ def _build_champion_tokens() -> dict:
 
 
 def fuzzy_find_champions(query: str) -> list[str]:
-    """Tolerates typos: matches query words against champion name tokens with ~85% similarity,
-    ignoring common/generic words that could false-positive against a champion id."""
     tokens_map = _build_champion_tokens()
-    query_words = re.findall(r"[a-zA-Z']{3,}", query.lower())
+    query_words = re.findall(r"[a-zA-ZğüşıöçĞÜŞİÖÇ']{3,}", query.lower())
     query_words = [w for w in query_words if w not in _STOPWORDS]
 
     matched = set()
     for champ_id, tokens in tokens_map.items():
         for word in query_words:
+            # Aşama 1: tüm tokenlarla (id + isim parçaları) sıkı eşik
             if difflib.get_close_matches(word, tokens, n=1, cutoff=0.87):
+                matched.add(champ_id)
+                break
+            # Aşama 2: sadece champion id'sinin kendisiyle, biraz daha gevşek eşik
+            # (id'ler genelde tek/özgün kelimeler olduğu için yanlış-pozitif riski düşük)
+            if difflib.get_close_matches(word, [champ_id], n=1, cutoff=0.8):
                 matched.add(champ_id)
                 break
     return list(matched)
@@ -69,7 +73,6 @@ def get_top_chunks(query: str, top_k: int = 8):
     if not mentioned_champions:
         mentioned_champions = fuzzy_find_champions(query)
     mentioned_regions = find_mentioned_regions(query)
-    mentioned_roles = find_mentioned_roles(query)
 
     included_ids = set()
     results = []
@@ -89,18 +92,13 @@ def get_top_chunks(query: str, top_k: int = 8):
             seen_champions.add(champion)
             results.append((champion, content, 1.0))
 
-    for role in mentioned_roles:
-        seen_champions = set()
-        for _id, champion, source_file, content, embedding in get_chunks_by_role(role):
-            if champion in seen_champions or _id in included_ids:
-                continue
-            included_ids.add(_id)
-            seen_champions.add(champion)
-            results.append((champion, content, 1.0))
-
-    # Context'in patlamaması için exact-match sonuçlarını da top_k ile sınırla
     if len(results) > top_k:
         results = results[:top_k]
+
+    # Belirli bir şampiyon zaten kesin eşleştiyse, semantic doldurmaya GEREK YOK —
+    # ekstra alakasız chunk eklemek küçük modelde kafa karışıklığına yol açıyor.
+    if mentioned_champions:
+        return results
 
     remaining_slots = max(top_k - len(results), 0)
     if remaining_slots > 0:
