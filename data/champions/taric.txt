@@ -3,7 +3,7 @@ Taric, the the Shield of Valoran
 Taric is the Aspect of the Protector, wielding incredible power as Runeterra's guardian of life, love, and beauty. Shamed by a dereliction of duty and exiled from his homeland Demacia, Taric ascended Mount Targon to find redemption, only to discover a higher calling among the stars. Imbued with the might of ancient Targon, the Shield of Valoran now stands ever vigilant against the insidious corruption of the Void.
 
 Role: Support, Tank
-Region: Demacia
+Region: Targon
 Resource: Mana
 
 Passive - Bravado: Spellcasts empower Taric's next 2 basic attacks to deal bonus magic damage, reduce his spell cooldowns, and attack in quick succession.

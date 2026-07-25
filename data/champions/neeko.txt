@@ -3,7 +3,7 @@ Neeko, the the Curious Chameleon
 Hailing from a long lost tribe of vastaya, Neeko can blend into any crowd by borrowing the appearances of others, even absorbing something of their emotional state to tell friend from foe in an instant. No one is ever sure where—or who—Neeko might be, but those who intend to do her harm will soon witness her true colors revealed, and feel the full power of her primordial spirit magic unleashed upon them.
 
 Role: Mage, Support
-Region: Unknown
+Region: Ionia
 Resource: Mana
 
 Passive - Inherent Glamour: Neeko can look like an ally champion or as other units on the map. Receiving immobilizing crowd control, casting damaging spells, damaging enemy towers as a non-champion, or your disguise taking damage equal to its healthbar breaks the disguise.

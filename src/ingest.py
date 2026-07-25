@@ -40,6 +40,11 @@ def extract_region(content: str) -> str:
     return match.group(1).strip() if match else "Unknown"
 
 
+def extract_role(content: str) -> str:
+    match = re.search(r"^Role:\s*(.+)$", content, re.MULTILINE)
+    return match.group(1).strip() if match else "Unknown"
+
+
 def run_ingestion(reset: bool = True):
     print("A: run_ingestion başladı", flush=True)
     try:
@@ -56,6 +61,7 @@ def run_ingestion(reset: bool = True):
 
         for champion_name, content in champions:
             region = extract_region(content)
+            role = extract_role(content)
             print("E:", champion_name, "işleniyor", flush=True)
             chunks = chunk_text(content)
             print("F:", champion_name, "chunk sayisi =", len(chunks), flush=True)
@@ -72,6 +78,7 @@ def run_ingestion(reset: bool = True):
                     content=chunk,
                     embedding=embedding,
                     region=region,
+                    role=role,
                 )
             print("H:", champion_name, "DB'ye yazildi", flush=True)
 

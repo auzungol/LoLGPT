@@ -9,7 +9,9 @@ _chat_client = None
 SYSTEM_PROMPT = """You are a League of Legends assistant that answers questions about champions.
 Only use the information provided in the context below to answer.
 If the answer is not in the context, say you don't know — do not make anything up.
-Keep answers concise and mention which champion the info is about."""
+Keep answers concise and mention which champion the info is about.
+When asked about a specific ability (Passive, Q, W, E, or R), carefully match the exact
+letter/label requested — do not confuse it with a different ability of the same champion."""
 
 
 def _get_chat_client():

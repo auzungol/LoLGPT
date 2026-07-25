@@ -3,7 +3,7 @@ Ziggs, the the Hexplosives Expert
 With a love of big bombs and short fuses, the yordle Ziggs is an explosive force of nature. As an inventor's assistant in Piltover, he was bored by his predictable life and befriended a mad, blue-haired bomber named Jinx. After a wild night on the town, Ziggs took her advice and moved to Zaun, where he now explores his fascinations more freely, terrorizing the chem-barons and regular citizens alike in his never ending quest to blow stuff up.
 
 Role: Mage
-Region: Piltover
+Region: Bandle City
 Resource: Mana
 
 Passive - Short Fuse: Periodically, Ziggs' next basic attack deals bonus magic damage. This cooldown is reduced whenever Ziggs uses an ability.

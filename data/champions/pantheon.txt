@@ -3,7 +3,7 @@ Pantheon, the the Unbreakable Spear
 Once an unwilling host to the Aspect of War, Atreus survived when the celestial power within him was slain, refusing to succumb to a blow that tore stars from the heavens. In time, he learned to embrace the power of his own mortality, and the stubborn resilience that goes along with it. Atreus now opposes the divine as Pantheon reborn, his unbreakable will fueling the fallen Aspect's weapons on the field of battle.
 
 Role: Fighter, Assassin
-Region: Unknown
+Region: Targon
 Resource: Mana
 
 Passive - Mortal Will: Every few spells or attacks, Pantheon's next spell is empowered.

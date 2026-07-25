@@ -1,8 +1,9 @@
 import math
 import re
-from database import get_all_chunks, get_distinct_champions, get_chunks_by_champion, get_chunks_by_region
+from database import get_all_chunks, get_distinct_champions, get_chunks_by_champion, get_chunks_by_region, get_chunks_by_role
 from embedding import embed_text
 from regions import find_mentioned_regions
+from roles import find_mentioned_roles
 
 
 def cosine_similarity(a: list[float], b: list[float]) -> float:
@@ -27,6 +28,7 @@ def get_top_chunks(query: str, top_k: int = 8):
     all_champions = get_distinct_champions()
     mentioned_champions = find_mentioned_champions(query, all_champions)
     mentioned_regions = find_mentioned_regions(query)
+    mentioned_roles = find_mentioned_roles(query)
 
     included_ids = set()
     results = []
@@ -38,14 +40,26 @@ def get_top_chunks(query: str, top_k: int = 8):
                 results.append((champion, content, 1.0))
 
     for region in mentioned_regions:
-        seen_champions_in_region = set()
+        seen_champions = set()
         for _id, champion, source_file, content, embedding in get_chunks_by_region(region):
-            if champion in seen_champions_in_region:
-                continue  # bu şampiyondan zaten bir chunk aldık, yeterli
-            if _id not in included_ids:
-                included_ids.add(_id)
-                seen_champions_in_region.add(champion)
-                results.append((champion, content, 1.0))
+            if champion in seen_champions or _id in included_ids:
+                continue
+            included_ids.add(_id)
+            seen_champions.add(champion)
+            results.append((champion, content, 1.0))
+
+    for role in mentioned_roles:
+        seen_champions = set()
+        for _id, champion, source_file, content, embedding in get_chunks_by_role(role):
+            if champion in seen_champions or _id in included_ids:
+                continue
+            included_ids.add(_id)
+            seen_champions.add(champion)
+            results.append((champion, content, 1.0))
+
+    # Context'in patlamaması için exact-match sonuçlarını da top_k ile sınırla
+    if len(results) > top_k:
+        results = results[:top_k]
 
     remaining_slots = max(top_k - len(results), 0)
     if remaining_slots > 0:

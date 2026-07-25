@@ -3,7 +3,7 @@ Smolder, the the Fiery Fledgling
 Hidden amongst the craggy cliffs of the Noxian frontier, under the watchful eyes of his mother, a young dragon is learning what it means to be heir to the Camavoran imperial dragon lineage. Playful and eager to grow up, Smolder looks for any excuse to practice his burgeoning abilities. Though he's still a fledgling, his skills are nothing to sneeze at, easily setting fire to anything that burns.
 
 Role: Marksman, Mage
-Region: Camavor
+Region: Noxus
 Resource: Mana
 
 Passive - Dragon Practice: Hitting champions with Abilities and killing enemies with Super Scorcher Breath grants a stack of Dragon Practice. Stacks increase the damage of Smolders basic Abilities.
