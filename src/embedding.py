@@ -10,8 +10,11 @@ def _get_client():
     """Lazily initialize Foundry Local and return an embedding client for EMBEDDING_MODEL."""
     global _manager, _model, _client
     if _client is None:
-        config = Configuration(app_name="LoLGPT")
-        _manager = FoundryLocalManager(config)
+        if FoundryLocalManager.instance is not None:
+            _manager = FoundryLocalManager.instance
+        else:
+            config = Configuration(app_name="LoLGPT")
+            _manager = FoundryLocalManager(config)
 
         _model = _manager.catalog.get_model(EMBEDDING_MODEL)
         if not _model.is_cached:
