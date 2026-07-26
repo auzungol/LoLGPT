@@ -21,12 +21,20 @@ ATTRIBUTE_PATTERNS = {
     "lane": r"\blane\b|\bkoridor\w*\b",
     "region": r"\bregion\b|\bwhere.*from\b|\bbölge\w*\b|\bnereli\w*\b",
     "role": r"\brole\b|\brol\w*\b",
+    "resource": r"\bresource\w*\b|\bkaynak\w*\b|\bmana\b",
 }
 
 ATTRIBUTE_KEYWORDS = {
     "lane": ["lane", "koridor"],
     "region": ["region", "bölge", "nereli"],
     "role": ["role", "rol"],
+    "resource": ["resource", "kaynak"],
+}
+ATTRIBUTE_LABELS_TR = {
+    "lane": "Koridor",
+    "region": "Bölge",
+    "role": "Rol",
+    "resource": "Kaynak",
 }
 _manager = None
 _chat_model = None
@@ -174,7 +182,7 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
             if metadata:
                 display_names = get_champion_display_names()
                 name = display_names.get(mentioned_champions[0], mentioned_champions[0])
-                return f"[{name}] {attribute.capitalize()}: {metadata[attribute]}"
+                return f"[{name}] {ATTRIBUTE_LABELS_TR[attribute]}: {metadata[attribute]}"
 
     # 4) Diğer her şey için: semantic retrieval + LLM
     top_chunks = get_top_chunks(user_question, top_k=top_k)
@@ -190,9 +198,17 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
     ]
 
     client = _get_chat_client()
-    response = client.complete_chat(messages)
+    try:
+        response = client.complete_chat(messages)
+    except Exception as e:
+        # Geçici bellek baskısı/iptal durumunda bir kez daha dene
+        import time
+        time.sleep(2)
+        try:
+            response = client.complete_chat(messages)
+        except Exception as e2:
+            return f"(Model şu anda cevap veremedi, lütfen tekrar deneyin. Hata: {e2})"
     return response.choices[0].message.content
-
 
 if __name__ == "__main__":
     answer = answer_query("What is Garen's ultimate ability?")

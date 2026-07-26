@@ -19,6 +19,7 @@ def init_db():
             region TEXT NOT NULL DEFAULT 'Unknown',
             role TEXT NOT NULL DEFAULT 'Unknown',
             lane TEXT NOT NULL DEFAULT 'Unknown',
+            resource TEXT NOT NULL DEFAULT 'Unknown',
             source_file TEXT NOT NULL,
             content TEXT NOT NULL,
             embedding TEXT NOT NULL
@@ -29,16 +30,17 @@ def init_db():
 
 
 def insert_chunk(champion: str, source_file: str, content: str, embedding: list[float],
-                  region: str = "Unknown", role: str = "Unknown", lane: str = "Unknown"):
+                  region: str = "Unknown", role: str = "Unknown", lane: str = "Unknown",
+                  resource: str = "Unknown"):
     conn = get_connection()
     cur = conn.cursor()
     cur.execute(
-        "INSERT INTO chunks (champion, region, role, lane, source_file, content, embedding) VALUES (?, ?, ?, ?, ?, ?, ?)",
-        (champion, region, role, lane, source_file, content, json.dumps(embedding)),
+        "INSERT INTO chunks (champion, region, role, lane, resource, source_file, content, embedding) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        (champion, region, role, lane, resource, source_file, content, json.dumps(embedding)),
     )
     conn.commit()
     conn.close()
-
 
 def get_all_chunks():
     conn = get_connection()
@@ -127,12 +129,11 @@ def get_chunks_by_lane(lane: str):
     conn.close()
     return [(row[0], row[1], row[2], row[3], json.loads(row[4])) for row in rows]
 def get_champion_metadata(champion: str):
-    """Returns {'region':..., 'role':..., 'lane':...} for a champion, or None."""
     conn = get_connection()
     cur = conn.cursor()
-    cur.execute("SELECT region, role, lane FROM chunks WHERE champion = ? LIMIT 1", (champion,))
+    cur.execute("SELECT region, role, lane, resource FROM chunks WHERE champion = ? LIMIT 1", (champion,))
     row = cur.fetchone()
     conn.close()
     if row:
-        return {"region": row[0], "role": row[1], "lane": row[2]}
+        return {"region": row[0], "role": row[1], "lane": row[2], "resource": row[3]}
     return None

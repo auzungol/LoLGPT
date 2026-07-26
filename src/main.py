@@ -14,7 +14,7 @@ def main():
             break
 
         print("Düşünüyor...")
-        answer = answer_query(question, top_k=7)
+        answer = answer_query(question, top_k=5)
         print(f"\nCevap: {answer}\n")
 
 

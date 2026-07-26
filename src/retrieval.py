@@ -12,6 +12,7 @@ _STOPWORDS = {w.lower() for w in ROLES} | {w.lower() for w in ALL_LANES} | set(R
     "which", "champions", "champ", "champs", "character", "who", "list", "name", "all",
     "lane", "region", "role", "ability", "abilities", "passive", "ulti", "ultimate",
     "from", "does", "have", "what", "the", "and",
+    "kaynak", "resource", "koridor", "bölge", "rol", "nereli",
 }
 
 
