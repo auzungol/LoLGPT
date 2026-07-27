@@ -18,4 +18,3 @@ yaz okulu planı temel alınarak geliştirilmiştir.
 - **Türkçe ve İngilizce** soru desteği (yazım hatası toleransı dahil).
 - **Streamlit tabanlı web arayüzü.**
 
-## Mimari
