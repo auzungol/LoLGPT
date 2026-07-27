@@ -3,3 +3,4 @@ numpy
 sqlite-utils
 python-dotenv
 openai
+streamlit

@@ -27,13 +27,26 @@ def cosine_similarity(a: list[float], b: list[float]) -> float:
 
 def find_mentioned_champions(query: str, all_champions: list[str]) -> list[str]:
     query_lower = query.lower()
-    query_no_spaces = re.sub(r"\s+", "", query_lower)
+    words = re.findall(r"[a-zA-ZğüşıöçĞÜŞİÖÇ']+", query_lower)
+
+    # Çok kelimeli isimlerin boşluksuz yazımını (örn. "miss fortune" -> "missfortune")
+    # yakalamak için, sorgudaki ARDIŞIK kelimelerin birleşimlerini oluştur.
+    # Rastgele bir alt dize eşleşmesi değil, tam eşitlik arıyoruz — bu, "ahri kaynak"
+    # gibi sorgularda "kayn" harflerinin tesadüfen "kaynak" içinde geçmesiyle
+    # yanlış eşleşmeyi önler.
+    concatenations = set()
+    for i in range(len(words)):
+        acc = ""
+        for j in range(i, min(i + 4, len(words))):
+            acc += words[j]
+            concatenations.add(acc)
+
     mentioned = []
     for champ in all_champions:
         champ_lower = champ.lower()
         if re.search(rf"\b{re.escape(champ_lower)}\b", query_lower):
             mentioned.append(champ)
-        elif champ_lower in query_no_spaces:
+        elif champ_lower in concatenations:
             mentioned.append(champ)
     return mentioned
 def _build_champion_tokens() -> dict:

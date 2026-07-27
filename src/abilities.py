@@ -1,4 +1,5 @@
 import re
+import difflib
 
 ABILITY_LETTERS = ["Passive", "Q", "W", "E", "R"]
 
@@ -14,15 +15,21 @@ def find_mentioned_ability_letter(query: str) -> str | None:
 
     for letter in ["Q", "W", "E", "R"]:
         l = letter.lower()
-        # Boşluklu tek harf: "yasuo r si", "veigar q"
         if re.search(rf"\b{l}\b", query_lower):
             return letter
-        # Doğru Türkçe kullanım (kesme işaretiyle): "Q'sunu", "E'sini"
         if re.search(rf"\b{l}['’]\w*", query_lower):
             return letter
-        # Kesmesiz bitişik yazım (yaygın hatalı kullanım): "qsunu", "esini"
         if re.search(rf"\b{l}(sunu|sını|sini|sünü|yu|yı|yi|yü|su|sı|si|sü)\b", query_lower):
             return letter
+
+    # Hiçbiri tam eşleşmediyse, yazım hatası toleranslı dene (örn. "passiv", "pasifi")
+    words = re.findall(r"[a-zA-ZğüşıöçĞÜŞİÖÇ]{4,}", query_lower)
+    for word in words:
+        if difflib.get_close_matches(word, ["passive", "pasif"], n=1, cutoff=0.75):
+            return "Passive"
+        if difflib.get_close_matches(word, ["ultimate", "ulti"], n=1, cutoff=0.75):
+            return "R"
+
     return None
 
 

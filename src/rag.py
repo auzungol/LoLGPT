@@ -182,8 +182,10 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
             if metadata:
                 display_names = get_champion_display_names()
                 name = display_names.get(mentioned_champions[0], mentioned_champions[0])
-                return f"[{name}] {ATTRIBUTE_LABELS_TR[attribute]}: {metadata[attribute]}"
-
+                value = metadata[attribute]
+                if value == "None":
+                    value = "Yok (kaynak kullanmıyor)"
+                return f"[{name}] {ATTRIBUTE_LABELS_TR[attribute]}: {value}"
     # 4) Diğer her şey için: semantic retrieval + LLM
     top_chunks = get_top_chunks(user_question, top_k=top_k)
 
