@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Veritabanı (ingest.py ile yeniden üretilebilir)
+database/*.db
+
+# Şampiyon verisi (fetch_champions.py ile yeniden üretilebilir)
+data/champions/*.txt
+
+# IDE
+.idea/
+
+# Streamlit
+.streamlit/

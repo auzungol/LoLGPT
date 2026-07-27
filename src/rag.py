@@ -1,4 +1,5 @@
 import re
+import difflib
 from foundry_local_sdk import Configuration, FoundryLocalManager
 from config import CHAT_MODEL
 from retrieval import get_top_chunks, find_mentioned_champions, fuzzy_find_champions
@@ -15,7 +16,6 @@ from abilities import find_mentioned_ability_letter, extract_ability_line
 from regions import find_mentioned_regions, fuzzy_find_regions
 from roles import find_mentioned_roles, fuzzy_find_roles
 from lanes import find_mentioned_lanes, fuzzy_find_lanes
-import difflib
 
 ATTRIBUTE_PATTERNS = {
     "lane": r"\blane\b|\bkoridor\w*\b",
@@ -30,12 +30,21 @@ ATTRIBUTE_KEYWORDS = {
     "role": ["role", "rol"],
     "resource": ["resource", "kaynak"],
 }
+
 ATTRIBUTE_LABELS_TR = {
     "lane": "Koridor",
     "region": "Bölge",
     "role": "Rol",
     "resource": "Kaynak",
 }
+
+TURKISH_HINTS = re.compile(
+    r"[ğışöçİĞÜŞÖÇ]|"
+    r"\b(nedir|nasıl|kimdir|hangi|hakkında|mı|mi|mu|mü|nın|nin|nun|nün|"
+    r"si|sı|su|sü|ulti|kaynak|koridor|bölge|rol|ver|anlat|kim|ne)\b",
+    re.IGNORECASE,
+)
+
 _manager = None
 _chat_model = None
 _chat_client = None
@@ -62,8 +71,6 @@ enerjiden oluşan bir mermi fırlatır."
 Yanlış cevap: "[Veigar] Q - Baleful Strike: Veigar unleashes a bolt of dark energy..." (İngilizce kaldığı için YANLIŞ)"""
 
 
-
-
 def _get_chat_client():
     global _manager, _chat_model, _chat_client
     if _chat_client is None:
@@ -83,12 +90,38 @@ def _get_chat_client():
     return _chat_client
 
 
+def is_turkish_query(query: str) -> bool:
+    return bool(TURKISH_HINTS.search(query))
+
+
+def translate_ability_to_turkish(champion_name: str, line: str) -> str:
+    match = re.match(r"^(\w+) - ([^:]+): (.+)$", line)
+    if not match:
+        return f"[{champion_name}] {line}"
+    letter, ability_name, description = match.groups()
+
+    client = _get_chat_client()
+    messages = [
+        {"role": "system", "content": (
+            "Sen bir oyun içeriği çevirmenisin. Sana verilen İngilizce yetenek açıklamasını "
+            "doğal ve akıcı Türkçeye çevir. SADECE çeviriyi yaz, başka hiçbir şey ekleme, "
+            "açıklama yapma, tırnak işareti kullanma."
+        )},
+        {"role": "user", "content": description},
+    ]
+    try:
+        response = client.complete_chat(messages)
+        translated = response.choices[0].message.content.strip()
+    except Exception:
+        translated = description
+
+    return f"[{champion_name}] {letter} - {ability_name}: {translated}"
+
+
 def is_listing_query(query: str, mentioned_champions: list, mentioned_roles: list,
                       mentioned_regions: list, mentioned_lanes: list) -> bool:
     if mentioned_champions:
         return False
-    # Champion adı geçmiyor ama role/region/lane kesin eşleşmesi varsa,
-    # bu zaten yeterince net bir listeleme sinyalidir.
     return bool(mentioned_roles or mentioned_regions or mentioned_lanes)
 
 
@@ -123,7 +156,7 @@ def answer_listing_query(mentioned_roles: list, mentioned_regions: list, mention
         return f"{label} kriterine uyan şampiyon bulunamadı."
 
     champion_list = "\n".join(f"- {name}" for name in names)
-    return f"{label} ({len(names)} champion):\n{champion_list}"
+    return f"{label} ({len(names)} şampiyon):\n{champion_list}"
 
 
 def find_mentioned_attribute(query: str) -> str | None:
@@ -140,6 +173,7 @@ def find_mentioned_attribute(query: str) -> str | None:
                 if difflib.get_close_matches(word, [kw], n=1, cutoff=0.8):
                     return attr
     return None
+
 
 def answer_query(user_question: str, top_k: int = 8) -> str:
     all_champions = get_distinct_champions()
@@ -172,9 +206,11 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
             if line:
                 display_names = get_champion_display_names()
                 name = display_names.get(mentioned_champions[0], mentioned_champions[0])
+                if is_turkish_query(user_question):
+                    return translate_ability_to_turkish(name, line)
                 return f"[{name}] {line}"
 
-    # 3) Tek şampiyon + lane/region/role gibi yapısal bir öznitelik mi soruluyor? (örn. "veigar lane")
+    # 3) Tek şampiyon + lane/region/role/resource gibi yapısal bir öznitelik mi soruluyor?
     if len(mentioned_champions) == 1:
         attribute = find_mentioned_attribute(user_question)
         if attribute:
@@ -186,6 +222,7 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
                 if value == "None":
                     value = "Yok (kaynak kullanmıyor)"
                 return f"[{name}] {ATTRIBUTE_LABELS_TR[attribute]}: {value}"
+
     # 4) Diğer her şey için: semantic retrieval + LLM
     top_chunks = get_top_chunks(user_question, top_k=top_k)
 
@@ -202,8 +239,7 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
     client = _get_chat_client()
     try:
         response = client.complete_chat(messages)
-    except Exception as e:
-        # Geçici bellek baskısı/iptal durumunda bir kez daha dene
+    except Exception:
         import time
         time.sleep(2)
         try:
@@ -211,6 +247,7 @@ def answer_query(user_question: str, top_k: int = 8) -> str:
         except Exception as e2:
             return f"(Model şu anda cevap veremedi, lütfen tekrar deneyin. Hata: {e2})"
     return response.choices[0].message.content
+
 
 if __name__ == "__main__":
     answer = answer_query("What is Garen's ultimate ability?")
