@@ -5,10 +5,7 @@ __pycache__/
 venv/
 
 # Veritabanı (ingest.py ile yeniden üretilebilir)
-database/*.db
 
-# Şampiyon verisi (fetch_champions.py ile yeniden üretilebilir)
-data/champions/*.txt
 
 # IDE
 .idea/
