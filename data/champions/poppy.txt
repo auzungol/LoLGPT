@@ -1,0 +1,17 @@
+Poppy, the Keeper of the Hammer
+
+Runeterra has no shortage of valiant champions, but few are as tenacious as Poppy. Bearing the legendary hammer of Orlon, a weapon twice her size, this determined yordle has spent untold years searching in secret for the fabled “Hero of Demacia,” said to be its rightful wielder. Until then, she dutifully charges into battle, pushing back the kingdom's enemies with every whirling strike.
+
+Role: Tank, Fighter
+Region: Bandle City
+Resource: Mana
+
+Passive - Iron Ambassador: Poppy throws her buckler that bounces off the target. Poppy can pick it up to gain a temporary shield.
+
+Q - Hammer Shock: Poppy swings her hammer, dealing damage and creating a zone that will slow enemies and explode after a delay.
+
+W - Steadfast Presence: Poppy passively gains Armor and Magic Resist. This bonus increases when she is low on Health. Poppy can activate Steadfast Presence to gain Move Speed and stop enemy dashes around her. If a dash is stopped, the enemy is slowed and grounded.
+
+E - Heroic Charge: Poppy dashes to the target and pushes it back. If the target is pushed into a wall, it is stunned.
+
+R - Keeper's Verdict: Poppy channels a hammer strike that knocks enemies very far away.

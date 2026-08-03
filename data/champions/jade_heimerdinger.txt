@@ -1,0 +1,17 @@
+Heimerdinger, the The Revered Inventor
+
+- The abilities may look similar but are very different - UPGRADE!!! (R) is a buff that lasts a set time not a single ability - H-28G Evolution Turrets (Q) are active globally but die when Heimerdinger does
+
+Role: Mage, Support
+Region: Unknown
+Resource: Mana
+
+Passive - Techmaturgical Repair Bots: Heimerdinger gives nearby allied Turrets and Champions increased Health Regeneration.
+
+Q - H-28G Evolution Turret: Heimerdinger lays down a machine gun turret. Turrets gain abilities as this skill is increased. (Turrets deal half damage to towers).
+
+W - Hextech Micro-Rockets: Heimerdinger fires long-range rockets that hit the enemies closest to Heimerdinger.
+
+E - CH-1 Concussion Grenade: Heimerdinger lobs a grenade at a location, dealing damage to enemy units as well as stunning anyone directly hit and blinding surrounding units.
+
+R - UPGRADE!!!: Passive / Active: Passively increases Cooldown Reduction.  Activate to heal all active Evolution Turrets and cause them to fire frost shots, which reduce Movement Speed, for a short time.

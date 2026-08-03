@@ -1,0 +1,17 @@
+Teemo, the The Swift Scout
+
+- Noxious Trap's (R) don't bounce
+
+Role: Marksman, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Camouflage: If Teemo stands still and takes no actions for a short duration, he becomes Invisible indefinitely. After leaving Invisibility, Teemo gains the Element of Surprise, increasing his Attack Speed for a few seconds.
+
+Q - Blinding Dart: Obscures an enemy's vision with a powerful venom, dealing damage to the target unit and blinding it for the duration.
+
+W - Move Quick: Teemo scampers around, passively increasing his movement speed until he is struck by an enemy champion or turret.  Teemo can sprint to gain bonus movement speed that isn't stopped by being struck for a short time.
+
+E - Toxic Shot: Each of Teemo's attacks will poison the target, dealing damage on impact and each second after for 4 seconds.
+
+R - Noxious Trap: Teemo places an explosive poisonous trap using one of the mushrooms stored in his pack.  If an enemy steps on the trap it will release a poisonous cloud, slowing enemies and damaging them over time.

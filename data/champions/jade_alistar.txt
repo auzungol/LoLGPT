@@ -1,0 +1,17 @@
+Alistar, the The Minotaur
+
+- Trample (P) and Triumphant Roar (E) have swapped - Can build Ability Power - Can solo lane
+
+Role: Tank, Support
+Region: Unknown
+Resource: Mana
+
+Passive - Trample: Each time Alistar casts a spell, he Tramples nearby units and turrets for a few seconds, dealing damage to units he walks over.
+
+Q - Pulverize: Alistar smashes the ground, dealing damage to all nearby enemies and tossing them into the air. On landing, enemies are stunned.
+
+W - Headbutt: Alistar rams a target with his head, dealing damage and knocking the target back.
+
+E - Triumphant Roar: Alistar lets out a commanding war cry, restoring health to himself and nearby allies. Nearby enemy deaths reduce the cooldown.
+
+R - Unbreakable Will: Alistar lets out a wild roar, gaining bonus damage, removing all crowd-control effects on himself, and reducing incoming physical and magical damage for the duration.

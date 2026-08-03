@@ -1,0 +1,17 @@
+Warwick, the The Blood Hunter
+
+- The Abilities are completely different - Infinite Duress (R) is a point and click suppress
+
+Role: Fighter, Tank
+Region: Unknown
+Resource: Mana
+
+Passive - Eternal Thirst: Each of Warwick's attacks will heal him. Each successive attack against the same target will steal more and more Health.
+
+Q - Hungering Strike: Takes a bite out of an enemy unit and heals Warwick.
+
+W - Hunter's Call: Warwick lets out a howl, increasing all friendly champions' Attack Speed for a short time.
+
+E - Blood Scent: Warwick passively senses weakened enemy champions around him.  The scent of blood sends him into a fury, causing him to move at incredible speeds.
+
+R - Infinite Duress: Warwick lunges at an enemy champion, suppressing his target and dealing magic damage for a few seconds.

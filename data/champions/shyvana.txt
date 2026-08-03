@@ -1,0 +1,17 @@
+Shyvana, the the Half-Dragon
+
+Shyvana is a fearsome half-dragon warrior. Though she often appears humanoid, she also rules the skies as a dragon, incinerating her foes with fiery breath. Having saved the life of the crown prince Jarvan IV, Shyvana now serves uneasily in his royal guard, struggling to find acceptance among the suspicious people of Demacia.
+
+Role: Fighter, Tank
+Region: Demacia
+Resource: Fury
+
+Passive - Scalemail: Takedowns on enemy champions, large minions, and large monsters grant Shyvana Scalemail stacks, improving her defenses.
+
+Q - Emberstrike: Shyvana's next attack strikes both the target and the surrounding area. This Ability can be recast. While in Dragon Form, it gains an additional recast, dealing massive damage to a single target.
+
+W - Inferno Aegis: Shyvana gains a shield, movement speed, and after a short delay, the area around her detonates.  While in Dragon Form, the explosion will heal her if it strikes an enemy champion.
+
+E - Molten Burst: Shyvana launches a fireball that explodes upon striking a large target and slows them. In Dragon Form, it passes through and explodes upon striking large enemies, leaving behind a trail of fire.
+
+R - Dragon's Descent: Shyvana transforms into a Dragon and leaps forward causing enemies along her path to flee. While in Dragon form she becomes larger and her basic abilities are empowered.

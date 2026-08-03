@@ -1,0 +1,17 @@
+Qiyana, the Empress of the Elements
+
+In the jungle city of Ixaocan, Qiyana plots her own ruthless path to the high seat of the Yun Tal. Last in line to succeed her parents, she faces those who stand in her way with brash confidence and unprecedented mastery over elemental magic. With the land itself obeying her every command, Qiyana sees herself as the greatest elementalist in the history of Ixaocan—and by that right, deserving of not only a city, but an empire.
+
+Role: Assassin
+Region: Ixtal
+Resource: Mana
+
+Passive - Royal Privilege: Qiyana's first basic attack or ability against each enemy deals bonus damage.
+
+Q - Elemental Wrath / Edge of Ixtal: Qiyana swings her weapon, dealing damage with a bonus effect based on her element.
+
+W - Terrashape: Qiyana dashes to a location and enchants her weapon with an element. Her attacks and abilities deal bonus damage while her weapon is enchanted.
+
+E - Audacity: Qiyana dashes to an enemy, damaging them.
+
+R - Supreme Display of Talent: Qiyana sends out a shockwave that detonates whatever elements she hits with it, stunning and damaging nearby enemies.

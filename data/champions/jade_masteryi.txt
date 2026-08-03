@@ -1,0 +1,17 @@
+Master Yi, the The Wuju Bladesman
+
+- Wuju Style (E) passive increases attack damage doubled when active - Double Strike (P) is percent chance based - Alpha Strike (Q) can not be directed after finishing movements
+
+Role: Fighter, Assassin
+Region: Unknown
+Resource: Mana
+
+Passive - Double Strike: Master Yi occassionaly strikes twice.
+
+Q - Alpha Strike: Master Yi leaps across the battlefield with blinding speed, dealing physical damage to multiple units in his path. Alpha strike can critically strike and deals bonus physical damage to minions and monsters. Basic attacks reduce Alpha Strike's cooldown.
+
+W - Meditate: Master Yi rejuvenates his body by focus of mind, restoring Health and taking reduced damage for a short time.
+
+E - Wuju Style: Master Yi becomes skilled in the art of Wuju, passively increasing his Attack Damage.  Activating Wuju Style grants bonus true damage on basic attacks, but the passive bonus is then lost while on cooldown.
+
+R - Highlander: Master Yi moves with unparalleled agility, temporarily increasing his Movement and Attack speeds as well as making him immune to all slowing effects. While active, Champion kills or assists extends Highlander's duration. Passively reduces cooldown for his other abilities on a kill or assist.

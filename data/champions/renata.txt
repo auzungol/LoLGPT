@@ -1,0 +1,17 @@
+Renata Glasc, the the Chem-Baroness
+
+Renata Glasc rose from the ashes of her childhood home with nothing but her name and her parents' alchemical research. In the decades since, she has become Zaun's wealthiest chem-baron, a business magnate who built her power by tying everyone's interests to her own. Work with her, and be rewarded beyond measure. Work against her, and live to regret it. But everyone comes to her side, eventually.
+
+Role: Support, Mage
+Region: Zaun
+Resource: Mana
+
+Passive - Leverage: Renata's Attacks deal bonus damage and mark enemies. Renata's allies can damage marked enemies to deal bonus damage.
+
+Q - Handshake: Renata sends out a missile rooting the first enemy hit, and can recast the ability to throw the unit in a direction.
+
+W - Bailout: Renata buffs an allied champion to fight harder, delaying their death and potentially saving them if they get a takedown.
+
+E - Loyalty Program: Renata sends out a pair of chemtech missiles, shielding allies and damaging and slowing enemies hit.
+
+R - Hostile Takeover: Renata sends out a wave of chemicals, causing any enemies hit to go Berserk.

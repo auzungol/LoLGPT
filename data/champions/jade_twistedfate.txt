@@ -1,0 +1,17 @@
+Twisted Fate, the The Card Master
+
+- Gate (E) is a global teleport - Destiny (R) is a global slow and reveal - Loaded Dice (P) grants all allies and himself gold on kill
+
+Role: Mage, Marksman
+Region: Unknown
+Resource: Mana
+
+Passive - Loaded Dice: Twisted Fate and his allies receive an additional 2 gold per kill.
+
+Q - Wild Cards: Twisted Fate throws three cards, dealing damage to each enemy unit they pass through.
+
+W - Pick A Card: Twisted Fate chooses a magic card from his deck, and uses that for his next attack, causing bonus effects.
+
+E - Gate: After channeling, Twisted Fate Teleports to any target location.
+
+R - Destiny: Twisted Fate predicts the fortunes of his foes, revealing and slowing all enemy champions. Gate's channel time is also reduced during this duration.

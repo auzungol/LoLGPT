@@ -1,0 +1,17 @@
+Wukong, the the Monkey King
+
+Wukong is a vastayan trickster who uses his strength, agility, and intelligence to confuse his opponents and gain the upper hand. After finding a lifelong friend in the warrior known as Master Yi, Wukong became the last student of the ancient martial art known as Wuju. Armed with an enchanted staff, Wukong seeks to prevent Ionia from falling to ruin.
+
+Role: Fighter, Tank
+Region: Ionia
+Resource: Mana
+
+Passive - Stone Skin: Wukong gains stacking armor and max health regeneration while fighting champions and monsters.
+
+Q - Crushing Blow: Wukong's next attack gains attack range, deals bonus damage, and reduces the target's armor for a few seconds.
+
+W - Warrior Trickster: Wukong becomes Invisible and dashes in a direction, leaving behind a clone that will attack nearby enemies.
+
+E - Nimbus Strike: Wukong dashes to a targeted enemy and sends out images to attack enemies near his target, dealing damage to each enemy struck.
+
+R - Cyclone: Wukong's extends his staff and spins it around repeatedly, gaining Move Speed.  Enemies struck take damage and are knocked up.

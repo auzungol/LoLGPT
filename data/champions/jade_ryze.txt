@@ -1,0 +1,17 @@
+Ryze, the The Rogue Mage
+
+- The Abilities are completely different (for the 5th time)
+
+Role: Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Arcane Mastery: Ryze's abilities reduce the cooldown of all other abilities.
+
+Q - Overload: Passive: Ryze permanently gains Cooldown Reduction.  Active: Ryze unleashes an orb of energy, dealing magic damage to his target.
+
+W - Rune Prison: Ryze magically imprisons an enemy, rooting them and dealing magic damage.
+
+E - Spell Flux: Ryze fires a chaotic bolt of magic that can bounce between enemies, dealing magic damage and reducing their Magic Resist.
+
+R - Desperate Power: Ryze temporary harnesses his full powers, gaining area of effect damage on all abilities, Spell Vamp, and Move Speed for a short time.

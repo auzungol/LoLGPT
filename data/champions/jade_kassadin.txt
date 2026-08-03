@@ -1,0 +1,17 @@
+Kassadin, the The Void Walker
+
+- Force Pulse (E) requires 6 casts around him to then cast - Riftwalk (R) can stack 10 times - Void Stone (P) transforms some magic damage prevented into attack speed
+
+Role: Assassin, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Void Stone: Kassadin takes 15% reduced magic damage and transforms this damage into bonus Attack Speed.
+
+Q - Null Sphere: Kassadin fires an ethereal bolt of void energy, dealing damage and silencing the target for a duration.
+
+W - Nether Blade: Passive: Kassadin's basic attacks restore Mana. The Mana restored is tripled against enemy champions. Active: Kassadin's basic attacks deal additional magic damage.
+
+E - Force Pulse: Kassadin draws energy from spells cast in his vicinity. Upon charging up, Kassadin can use Force Pulse to damage and slow enemies in a cone in front of him.
+
+R - Riftwalk: Kassadin teleports to a nearby location dealing damage to nearby enemy units. Additionally, multiple Riftwalks in a short period of time cause them to cost additional Mana and deal additional damage.

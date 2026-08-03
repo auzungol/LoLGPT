@@ -1,0 +1,17 @@
+Annie, the The Dark Child
+
+- Tibbers (R) dies when Annie does - Pyromania (P) Stacks reset on death - Molten Shield (E) doesn't grant movement speed
+
+Role: Mage, Support
+Region: Unknown
+Resource: Mana
+
+Passive - Pyromania: After casting 4 spells, Annie's next offensive spell Stuns the target(s) for 1.75 seconds.
+
+Q - Disintegrate: Annie hurls a mana-infused fireball, dealing damage and refunding the mana cost if it destroys the target.
+
+W - Incinerate: Annie casts a blazing cone of fire, dealing damage to all enemies in the area.
+
+E - Molten Shield: Increases Annie's Armor and Magic Resist and damages enemies who hit Annie with basic attacks.
+
+R - Summon: Tibbers: Annie wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.

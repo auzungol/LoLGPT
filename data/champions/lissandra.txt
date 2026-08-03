@@ -1,0 +1,17 @@
+Lissandra, the the Ice Witch
+
+Lissandra's magic twists the pure power of ice into something dark and terrible. With the force of her black ice, she does more than freeze—she impales and crushes those who oppose her. To the terrified denizens of the north, she is known only as ''The Ice Witch.'' The truth is much more sinister: Lissandra is a corruptor of nature who plots to unleash an ice age on the world.
+
+Role: Mage
+Region: Freljord
+Resource: Mana
+
+Passive - Iceborn Subjugation: When an enemy champion dies near Lissandra they become a Frozen Thrall. Frozen Thralls slow nearby enemies and then, after a delay, shatter from the intense cold, dealing magic damage to nearby targets.
+
+Q - Ice Shard: Throws a spear of ice that shatters when it hits an enemy, dealing magic damage and slowing Move Speed. Shards pass through the target, dealing the same damage to other enemies hit.
+
+W - Ring of Frost: Freezes nearby enemies in ice, dealing magic damage and rooting them.
+
+E - Glacial Path: Lissandra creates an ice claw that deals magic damage. Reactivating this ability transports Lissandra to the claw's current location.
+
+R - Frozen Tomb: If cast on an enemy champion, the target is frozen solid, stunning it. If cast on Lissandra, she encases herself in dark ice, healing herself while becoming untargetable and invulnerable. Dark ice then emanates from the target dealing magic damage to enemies and slowing Move Speed.

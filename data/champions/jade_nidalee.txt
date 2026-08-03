@@ -1,0 +1,17 @@
+Nidalee, the The Bestial Huntress
+
+- Aspect of the Cougar (R) does not start with a level - Prowl (P) has Hunt passive removed - Bushwhack (W) does insane damage
+
+Role: Assassin, Mage
+Region: Targon
+Resource: Mana
+
+Passive - Prowl: Moving through brush increases Nidalee's Movement Speed by 15% for 2 seconds.
+
+Q - Javelin Toss / Takedown: In human form, Nidalee throws a spiked javelin at her target that gains damage as it flies.  As a cougar, her next attack will attempt to fatally wound her target, dealing more damage the less life they have.
+
+W - Bushwhack / Pounce: In human form, Nidalee lays a damaging trap for unwary opponents that, when sprung, reveals the target and reduces their Armor and Magic Resist for 12 seconds. As a cougar, she pounces forward, dealing a small amount of damage when she lands.
+
+E - Primal Surge / Swipe: In human form, Nidalee channels the spirit of the cougar to heal her allies and imbue them with attack speed for a short duration.  As a cougar, she rapidly claws enemies in front of her.
+
+R - Aspect Of The Cougar: Nidalee transforms into a cougar, gaining new abilities and increased Movement Speed.

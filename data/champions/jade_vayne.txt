@@ -1,0 +1,17 @@
+Vayne, the The Night Hunter
+
+- Final Hour (R) can not be extended
+
+Role: Marksman, Assassin
+Region: Unknown
+Resource: Mana
+
+Passive - Night Hunter: Vayne ruthlessly hunts evil-doers. She gains 30 Movement Speed when moving toward nearby enemy champions.
+
+Q - Tumble: Vayne tumbles, maneuvering to carefully place her next shot.  Her next attack deals bonus damage.
+
+W - Silver Bolts: Vayne tips her bolts with a rare metal, toxic to evil things.  The third consecutive attack or ability against the same target deals a percentage of the target's maximum Health as bonus true damage. (Max: 200 damage vs. Monsters)
+
+E - Condemn: Vayne draws a heavy crossbow from her back, and fires a huge bolt at her target, dealing damage and knocking them back.  If they collide with terrain, they are impaled, dealing bonus damage and stunning them.
+
+R - Final Hour: Readying herself for an epic confrontation, Vayne gains increased Attack Damage, invisibility during Tumble, and triple the bonus Movement Speed from Night Hunter.

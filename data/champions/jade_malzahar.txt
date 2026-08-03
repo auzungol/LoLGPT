@@ -1,0 +1,17 @@
+Malzahar, the The Prophet of the Void
+
+- Null Zone (W) is an AoE area for a short time - Summon Voidling (P) creates a voidling after a number of casts - Nether Grasp (R) does not have the null zone around the target
+
+Role: Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Summon Voidling: Every few spells, Malzahar summons an uncontrollable Voidling to engage his enemies. Voidlings grow over time, gaining armor, damage, and attack speed.
+
+Q - Call of the Void: Malzahar opens up two portals to the Void. After a short delay, they fire projectiles that deal Magic Damage and silence enemy champions.
+
+W - Null Zone: Malzahar creates a zone of negative energy that damages nearby enemies each second.
+
+E - Malefic Visions: Malzahar infects his target's mind, dealing damage over time. If the target dies during this time, the visions pass to a nearby enemy and Malzahar gains mana.
+
+R - Nether Grasp: Malzahar channels the essence of the Void to suppress target champion while dealing magic damage over time.

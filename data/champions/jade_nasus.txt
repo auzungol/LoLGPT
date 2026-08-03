@@ -1,0 +1,17 @@
+Nasus, the The Curator of the Sands
+
+- Fury of the Sands (R) magic damage temporarily converts a percentage into Attack Damage
+
+Role: Fighter, Tank
+Region: Unknown
+Resource: Mana
+
+Passive - Soul Eater: Nasus drains his foe's spiritual energy, giving him bonus Lifesteal.
+
+Q - Siphoning Strike: Nasus strikes his foe, dealing damage and increasing the power of his future Siphoning Strikes if he slays his target.
+
+W - Wither: Nasus ages his target, decelerating their Movement and Attack Speeds over time.
+
+E - Spirit Fire: Nasus unleashes a spirit flame at a location, dealing damage and reducing the Armor of enemies who stand on it.
+
+R - Fury of the Sands: Nasus unleashes a mighty sandstorm that batters nearby enemies. While the storm rages, he gains increased Health, Attack Range, cast ranges, and drains nearby enemies' max Health converting into bonus damage for the duration.

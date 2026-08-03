@@ -1,0 +1,17 @@
+Miss Fortune, the The Bounty Hunter
+
+- Strut (P) moved from W - Impure Shots (W) passive deals magic damage on each hit with active increasing attack speed and applying grievous wounds
+
+Role: Marksman, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Strut: After 5 seconds of not being attacked, Miss Fortune gains an additional 25 Movement Speed. This bonus increases by 9 each second up to a maximum bonus of 70.
+
+Q - Double Up: Miss Fortune fires a bullet at an enemy, damaging them and a target behind them.
+
+W - Impure Shots: Miss Fortune passively increases damage dealt to a target with each strike.  This ability can be activated to increase Miss Fortune's Attack Speed and cause her attacks to lower healing received by the target.
+
+E - Make It Rain: Miss Fortune unleashes a flurry of bullets at a location, dealing waves of damage to opponents and slowing them.
+
+R - Bullet Time: Miss Fortune channels a flurry of bullets into a cone in front of her, dealing large amounts of damage to enemies.

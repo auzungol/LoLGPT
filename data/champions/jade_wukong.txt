@@ -1,0 +1,17 @@
+Wukong, the The Monkey King
+
+- Decoy (W) does not mirror other abilities used and does not auto attack - Cyclone (R) only has 1 activation
+
+Role: Fighter, Tank
+Region: Unknown
+Resource: Mana
+
+Passive - Stone Skin: Increases Wukong's armor and magic resistance for each nearby enemy champion.
+
+Q - Crushing Blow: Wukong's next attack gains extra range, deals bonus damage, and reduces the enemy's Armor.
+
+W - Decoy: Wukong becomes invisible for 1.5 seconds. An uncontrollable decoy is left behind that will deal magic damage to enemies near it after 1.5 seconds.
+
+E - Nimbus Strike: Wukong dashes toward a target enemy and sends out images to attack up to 2 additional enemies near his target, dealing physical damage to each enemy struck.
+
+R - Cyclone: Wukong's staff grows outward and he spins it around, dealing damage and knocking up enemies. Wukong gains movement speed over the duration of the spell.

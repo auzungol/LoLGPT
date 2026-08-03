@@ -1,0 +1,17 @@
+Dr. Mundo, the The Madman of Zaun
+
+- Burning Agony (W) is a toggle of damage AoE around him - Masochism (E) is a buff for a time not an attack - Adrenaline Rush (P) regenerates health over time
+
+Role: Tank, Fighter
+Region: Unknown
+Resource: None
+
+Passive - Adrenaline Rush: Dr. Mundo regenerates 0.3% of his maximum Health each second.
+
+Q - Infected Cleaver: Dr. Mundo hurls his cleaver, dealing damage based on his victims maximum health.
+
+W - Burning Agony: Dr. Mundo drains his health to reduce the duration of disables and deal continual damage to nearby enemies.
+
+E - Masochism: Masochism increases Dr. Mundo's Attack Damage by a flat amount for 5 second. In addition, Dr. Mundo also gains an additional amount of Attack Damage for each percentage of Health he is missing.
+
+R - Sadism: Dr. Mundo sacrifices a portion of his Health for increased Movement Speed and drastically increased Health Regeneration.

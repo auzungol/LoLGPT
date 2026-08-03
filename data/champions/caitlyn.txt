@@ -1,0 +1,17 @@
+Caitlyn, the the Sheriff of Piltover
+
+Renowned as its finest peacekeeper, Caitlyn Kiramman is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn's most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress.
+
+Role: Marksman
+Region: Piltover
+Resource: Mana
+
+Passive - Headshot: Every few basic attacks, or against a target she has trapped or netted, Caitlyn will fire a headshot dealing bonus damage that scales with her critical strike chance. On trapped or netted targets, Caitlyn's Headshot attack range is doubled.
+
+Q - Piltover Peacemaker: Caitlyn revs up her rifle for 1 second to unleash a penetrating shot that deals physical damage (deals less damage to subsequent targets).
+
+W - Yordle Snap Trap: Caitlyn sets a trap that, when sprung, reveals and immobilizes the enemy champion for 1.5 seconds, granting Caitlyn an empowered Headshot.
+
+E - 90 Caliber Net: Caitlyn fires a heavy net to slow her target. The recoil knocks Caitlyn back.
+
+R - Ace in the Hole: Caitlyn takes time to line up the perfect shot, dealing massive damage to a single target at a huge range. Enemy champions can intercept the bullet for their ally.

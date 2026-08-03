@@ -1,0 +1,17 @@
+Gangplank, the The Saltwater Scourge
+
+- Cannon Barrage (R) has random cannonballs instead of consistent AOE damage - Raise Morale (E) grants move speed and Attack damage both passively and upon activation - Parrrley (Q) grants gold (no more silver serpents)
+
+Role: Fighter
+Region: Unknown
+Resource: Mana
+
+Passive - Grog-Soaked Blade: Gangplank's attacks apply a poison that deals magic damage per second, increasing with level.
+
+Q - Parrrley: Gangplank takes aim and shoots an enemy unit with his pistol. If Parrrley deals a killing blow, he gains extra gold and half the mana cost is refunded.
+
+W - Remove Scurvy: Consumes a large quantity of citrus fruit which clears any crowd control effects on him and heals him.
+
+E - Raise Morale: Gangplank fires a shot into the air, increasing nearby allied champions' attack damage and movement speed.
+
+R - Cannon Barrage: Gangplank signals his ship to fire upon an area for 7 seconds, slowing enemies and dealing damage in random locations within the area.

@@ -1,0 +1,17 @@
+Janna, the The Storm's Fury
+
+- Tailwind (P) grants global movement speed
+
+Role: Support, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Tailwind: Janna and her allied champions gain 3% increased Movement Speed.
+
+Q - Howling Gale: By creating a localized change in pressure and temperature, Janna is able to create a small storm that grows in size with time. She can active the spell again to release the storm. On release this storm will fly towards the direction it was cast in, dealing damage and knocking away any enemies in its path.
+
+W - Zephyr: Janna summons an air elemental that passively increases her Movement Speed and enables her to pass through units. She may also activate this ability to deal damage and slow an enemy's Movement Speed. The passive is lost while this ability is on cooldown.
+
+E - Eye Of The Storm: Janna conjures a defensive gale that shields an ally champion or turret from incoming damage and increases their Attack Damage.
+
+R - Monsoon: Janna surrounds herself in a magical storm, throwing enemies back. After the storm has settled, soothing winds heal nearby allies while the ability is active.

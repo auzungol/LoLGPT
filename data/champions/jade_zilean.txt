@@ -1,0 +1,17 @@
+Zilean, the The Chronokeeper
+
+- Time Bomb (Q) is point and click - Heightened Learning (P) grants experience to his entire team
+
+Role: Support, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Heightened Learning: Zilean and his allies gain additional experience.
+
+Q - Time Bomb: Zilean places a time bomb on his target, which damages nearby enemies once it expires.
+
+W - Rewind: Zilean reduces all of his other cooldowns.
+
+E - Time Warp: Zilean increases an allied Champion's movement speed or slows an enemy champion.
+
+R - Chronoshift: Zilean marks himself or an allied champion with a protective time rune. If they would take lethal damage, they are instead transported back in time and healed.

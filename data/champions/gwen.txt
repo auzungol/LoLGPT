@@ -1,0 +1,17 @@
+Gwen, the The Hallowed Seamstress
+
+A former doll transformed and brought to life by magic, Gwen wields the very tools that once created her. She carries the weight of her maker's love with every step, taking nothing for granted. At her command is the Hallowed Mist, an ancient and protective magic that has blessed Gwen's scissors, needles, and sewing thread. So much is new to her, but Gwen remains joyfully determined to fight for the good that survives in a broken world.
+
+Role: Fighter
+Region: Shadow Isles
+Resource: Mana
+
+Passive - A Thousand Cuts: Gwen's attacks deal bonus magic damage based on the targets health. She heals for a portion of the damage dealt to champions by this effect.
+
+Q - Snip Snip!: Gwen snips her scissors in a cone up to 6 times dealing magic damage. Gwen deals true damage to units in the center and applies her passive to them on each snip.
+
+W - Hallowed Mist: Gwen summons mist that protects her from enemies outside of it. She can only be targeted by enemies who enter the mist.
+
+E - Skip 'n Slash: Gwen dashes a short distance then gains Attack Speed, attack range, and magic damage On-Hit for a few seconds. If she hits an enemy during that time, this Ability's cooldown is partially refunded.
+
+R - Needlework: Gwen hurls a needle that slows enemies hit, deals magic damage, and applies A Thousand Cuts to champions hit.   This ability can be cast up to two more times, with each cast throwing additional needles and dealing more damage.

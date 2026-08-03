@@ -1,0 +1,17 @@
+Tryndamere, the The Barbarian King
+
+- We were too scared of his rage to change him
+
+Role: Fighter, Assassin
+Region: Unknown
+Resource: Fury
+
+Passive - Battle Fury: Tryndamere gains bonus critical strike chance, increased by his missing Health.
+
+Q - Bloodlust: Tryndamere thrives on the thrills of combat, gaining Fury that increasing his Attack and Critical Strike Damage as he kills enemies and deals critical strikes. He can cast Bloodlust to consume his Fury and heal himself.
+
+W - Mocking Shout: Tryndamere mocks nearby champions for their cowardice, reducing their Attack Damage. Enemies with their backs turned to Tryndamere also have their Movement Speed reduced.
+
+E - Spinning Slash: Tryndamere slices toward a target unit, dealing damage to enemies in his path.
+
+R - Undying Rage: Tryndamere's lust for battle becomes so strong that he is unable to die, no matter how wounded he becomes.

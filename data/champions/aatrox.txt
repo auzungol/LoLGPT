@@ -1,0 +1,17 @@
+Aatrox, the the Darkin Blade
+
+Once honored defenders of Shurima against the Void, Aatrox and his brethren would eventually become an even greater threat to Runeterra, and were defeated only by cunning mortal sorcery. But after centuries of imprisonment, Aatrox was the first to find freedom once more, corrupting and transforming those foolish enough to try and wield the magical weapon that contained his essence. Now, with stolen flesh, he walks Runeterra in a brutal approximation of his previous form, seeking an apocalyptic and long overdue vengeance.
+
+Role: Fighter
+Region: Shurima
+Resource: Blood Well
+
+Passive - Deathbringer Stance: Periodically, Aatrox's next basic attack deals bonus magic damage and heals him, based on the target's max health.
+
+Q - The Darkin Blade: Aatrox slams his greatsword down, dealing physical damage. He can swing three times, each with a different area of effect.
+
+W - Infernal Chains: Aatrox smashes the ground, dealing damage to the first enemy hit. Champions and large monsters have to leave the impact area quickly or they will be dragged to the center and take the damage again.
+
+E - Umbral Dash: Passively, Aatrox heals when damaging enemy champions. On activation, he dashes in a direction.
+
+R - World Ender: Aatrox unleashes his demonic form, fearing nearby enemy minions and gaining attack damage, increased healing, and Move Speed. If he gets a takedown, this effect is extended.

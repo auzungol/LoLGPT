@@ -1,0 +1,17 @@
+Morgana, the Fallen Angel
+
+- The Veiled Lady doesn't change
+
+Role: Support, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Soul Siphon: Morgana has Spell Vamp, healing herself whenever she deals damage with her spells.
+
+Q - Dark Binding: Morgana releases a sphere of dark magic.  Upon contact with an enemy unit, the sphere will deal magic damage and force the unit to the ground for a period of time.
+
+W - Tormented Soil: Infects an area with desecrated soil, causing enemy units who stand on the location to take continual damage.
+
+E - Black Shield: Places a protective barrier around an allied champion, absorbing magical damage and disables until penetrated or the shield dissipates.
+
+R - Soul Shackles: Latches chains of energy onto nearby enemy champions, dealing initial damage to them and slowing their Movement Speed, and then echoing the pain a few seconds later and stunning them if they remain close to Morgana.

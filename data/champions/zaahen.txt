@@ -1,0 +1,17 @@
+Zaahen, the The Unsundered
+
+A fallen god wielding both divine and profane power, Zaahen hunts his fellow Darkin while defying the corruption that threatens to consume him. Once willingly sealed within his glaive to stave off madness, he now walks free, noble in heart and vicious in purpose. Zaahen fights an eternal war within—but so long as he endures, he will rise above all who seek to bring Runeterra to ruin.
+
+Role: Fighter, Assassin
+Region: Unknown
+Resource: Mana
+
+Passive - Cultivation of War: Zaahen's attacks and abilities against enemy champions  grant him stacks of Determination, gaining bonus Attack Damage per stack. When filled with Determination, Zaahen gains increased Attack Damage and can revive.
+
+Q - The Darkin Glaive: Zaahen slashes twice on his next attack, dealing bonus damage and healing himself. Zaahen can recast this ability to have his next attack deal bonus damage and knock up his target.
+
+W - Dreaded Return: Zaahen stabs in a direction, damaging enemies hit, then pulls them toward him.
+
+E - Aureate Rush: Zaahen dashes to a location and slices around himself.
+
+R - Grim Deliverance: Zaahen rises then stabs downward, damaging enemies and healing for a portion of the damage dealt.

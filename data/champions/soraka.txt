@@ -1,0 +1,17 @@
+Soraka, the the Starchild
+
+A wanderer from the celestial dimensions beyond Mount Targon, Soraka gave up her immortality to protect the mortal races from their own more violent instincts. She endeavors to spread the virtues of compassion and mercy to everyone she meets—even healing those who would wish harm upon her. And, for all Soraka has seen of this world's struggles, she still believes the people of Runeterra have yet to reach their full potential.
+
+Role: Support, Mage
+Region: Targon
+Resource: Mana
+
+Passive - Salvation: Soraka runs faster towards nearby low health allies.
+
+Q - Starcall: A star falls from the sky at the target location dealing magic damage and slowing enemies. If an enemy champion is hit by Starcall, Soraka recovers Health.
+
+W - Astral Infusion: Soraka sacrifices a portion of her own health to heal another friendly champion.
+
+E - Equinox: Creates a zone at a location that silences all enemies inside. When the zone expires, all enemies still inside are rooted.
+
+R - Wish: Soraka fills her allies with hope, instantly restoring health to herself and all allied champions.

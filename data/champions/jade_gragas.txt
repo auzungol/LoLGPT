@@ -1,0 +1,17 @@
+Gragas, the The Rabble Rouser
+
+- Barrel Roll (Q) does full damage no matter time it is on the ground - Drunken Rage (W) last for a long time
+
+Role: Fighter, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Happy Hour: On ability use, Gragas takes a drink, restoring some of his Health.
+
+Q - Barrel Roll: Gragas rolls a barrel that explodes after a short delay, damaging and slowing Attack Speed. Recast to detonate the barrel early.
+
+W - Drunken Rage: Gragas guzzles down brew from his cask, restoring Mana. He then gains Attack Damage and reduces damage taken for several seconds.
+
+E - Body Slam: Gragas charges forward, colliding with the first enemy, damaging nearby enemies and Slowing them.
+
+R - Explosive Cask: Gragas hurls his cask, damaging and Knocking Away enemies from the impact.

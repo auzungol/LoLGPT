@@ -1,0 +1,17 @@
+Veigar, the The Tiny Maser of Evil
+
+- Baleful Strike (Q) is point and click - Event Horizon (E) is instant - Equilibrium (P) gains increased mana regeneration based on missing mana
+
+Role: Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Equilibrium: Veigar's mana regeneration increases by 1% for each 1% of mana missing.
+
+Q - Baleful Strike: Unleashes dark energy at target enemy, dealing magic damage. If a unit is killed, Veigar gains some Ability Power permanently.
+
+W - Dark Matter: Veigar calls a great mass of dark matter to fall from the sky to the target location, dealing magic damage when it lands.
+
+E - Event Horizon: Veigar twists the edges of space around the target location for 3 seconds, stunning enemies who pass through the perimeter for a short duration.
+
+R - Primordial Burst: Blasts target enemy champion, dealing a large base amount of magic damage plus 80% of his target's AP.

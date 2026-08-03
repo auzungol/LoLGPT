@@ -1,0 +1,17 @@
+Ashe, the The Frost Archer
+
+- Frost Shot (Q) toggles slowing basic attacks - Focus (P) builds up critical strikes out of combat - Hawkshot (E) grants bonus gold on kill
+
+Role: Marksman, Support
+Region: Unknown
+Resource: Mana
+
+Passive - Focus: Ashe gains stacks of Focus while out-of-combat. When Ashe has 100 stacks of Focus, her next basic Attack will critically strike.
+
+Q - Frost Shot: While active, each of Ashe's basic attacks slow her targets. This drains Mana with each attack.
+
+W - Volley: Ashe fires 7 arrows in a cone for increased damage.  Volley also applies Ashe's current level of Frost Shot.
+
+E - Hawkshot: Each time Ashe kills a unit, she gains some extra gold. Ashe can activate to send her Hawk Spirit on a scouting mission.
+
+R - Enchanted Crystal Arrow: Ashe fires a missile of ice in a straight line.  If the arrow collides with an enemy Champion, it deals damage and stuns the Champion for up to 3.5 seconds, based on how far the arrow has traveled.  In addition, surrounding enemy units take damage and are slowed.

@@ -1,0 +1,17 @@
+Milio, the The Gentle Flame
+
+Milio is a warmhearted boy from Ixtal who has, despite his young age, mastered the fire axiom and discovered something new: soothing fire. With this newfound power, Milio plans to help his family escape their exile by joining the Yun Tal—just like his grandmother once did. Having traveled through the Ixtal jungles to the capital of Ixaocan, Milio now prepares to face the Vidalion and join the Yun Tal, unaware of the trials—and dangers—that await him.
+
+Role: Support, Mage
+Region: Ixtal
+Resource: Mana
+
+Passive - Fired Up!: Milio's abilities enchant allies on touch, making their next damage deal a burst of extra damage and burn the target.
+
+Q - Ultra Mega Fire Kick: Kick a ball that knocks back an enemy. The ball launches upward on hit and falls toward the enemy, damaging and slowing enemies in the area upon impact.
+
+W - Cozy Campfire: Create an empowering zone that heals allies and increases attack range to those inside. The zone follows the ally nearest to the cast point.
+
+E - Warm Hugs: Milio tosses a shield to an ally, temporarily increasing their movement speed. This ability has 2 charges.
+
+R - Breath of Life: Milio unleashes a wave of soothing flames that heal and remove crowd control effects from allies in range.

@@ -1,0 +1,17 @@
+Olaf, the The Berserker
+
+- Vicious Strikes (W) grants Attack Damage, Lifesteal and Spell Vamp - Reckless Swing (E) does not heal the health cost
+
+Role: Fighter, Tank
+Region: Unknown
+Resource: Mana
+
+Passive - Berserker Rage: Olaf's Attack Speed increases as his Health decreases.
+
+Q - Undertow: Olaf throws an axe into the ground at a target location, dealing damage to units it passes through and slowing their movement speed. If Olaf picks up the axe, the ability's cooldown is reduced.
+
+W - Vicious Strikes: Olaf's attack damage is increased, based on his health, and he gains massive lifesteal and spell vamp.
+
+E - Reckless Swing: Olaf attacks with such force that it deals true damage to his target and himself.
+
+R - Ragnarok: Olaf temporarily becomes immune to disables and gains bonus Armor, Magic Resist, and Lethality.

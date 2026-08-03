@@ -1,0 +1,17 @@
+Twisted Fate, the the Card Master
+
+Twisted Fate is an infamous cardsharp and swindler who has gambled and charmed his way across much of the known world, earning the enmity and admiration of the rich and foolish alike. He rarely takes things seriously, greeting each day with a mocking smile and an insouciant swagger. In every possible way, Twisted Fate always has an ace up his sleeve.
+
+Role: Mage, Marksman
+Region: Bilgewater
+Resource: Mana
+
+Passive - Loaded Dice: Upon killing a unit, Twisted Fate rolls his 'lucky' dice receiving 1 to 6 bonus gold.
+
+Q - Wild Cards: Twisted Fate throws three cards, dealing damage to each enemy unit they pass through.
+
+W - Pick a Card: Twisted Fate chooses a magic card from his deck, and uses that for his next attack, causing bonus effects.
+
+E - Stacked Deck: Every 4 attacks, Twisted Fate deals bonus damage. In addition, his Attack Speed is increased.
+
+R - Destiny: Twisted Fate predicts the fortunes of his foes, revealing all enemy champions and enabling the use of Gate, which teleports Twisted Fate to any target location in 1.5 seconds.

@@ -1,0 +1,17 @@
+Singed, the The Mad Chemist
+
+- Empowered Bulwark (P) gains health with Mana
+
+Role: Tank, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Empowered Bulwark: Increases Singed's Health by 25 for every 100 Mana he has.
+
+Q - Poison Trail: Leaves a trail of poison behind Singed, dealing damage to enemies caught in the path.
+
+W - Mega Adhesive: Throws a vial of mega adhesive on the ground, slowing enemies who walk on it.
+
+E - Fling: Damages target enemy unit and flings them into the air behind Singed.
+
+R - Insanity Potion: Singed drinks a potent brew of chemicals, granting him increased combat stats.

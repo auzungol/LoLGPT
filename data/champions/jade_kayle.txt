@@ -1,0 +1,17 @@
+Kayle, the The Judicator
+
+- The Abilities are completely different, except for Divine Blessing (W) - Leveling up doesn't change her attacks - Holy Fervor (P) grants Attack Damage as Ability Power and vice versa
+
+Role: Mage, Marksman
+Region: Unknown
+Resource: Mana
+
+Passive - Holy Fervor: Kayle gains a percentage of her Ability Power as Attack damage and a percentage of her Attack Damage as Ability Power.
+
+Q - Reckoning: Kayle blasts a target, dealing damage, slowing their movement speed, and applying a stack of Holy Fervor.
+
+W - Divine Blessing: Kayle blesses an allied champion, increasing their movement speed and healing them.
+
+E - Righteous Fury: Kayle increases her attack range and her basic attacks deals additional damage to her target and nearby enemies.
+
+R - Intervention: Bathes Kayle's target in a holy light, rendering them immune to all damage for a short time.

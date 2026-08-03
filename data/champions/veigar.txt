@@ -1,0 +1,17 @@
+Veigar, the the Tiny Master of Evil
+
+An enthusiastic master of dark sorcery, Veigar has embraced powers that few mortals dare approach. As a free-spirited inhabitant of Bandle City, he longed to push beyond the limitations of yordle magic, and turned instead to arcane texts that had been hidden away for thousands of years. Now a stubborn creature with an endless fascination for the mysteries of the universe, Veigar is often underestimated by others—but even though he believes himself truly evil, he possesses an inner morality that leads some to question his deeper motivations.
+
+Role: Mage
+Region: Bandle City
+Resource: Mana
+
+Passive - Phenomenal Evil Power: Veigar is the greatest Evil to ever strike at the hearts of Runeterra - and he's only getting bigger! Striking an enemy Champion with a spell or scoring a takedown grants Veigar permanently increased Ability Power.
+
+Q - Baleful Strike: Veigar unleashes a bolt of dark energy that deals magic damage to the first two enemies hit. Units killed by this bolt grant Veigar some ability power permanently.
+
+W - Dark Matter: Veigar calls a great mass of dark matter to fall from the sky to the target location, dealing magic damage when it lands. Stacks of Phenomenal Evil reduce Dark Matter's cooldown.
+
+E - Event Horizon: Veigar twists the edges of space, creating a cage that Stuns enemies that pass through.
+
+R - Primordial Burst: Blasts target enemy champion, dealing a large amount of magic damage, increasing based on the target's missing health.

@@ -1,0 +1,17 @@
+Fiddlesticks, the The Harbinger of Doom
+
+- The Abilities are completely different, except for the ultimate Crowstorm (R) - Fiddlesticks fear makes the enemy walk randomly
+
+Role: Mage, Support
+Region: Unknown
+Resource: Mana
+
+Passive - Dread: Nearby enemies have reduced Magic Resist.
+
+Q - Terrify: Strikes a target unit with fear, causing it to flee in terror for a duration.
+
+W - Drain: Fiddlesticks saps the life force of an enemy, dealing damage to a target over time and healing himself.
+
+E - Dark Wind: A wisp of wind strikes an enemy unit and then bounces to nearby enemy units, dealing damage and silencing the victims.
+
+R - Crowstorm: A murder of crows flock wildly around Fiddlesticks, dealing damage each second to all enemy units in the area.

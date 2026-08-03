@@ -1,0 +1,17 @@
+Soraka, the The Starchild
+
+- The Abilities are completely different, except for the ultimate Wish (R) - Can solo lane - Has a point and click silence
+
+Role: Support, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Consecration: Increases surrounding allies' Magic Resist by 16.
+
+Q - Starcall: A shower of stars falls from the sky, striking all nearby enemies for magic damage and reducing their Magic Resist for a short duration.
+
+W - Astral Blessing: Soraka blesses a friendly unit, restoring health and increasing Armor for a short time.
+
+E - Infuse: Restores Mana to an ally, or deals damage to an enemy and silences them for a short duration.
+
+R - Wish: Soraka fills her allies with hope, instantly restoring health to herself and all friendly champions.

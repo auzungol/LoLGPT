@@ -1,0 +1,17 @@
+Pantheon, the The Artisan of War
+
+- Aegis Protection (P) blocks damage after casting multiple times - Grand Skyfall (R) is a circle AoE - Heartseeker Strike (E) - Pantheon stands still and strikes
+
+Role: Fighter, Assassin
+Region: Unknown
+Resource: Mana
+
+Passive - Aegis Protection: After attacking or casting spells 4 times, Pantheon will block the next incoming basic attack or turret attack.
+
+Q - Spear Shot: Pantheon hurls his spear at an opponent, dealing damage.
+
+W - Aegis of Zeonia: Pantheon leaps at an enemy and bashes the enemy with his shield, stunning them.  After finishing the attack, Pantheon readies himself to block the next attack.
+
+E - Heartseeker Strike: Pantheon focuses and unleashes 3 swift strikes to the area in front of him, dealing double damage to champions. Pantheon also becomes more aware of his enemy's vital spots, allowing him to always crit enemies below 15% health.
+
+R - Grand Skyfall: Pantheon composes himself and then leaps into the air to a target, striking all enemy units in an area. Enemies closer to the impact point take more damage.

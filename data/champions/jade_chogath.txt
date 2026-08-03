@@ -1,0 +1,17 @@
+Cho'Gath, the The Terror of the Void
+
+- Feast (R) stacks max 6 times, is lost on kill but can be stacked on anything - Vorpal Spikes (E) toggles the spikes that go through players
+
+Role: Tank, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Carnivore: Whenever Cho'Gath kills a unit, he recovers health and mana. The values restored increase with Cho'Gath's level.
+
+Q - Rupture: Ruptures the ground at target location, popping enemy units into the air, dealing damage and slowing them.
+
+W - Feral Scream: Cho'Gath unleashes a terrible scream at enemies in a cone, dealing magic damage and Silencing enemies for a few seconds.
+
+E - Vorpal Spikes: Cho'Gath's attacks passively release deadly spikes, dealing damage to all enemy units in front of him.
+
+R - Feast: Devours an enemy unit, dealing a high amount of true damage. If the target is killed, Cho'Gath grows, gaining maximum health (maximum 6 stacks). Cho'Gath loses half of his stacks upon death.

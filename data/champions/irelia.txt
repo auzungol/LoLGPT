@@ -1,0 +1,17 @@
+Irelia, the the Blade Dancer
+
+The Noxian occupation of Ionia produced many heroes, none more unlikely than young Irelia of Navori. Trained in the ancient dances of her province, she adapted her art for war, using the graceful and carefully practised movements to levitate a host of deadly blades. After proving herself as a fighter, she was thrust into the role of resistance leader and figurehead, and to this day remains dedicated to the preservation of her homeland.
+
+Role: Fighter, Assassin
+Region: Noxus
+Resource: Mana
+
+Passive - Ionian Fervor: When Irelia strikes enemies with spells she gains stacking bonus Attack Speed. At maximum stacks she also gains bonus damage on hit.
+
+Q - Bladesurge: Irelia dashes forward to strike her target, healing herself. If the target is Marked or dies to Bladesurge, its cooldown refreshes.
+
+W - Defiant Dance: Irelia charges a strike that deals more damage as she charges. She takes reduced physical damage during the charge.
+
+E - Flawless Duet: Irelia sends out two blades which converge on each other. Enemies caught in between are damaged, stunned and Marked.
+
+R - Vanguard's Edge: Irelia fires a massive number of blades that explode outward upon hitting an enemy champion. Enemies hit by the blades are damaged and Marked. Afterwards the blades form a wall that will damage and slow enemies that walk through it.

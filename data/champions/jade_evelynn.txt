@@ -1,0 +1,17 @@
+Evelynn, the The Widowmaker
+
+- The Abilities are completely different. Read the descriptions - Fighter not an Assassin
+
+Role: Assassin, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Shadow Walk: When out of combat, Evelynn enters Camoflauge only being able to be seen by nearby enemy champions or true sight. While stealthed, she rapidly regenerates Mana.
+
+Q - Hate Spike: Evelynn fires a line of spikes through an enemy, dealing damage to all enemies in its path.
+
+W - Dark Frenzy: Evelynn passively increases her Movement Speed when hitting enemy champions with her spells. Upon activation, Evelynn breaks free from slows affecting her and gains a massive Movement Speed boost for a short duration.
+
+E - Ravage: Evelynn slashes her target twice, dealing damage with each hit. She then gains increased Attack Speed for a short duration.
+
+R - Agony's Embrace: Evelynn summons spikes from the ground to deal damage and slow enemies in the area. She then gains a shield based on how many enemy champions were hit.

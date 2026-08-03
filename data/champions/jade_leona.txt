@@ -1,0 +1,17 @@
+Leona, the The Radiant Dawn
+
+- In a human life, the sun never changes, neither does she
+
+Role: Tank, Support
+Region: Unknown
+Resource: Mana
+
+Passive - Sunlight: Damaging spells afflict enemies with Sunlight for 3.5 seconds. When allied Champions deal damage to those targets, they consume the Sunlight debuff to deal additional magic damage.
+
+Q - Shield of Daybreak: Leona uses her shield to perform her next basic attack, dealing bonus magic damage and stunning the target.
+
+W - Eclipse: Leona raises her shield to gain Armor and Magic Resistance.  When the duration first ends, if there are nearby enemies she will deal magic damage to them and prolong the duration of the effect.
+
+E - Zenith Blade: Leona projects a solar image of her sword, dealing magic damage to all enemies in a line. When the image fades, the last enemy champion struck will be briefly immobilized and Leona will dash to them.
+
+R - Solar Flare: Leona calls down a beam of solar energy, dealing damage to enemies in an area.  Enemies in the center of the area are stunned, while enemies on the outside are slowed.

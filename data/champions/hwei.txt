@@ -1,0 +1,17 @@
+Hwei, the the Visionary
+
+Hwei is a brooding painter who creates brilliant art in order to confront Ionia's criminals and comfort their victims. Beneath his melancholy roils a torn, emotional mind—haunted by both the vibrant visions of his imagination and the gruesome memories of his temple's massacre. Hwei seeks to understand this light and dark, which drives him inevitably toward the artist who unraveled him. With paintbrush and palette, Hwei shapes endless possibilities as he draws ever closer to earning closure or embracing despair.
+
+Role: Mage, Support
+Region: Ionia
+Resource: Mana
+
+Passive - Signature of the Visionary: Hwei primes enemy champions he damages with his abilities for his signature finishing touch.  Hitting an enemy with a second damaging spell completes his signature, leaving it beneath them. The signature detonates after a short delay, dealing magic damage to all enemies in range.
+
+Q - Subject: Disaster: Hwei envisions a series of disasters, allowing him to paint a devastating blow.  This ability replaces Hwei's abilities with damaging abilities: Devastating Fire, Severing Bolt, and Molten Fissure.
+
+W - Subject: Serenity: Hwei envisions a series of serenities, allowing him to paint invigorating settings.  This ability replaces Hwei's abilities with utility abilities: Fleeting Current, Pool of Reflection, and Stirring Lights.
+
+E - Subject: Torment: Hwei envisions a series of torments, allowing him to paint controlling visages.  This ability replaces Hwei's abilities with crowd control abilities: Grim Visage, Gaze of the Abyss, and Crushing Maw.
+
+R - Spiraling Despair: Hwei paints a vision of pure despair. The first enemy champion struck becomes the center of an expanding painting that slows and damages nearby enemies. The vision explodes after reaching its maximum size or when the champion dies.

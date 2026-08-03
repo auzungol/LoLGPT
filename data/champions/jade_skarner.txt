@@ -1,0 +1,17 @@
+Skarner, the The Crystal Vanguard
+
+- The Abilities are completely different - Bruiser and auto attacker - Impale (R) is a single target point and click
+
+Role: Tank, Fighter
+Region: Unknown
+Resource: Mana
+
+Passive - Energize: Basic attacks lower all ability cooldowns by 0.5 seconds. Double effect when attacking champions.
+
+Q - Crystal Slash: Skarner lashes out with his claws, dealing physical damage to all nearby enemies and charging himself with Crystal Energy for several seconds if a unit is struck.  If he casts Crystal Slash again while powered by Crystal Energy, he deals bonus magic damage and slows all targets hit.
+
+W - Crystalline Exoskeleton: Skarner gains a shield, and while the shield persists his movement speed and attack speed are both increased.
+
+E - Fracture: Skarner summons a blast of crystalline energy which deals damage to enemies struck and marks them. Striking enemies will consume the mark to heal Skarner. Killing targets outright will also activate the heal.
+
+R - Impale: Skarner suppresses an enemy champion and deals magic damage to it.  During this time, Skarner can move freely and will drag his helpless victim around with him.  When the effect ends, Skarner's target will be dealt additional damage.

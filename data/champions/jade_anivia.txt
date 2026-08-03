@@ -1,0 +1,17 @@
+Anivia, the The Cryopheonix
+
+- Frostbite (E) doesn't have Chill passive - Glacial Storm (R) slow also affects attack speed
+
+Role: Mage, Support
+Region: Unknown
+Resource: Mana
+
+Passive - Rebirth: Upon dying, Anivia will revert into an egg. If the egg can survive for six seconds, she is gloriously reborn.
+
+Q - Flash Frost: Anivia brings her wings together and summons a sphere of ice that flies towards her opponents, chilling and damaging anyone in its path. When the sphere explodes it does moderate damage in a radius, stunning anyone in the area.
+
+W - Crystallize: Anivia condenses the moisture in the air into an impassable wall of ice to block all movement. The wall only lasts a short duration before it melts.
+
+E - Frostbite: With a flap of her wings, Anivia blasts a freezing gust of wind at her target, dealing a medium amount of damage. If the target has been slowed by an ice effect, the damage they take is doubled.
+
+R - Glacial Storm: Anivia summons a driving rain of ice and hail to damage her enemies and slow their advance.

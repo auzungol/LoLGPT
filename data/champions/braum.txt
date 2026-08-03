@@ -1,0 +1,17 @@
+Braum, the the Heart of the Freljord
+
+Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into rubble. Bearing an enchanted vault door as his shield, Braum roams the frozen north sporting a mustachioed smile as big as his muscles—a true friend to all those in need.
+
+Role: Tank, Support
+Region: Freljord
+Resource: Mana
+
+Passive - Concussive Blows: Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows.   Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.
+
+Q - Winter's Bite: Braum propels freezing ice from his shield, slowing and dealing magic damage.  Applies a stack of Concussive Blows.
+
+W - Stand Behind Me: Braum leaps to a target allied champion or minion. On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.
+
+E - Unbreakable: Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed. He negates the damage of the first attack completely and reduces the damage of all subsequent attacks from this direction.
+
+R - Glacial Fissure: Braum slams the ground, knocking up enemies nearby and in a line in front of him. A fissure is left along the line that slows enemies.

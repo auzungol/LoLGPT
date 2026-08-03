@@ -1,0 +1,17 @@
+Taric, the The Gem Knight
+
+- The Abilities are completely different. Read the descriptions - Can solo lane and maybe jungle
+
+Role: Support, Tank
+Region: Unknown
+Resource: Mana
+
+Passive - Gemcraft: Taric loves to socket magical gems into all of his weapons, resulting in his basic attacks dealing bonus magic damage based on his maximum Mana.
+
+Q - Imbue: Taric brings forth earthen energy to heal an ally and himself. This heal is more potent when Taric heals only himself. Additionally,Taric's basic attacks reduce Imbue's cooldown.
+
+W - Shatter: Taric is protected by a hardening aura, increasing the Armor of himself and nearby allied champions. He may choose to splinter the enchanted rocks surrounding him to deal damage and decrease the Armor of nearby enemies at the cost of some Armor for a short time.
+
+E - Dazzle: Taric emits a brilliant ball of prismatic light from his gemmed shield, stunning his target and damaging them based on how close he is to them.
+
+R - Radiance: Taric slams his hammer into the ground to deal damage to nearby enemies. For a time after, Taric's gems radiate energy empowering Taric and his allies with bonus Attack Damage and Ability Power

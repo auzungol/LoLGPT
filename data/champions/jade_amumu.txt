@@ -1,0 +1,17 @@
+Amumu, the The Sad Mummy
+
+- Bandage Toss (Q) doesn't have extra charges - Cursed Touch (P) reduces magic resist on basic attacks only
+
+Role: Tank, Support
+Region: Unknown
+Resource: Mana
+
+Passive - Cursed Touch: Amumu's attacks reduce his target's Magic Resist for 3 seconds.
+
+Q - Bandage Toss: Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.
+
+W - Despair: Overcome by anguish, nearby enemies lose a percentage of their maximum health each second.
+
+E - Tantrum: Permanently reduces the physical damage Amumu would take. Amumu can unleash his rage, dealing damage to surrounding enemies. Each time Amumu is hit, the cooldown on Tantrum is reduced.
+
+R - Curse of the Sad Mummy: Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.

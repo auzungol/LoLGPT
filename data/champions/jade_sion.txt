@@ -1,0 +1,17 @@
+Sion, the The Undead Champion
+
+- The Abilities are completely different. Read the descriptions - Sion has Ability Power and Attack Damage builds - Damage dealer not a Juggernaut
+
+Role: Tank, Fighter
+Region: Unknown
+Resource: Mana
+
+Passive - Feel No Pain: Sion has a 40% chance to ignore up to 30/40/50 damage each time he is attacked.
+
+Q - Cryptic Gaze: Sion's stare terrifies a single enemy, dealing damage and stunning them.
+
+W - Death's Caress: Sion surrounds himself with a damage-absorbing shield.  If the shield is not destroyed in 10 seconds then it will explode, dealing damage to surrounding enemies. Cast again after 4 seconds to manually detonate.
+
+E - Enrage: While active Sion gains Attack Damage at the cost of Health on each basic attack. Additonally, he permanently increases his maximum Health whenever he kills a unit.
+
+R - Cannibalism: Sion consumes some of his enemies' life force on each attack, leeching health to himself and nearby allies. The smell of flesh also renews Sion's fervor, increasing his Attack Speed.

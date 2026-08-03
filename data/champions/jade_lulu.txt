@@ -1,0 +1,17 @@
+Lulu, the The Fae Sorceress
+
+- Glitterdance (Q) bolts can not deal damage to the same target
+
+Role: Support, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Pix, Faerie Companion: Pix fires magical bolts of energy whenever the champion he's following attacks another enemy unit. These bolts are homing, but can be intercepted by other units.
+
+Q - Glitterlance: Pix and Lulu each fire a bolt of magical energy that heavily slows all enemies it hits. An enemy can only be damaged by one bolt.
+
+W - Whimsy: If cast on an ally, grants them movement speed and ability power for a short time. If cast on an enemy, turns them into an adorable critter that can't attack or cast spells.
+
+E - Help, Pix!: If cast on an ally, commands Pix to jump to an ally and shield them. He then follows them and aids their attacks. If cast on an enemy, commands Pix to jump to an enemy and damage them. He then follows them and grants you vision of that enemy.
+
+R - Wild Growth: Lulu enlarges an ally, knocking nearby enemies into the air and granting the ally a large amount of bonus health. For the next few seconds, that ally gains an aura that slows nearby enemies.

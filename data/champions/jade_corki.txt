@@ -1,0 +1,17 @@
+Corki, the The Daring Bombardier
+
+- Phosphorus Bomb (Q) is an instant explosion
+
+Role: Marksman, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Hextech Shrapnel Shells: Corki's basic attacks deal bonus true damage to minions, monsters, and champions.
+
+Q - Phosphorus Bomb: Corki fires a flash bomb at a target location. This attack reveals non-stealthed units around the blast and champions for 6 seconds.
+
+W - Valkyrie: Corki surges to target location, dropping bombs that create a trail of destruction for opponents who remain in the fire.
+
+E - Gatling Gun: Corki's gatling gun rapidly fires in a cone in front of him, dealing damage and reducing enemy armor.
+
+R - Missile Barrage: Corki fires a missile toward his target location that explodes on impact, dealing damage to enemies in an area. Corki stores one missile every 12 seconds up to 7 missiles total. Every 3rd missile will be a Big One, dealing extra damage.

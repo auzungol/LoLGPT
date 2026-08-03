@@ -1,0 +1,17 @@
+Kayn, the the Shadow Reaper
+
+A peerless practitioner of lethal shadow magic, Shieda Kayn battles to achieve his true destiny—to one day lead the Order of Shadow into a new era of Ionian supremacy. He wields the sentient darkin weapon Rhaast, undeterred by its creeping corruption of his body and mind. There are only two possible outcomes: either Kayn bends the weapon to his will... or the malevolent blade consumes him completely, paving the way for the destruction of all Runeterra.
+
+Role: Fighter, Assassin
+Region: Ionia
+Resource: Mana
+
+Passive - The Darkin Scythe: Kayn wields an ancient weapon and fights Rhaast, the darkin within it, for control. Either the Darkin will triumph, or Kayn will master Rhaast and become the Shadow Assassin.  Darkin: Heal for a percentage of spell damage dealt to champions.  Shadow Assassin: For the first few seconds in combat with enemy champions, deal bonus damage.
+
+Q - Reaping Slash: Kayn dashes, then slashes. Both deal damage.
+
+W - Blade's Reach: Kayn damages and slows targets in a line.
+
+E - Shadow Step: Kayn can walk through terrain.
+
+R - Umbral Trespass: Kayn hides in an enemy's body, dealing massive damage when he bursts out.

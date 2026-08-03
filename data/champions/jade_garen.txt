@@ -1,0 +1,17 @@
+Garen, the The Might of Deamcia
+
+- Demacian Justice (R) does magic damage
+
+Role: Fighter, Tank
+Region: Demacia
+Resource: None
+
+Passive - Perseverance: If Garen has not recently been struck by damage or enemy abilities, he regenerates a percentage of his total health each second.
+
+Q - Decisive Strike: Garen gains a burst of Move Speed, breaking free of all slows affecting him. His next attack strikes a vital area of his foe, dealing bonus damage and silencing them.
+
+W - Courage: Garen performs a dance of death with his sword, dealing damage around him for the duration.
+
+E - Judgment: Garen rapidly spins his sword around his body, dealing physical damage to nearby enemies.
+
+R - Demacian Justice: Garen calls upon the might of Demacia to attempt to execute an enemy champion.

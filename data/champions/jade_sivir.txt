@@ -1,0 +1,17 @@
+Sivir, the The Battle Mistress
+
+- Ricochet (W) toggles bouncing randomly attacks  - Spell Shield (E) gain mana instead of health when triggered
+
+Role: Marksman
+Region: Unknown
+Resource: Mana
+
+Passive - Fleet of Foot: Sivir gains a short burst of Movement Speed when she attacks an enemy champion.
+
+Q - Boomerang Blade: Sivir hurls her crossblade like a boomerang, dealing damage each way.
+
+W - Ricochet: Sivir's next basic attack will bounce between targets, dealing reduced damage with each successive hit.
+
+E - Spell Shield: Sivir creates a magical barrier on herself that blocks a single enemy ability. She regains Mana if an ability is successfully blocked.
+
+R - On The Hunt: Sivir leads her allies into battle granting them increased Movement and Attack Speeds for a period of time.

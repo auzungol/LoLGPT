@@ -1,0 +1,17 @@
+Sona, the Maven of the Strings
+
+- Auras of basic abilities are persistent - Power Chord (P) does bonus damage - Crescendo (R) is wider
+
+Role: Support, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Power Chord: After casting 3 spells, Sona's next attack deals bonus magic damage and causes her target to deal reduced damage for a few seconds.
+
+Q - Hymn of Valor: Sona plays the Hymn of Valor, granting nearby allied champions bonus Damage and Ability Power. Additionally, casting this ability sends out bolts of sound, dealing magic damage to the nearest two enemy champions or monsters.
+
+W - Aria of Perseverance: Sona plays the Aria of Perseverance, granting nearby allied champions bonus Armor and Magic Resist. Additionally, casting this ability sends out healing melodies, healing Sona and a nearby wounded ally.
+
+E - Song of Celerity: Sona plays the Song of Celerity, granting nearby allied champions bonus Movement Speed. Additionally, casting this ability energizes nearby allies with a burst of speed.
+
+R - Crescendo: Sona plays her ultimate chord, forcing enemy champions to dance and dealing magic damage to them.

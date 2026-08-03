@@ -1,0 +1,17 @@
+Blitzcrank, the the Great Steam Golem
+
+Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump. Blitzcrank selflessly uses his strength and durability to protect others, extending a helpful metal fist or burst of energy to subdue any troublemakers.
+
+Role: Tank, Support
+Region: Zaun
+Resource: Mana
+
+Passive - Mana Barrier: Blitzcrank gains a shield based on their mana when dropping to low health.
+
+Q - Rocket Grab: Blitzcrank fires their right hand to grab an opponent on its path, dealing damage and dragging it back to them.
+
+W - Overdrive: Blitzcrank super charges themself to get dramatically increased Move and Attack Speed. They are temporarily slowed after the effect ends.
+
+E - Power Fist: Blitzcrank charges up their fist to make the next attack deal double damage and pop their target up in the air.
+
+R - Static Field: Enemies attacked by Blitzcrank are marked and take lightning damage after 1 second. Additionally, Blitzcrank can activate this ability to remove nearby enemies' shields, damage them, and silence them briefly.

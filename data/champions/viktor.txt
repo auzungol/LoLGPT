@@ -1,0 +1,17 @@
+Viktor, the the Herald of the Arcane
+
+The fully biomechanical evolution of his former self, Viktor has embraced his Glorious Evolution and become something of a messiah to his followers. He sacrificed his own humanity under the logic that eliminating emotion would thereby eliminate suffering—and now seeks to bring the revelation of the hexcore to the rest of the world, even if they're incapable of understanding the benefit. After all, to this master of the arcane, violence is merely a variable necessary to balance the ultimate equation.
+
+Role: Mage
+Region: Zaun
+Resource: Mana
+
+Passive - Glorious Evolution: Viktor gains Hex Fragments whenever he kills an enemy. With every 100 Hex Fragments he obtains, Viktor permanently augments an active ability. After upgrading all of his basic abilities, he can gather 100 Hex Fragments to augment his ultimate ability.
+
+Q - Siphon Power: Viktor blasts an enemy unit with magic damage, which grants him a shield and empowers his next basic attack.  Augment: Siphon Power's shield is increased by 60% and Viktor gains bonus move speed after casting the Ability.
+
+W - Gravity Field: Viktor conjures a heavy gravitational field that slows enemies caught within its radius. Enemies who stay in the field for too long become stunned.  Augment: Viktor's spells apply a slow to enemies.
+
+E - Hextech Ray: Viktor uses his biomechanical arm to fire a Hextech Ray that cuts across the field in a line, dealing damage to all enemies in its path.  Augment: An explosion follows in the Hextech Ray's wake, dealing magic damage.
+
+R - Arcane Storm: Viktor conjures an Arcane Storm on the field, dealing magic damage and interrupting enemy channels. The storm periodically does magic damage to all nearby enemies and can be redirected by Viktor.  Augment: The Arcane Storm moves 25% faster, and whenever champions die after taking damage from it, the storm grows and increases in its duration.

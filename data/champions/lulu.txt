@@ -1,0 +1,17 @@
+Lulu, the the Fae Sorceress
+
+The yordle mage Lulu is known for conjuring dreamlike illusions and fanciful creatures as she roams Runeterra with her fairy companion Pix. Lulu shapes reality on a whim, warping the fabric of the world, and what she views as the constraints of this mundane, physical realm. While others might consider her magic at best unnatural, and at worst dangerous, she believes everyone could use a touch of enchantment.
+
+Role: Support, Mage
+Region: Bandle City
+Resource: Mana
+
+Passive - Pix, Faerie Companion: Pix fires magical bolts of energy whenever the champion he's following attacks another enemy unit. These bolts are homing, but can be intercepted by other units.
+
+Q - Glitterlance: Pix and Lulu each fire a bolt of magical energy that damages and heavily slows all enemies it hits.
+
+W - Whimsy: If cast on an ally, grants them Attack Speed and Move Speed for a short time. If cast on an enemy, turns them into an adorable critter that can't attack or cast spells.
+
+E - Help, Pix!: If cast on an ally, commands Pix to jump to an ally and shield them. He then follows them and aids their attacks. If cast on an enemy, commands Pix to jump to an enemy and damage them. He then follows them and grants you vision of that enemy.
+
+R - Wild Growth: Lulu enlarges an ally, knocking nearby enemies into the air and granting the ally a large amount of bonus health. For the next few seconds, that ally gains an aura that slows nearby enemies.

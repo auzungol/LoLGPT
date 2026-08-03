@@ -1,0 +1,17 @@
+Tristana, the The Megling Gunner
+
+- Explosive Shot (E) is a DoT ability
+
+Role: Marksman, Assassin
+Region: Unknown
+Resource: Mana
+
+Passive - Draw a Bead: Increases Tristana's attack range as she levels.
+
+Q - Rapid Fire: Tristana fires her weapon rapidly, increasing her attack speed for a short time.
+
+W - Rocket Jump: Tristana fires at the ground to propel herself to a distant location, dealing damage and slowing surrounding units for 3 seconds where she lands.
+
+E - Explosive Shot: When Tristana kills a unit, her cannonballs burst into shrapnel, dealing damage to surrounding enemies.  Can be activated to deal damage to target unit over time, and reduce healing received.
+
+R - Buster Shot: Tristana loads a massive cannonball into her weapon and fires it at an enemy unit. This deals magic damage and knocks the target back.

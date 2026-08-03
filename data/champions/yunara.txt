@@ -1,0 +1,17 @@
+Yunara, the the Unbroken Faith
+
+Unwavering in her devotion to Ionia, Yunara has spent centuries cloistered away in the spirit realm honing her skills with the Aion Er'na, a legendary Kinkou relic. Despite all she has sacrificed, Yunara's vow to rid the land of disharmony and strife remains unbroken, as does her faith. But the world that now awaits her—and the shadow of an ancient threat risen once more—will test every ounce of her resolve.
+
+Role: Marksman
+Region: Ionia
+Resource: Mana
+
+Passive - Vow of the First Lands: Yunara's Critical Strikes deal bonus magic damage.
+
+Q - Cultivation of Spirit: Yunara gains Attack Speed, bonus damage On-Hit, and her Attacks spread to nearby enemies.
+
+W - Arc of Judgment | Arc of Ruin: Yunara fires a spinning prayer bead that deals damage and slows enemies. While in her Transcendent State she instead fires off a laser that deals damage and slows enemies.
+
+E - Kanmei's Steps | Untouchable Shadow: Yunara gains Move Speed and becomes Ghosted. While in her Transcendent State she instead dashes in a direction.
+
+R - Transcend One's Self: Yunara enters a Transcendent State that upgrades her basic Abilities.

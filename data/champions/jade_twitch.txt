@@ -1,0 +1,17 @@
+Twitch, the The Plague Rat
+
+- Deliberating Poison (W) is an AoE spell around him - Ambush (Q) can last up to 50 seconds - Expunge (E) removes poison stacks on enemies
+
+Role: Marksman, Assassin
+Region: Unknown
+Resource: Mana
+
+Passive - Deadly Venom: Twitch's basic attacks infect the target, dealing magic damage each second.
+
+Q - Ambush: Twitch turns Invisible for several seconds, gaining Move Speed. He then gains Attack Speed after coming out of Invisibility.
+
+W - Venom Cask: Twitch hurls a cask of venom that explodes, inflicting Deadly Venom and slowing enemies in the area.
+
+E - Expunge: All nearby enemies secrete Twitch's toxic venoms from their bodies, dealing damage for each stack.
+
+R - Spray and Pray: Twitch closes his eyes and fires his crossbow, rapidly spraying powerful piercing bolts ahead of him.

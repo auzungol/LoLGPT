@@ -1,0 +1,17 @@
+Brand, the The Burning Vengeance
+
+- Ablaze (P) explosions do not occur
+
+Role: Mage, Support
+Region: Unknown
+Resource: Mana
+
+Passive - Blaze: Brand's spells light his targets ablaze, dealing 8% of their maximum Health in magic damage over 4 seconds.
+
+Q - Sear: Brand launches a ball of fire forward that deals magic damage. If the target is ablaze, Sear will stun the target.
+
+W - Pillar of Flame: After a short delay, Brand creates a pillar of flame at a target area, dealing magic damage to enemy units with the area. Units that are ablaze take additional damage
+
+E - Conflagration: Brand conjures a powerful blast at his target, dealing magic damage to them. If the target is ablaze, Conflagration spreads to nearby enemies.
+
+R - Pyroclasm: Brand unleashes a devastating torrent of fire, dealing magic damage each time it bounces. If a target is ablaze, Pyroclasm will priotize champions for the next bounce.

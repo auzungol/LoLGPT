@@ -1,0 +1,17 @@
+Nunu & Willump, the The Yeti Rider
+
+- Blood Boil (W) grants attack and movement speed - Ice Blast (E) a single point and click snowball - Consume (Q) can't target champions but gain buffs based on whats eaten - Visionary (P) every 5 basic attacks the next spell costs no mana - Nunu & Willump get an extra line as they are 2 characters
+
+Role: Tank, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Visionary: Nunu can cast a spell for free after 5 attacks.
+
+Q - Consume: Nunu commands the yeti to take a bite out of a target minion or monster, dealing heavy damage to it and healing himself.
+
+W - Blood Boil: Nunu invigorates himself and an allied unit by heating their blood, increasing their Movement and Attack Speeds.
+
+E - Ice Blast: Nunu launches a ball of ice at an enemy unit, dealing damage and temporarily slowing their Movement and Attack Speeds.
+
+R - Absolute Zero: Nunu begins to sap the area of heat, slowing all nearby enemies. When the spell ends, he deals massive damage to all enemies caught in the area.

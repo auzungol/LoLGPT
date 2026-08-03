@@ -1,0 +1,17 @@
+Malphite, the Shard of the Monolith
+
+- Brutal Strikes (W) cleave is a passive and actively increases his damage
+
+Role: Tank, Mage
+Region: Unknown
+Resource: Mana
+
+Passive - Granite Shield: Malphite is shielded by a layer of rock which absorbs damage up to 10% of his maximum Health. If Malphite has not been hit for 10 seconds, this effect recharges.
+
+Q - Seismic Shard: Using his primal elemental magic, Malphite sends a shard of the earth through the ground at his foe, dealing damage upon impact and stealing movement speed for 4 seconds.
+
+W - Brutal Strikes: Malphite starts to hit with such force that his attacks deal damage to all units in front of him. Activating Brutal Strikes greatly increases his Armor and Attack Damage for a short amount of time.
+
+E - Ground Slam: Malphite slams the ground sending out a shockwave that deals magic damage based on his Armor as damage and reduces the Attack speed of enemies for a short duration.
+
+R - Unstoppable Force: Malphite ferociously charges to a location, damaging enemies and knocking them into the air.

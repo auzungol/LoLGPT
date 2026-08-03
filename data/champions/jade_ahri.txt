@@ -1,0 +1,17 @@
+Ahri, the The Nine-Tailed Fox
+
+- Essence Theft (P) is stacked on damaging enemies - Spirit Rush (R) doesn't reset
+
+Role: Mage, Assassin
+Region: Unknown
+Resource: Mana
+
+Passive - Essence Theft: Gains a charge of Essence Theft whenever a spell hits an enemy. Upon reaching maximum charges, the next spell restores Ahri's Health.
+
+Q - Orb of Deception: Ahri sends out and pulls back her orb, dealing magic damage on the way out and true damage on the way back.
+
+W - Fox-Fire: Ahri releases three fox-fires, that lock onto and attack nearby enemies.
+
+E - Charm: Ahri blows a kiss that damages and Charms the first enemy hit. They also take more damage from her for several seconds.
+
+R - Spirit Rush: Ahri dashes forward and fires essence bolts, damaging 3 nearby enemies (prioritizes Champions). Spirit Rush can be cast up to three times before going on cooldown.
