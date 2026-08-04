@@ -1,3 +1,28 @@
+# LoLGPT — Yerel League of Legends Şampiyon Asistanı
+
+Microsoft Foundry Local kullanarak tamamen çevrimdışı çalışan, League of Legends
+şampiyonları hakkında soru cevaplayan bir RAG (Retrieval-Augmented Generation)
+uygulaması.
+
+Bu proje, [Foundry Local ile Local RAG Uygulaması Geliştirme — Bir Aylık Proje
+Planı](https://techcommunity.microsoft.com/blog/azuredevcommunityblog/building-your-first-local-rag-application-with-foundry-local/4501968)
+temel alınarak, o planın üç fazına (Temeller → Uygulama → Test/Dokümantasyon)
+sadık kalınarak geliştirilmiştir. Aşağıda hem projenin nasıl çalıştığı hem de
+plan üzerinde geliştirme sırasında alınan mühendislik kararları belgelenmiştir.
+
+## Özellikler
+
+- **Tamamen yerel/çevrimdışı** — hiçbir veri internete gönderilmez, tüm çıkarım
+  (embedding + chat) Foundry Local ile cihazda çalışır.
+- **173 şampiyon**, Riot'un resmi Data Dragon API'sinden otomatik çekilir.
+- **Hibrit retrieval:** yapılandırılmış sorular SQLite'tan anında ve LLM'e hiç
+  gitmeden cevaplanır; açık uçlu sorular semantic search + local LLM ile
+  cevaplanır (detay aşağıda).
+- **Türkçe ve İngilizce** soru desteği, yazım hatası toleransı dahil.
+- **Streamlit tabanlı web arayüzü.**
+
+
+
 Veri katmanı: SQLite (`database/champions.db`), her şampiyon parçası (chunk)
 için metin + embedding vektörü (`qwen3-embedding-0.6b`, 1024 boyut) + yapılandırılmış
 metadata (region, role, lane, resource) saklar.
